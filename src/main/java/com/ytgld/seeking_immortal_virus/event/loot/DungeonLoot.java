@@ -11,7 +11,7 @@ import com.ytgld.seeking_immortal_virus.init.items.Items;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.LootReg;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.Iplague;
-import com.ytgld.seeking_immortal_virus.item.man.ManDNA;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import com.ytgld.seeking_immortal_virus.item.man.greed_dna;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import net.minecraft.nbt.CompoundTag;

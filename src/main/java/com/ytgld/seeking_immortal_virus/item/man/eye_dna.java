@@ -3,6 +3,7 @@ package com.ytgld.seeking_immortal_virus.item.man;
 import com.ytgld.seeking_immortal_virus.contents.ManBundleContents;
 import com.ytgld.seeking_immortal_virus.init.items.Drugs;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -22,6 +23,10 @@ public class eye_dna extends ManDNA {
         super(new Properties().stacksTo(1).rarity(Rarity.RARE).component(DataReg.man, ManBundleContents.EMPTY));
     }
 
+    @Override
+    public int getSize() {
+        return 2;
+    }
     @Override
     public @Nullable List<Item> getDrug() {
         return List.of(

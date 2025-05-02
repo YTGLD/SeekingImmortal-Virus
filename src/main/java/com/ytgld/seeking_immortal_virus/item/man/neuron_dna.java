@@ -3,6 +3,7 @@ package com.ytgld.seeking_immortal_virus.item.man;
 import com.ytgld.seeking_immortal_virus.contents.ManBundleContents;
 import com.ytgld.seeking_immortal_virus.init.items.Drugs;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
@@ -42,6 +43,10 @@ public class neuron_dna  extends ManDNA {
         super(new Properties().stacksTo(1).rarity(Rarity.RARE).component(DataReg.man, ManBundleContents.EMPTY));
     }
 
+    @Override
+    public int getSize() {
+        return 2;
+    }
     public static final String name = "Name";
     public static final String lootL = "LootLvl";
 

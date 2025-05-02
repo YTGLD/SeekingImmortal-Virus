@@ -33,7 +33,10 @@ public class copy_dna extends health_dna {
 
     public copy_dna() {
     }
-
+    @Override
+    public int getSize() {
+        return 3;
+    }
     @Override
     public @Nullable List<Item> getDrug() {
         return List.of(

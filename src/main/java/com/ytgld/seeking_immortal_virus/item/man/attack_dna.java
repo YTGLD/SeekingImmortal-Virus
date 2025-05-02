@@ -45,6 +45,11 @@ public class attack_dna extends run_dna {
                 Drugs.phosphorylation.get()//异常磷酸化
         );
     }
+
+    @Override
+    public int getSize() {
+        return 3;
+    }
     public static void abnormal_muscles(LivingIncomingDamageEvent event) {
         if (event.getSource().getEntity() instanceof Player player) {
             if (Handler.hascurio(player, Items.attack_dna.get())) {

@@ -8,6 +8,7 @@ import com.ytgld.seeking_immortal_virus.entity.zombie.cell_zombie;
 import com.ytgld.seeking_immortal_virus.init.items.Items;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.Iplague;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.Mth;
@@ -41,6 +42,10 @@ public class chemical_compound extends ManDNA implements Iplague {
     public chemical_compound() {
         super(new Properties().stacksTo(1).rarity(Rarity.RARE).component(DataReg.man,
                 ManBundleContents.EMPTY));
+    }
+    @Override
+    public int getSize() {
+        return 2;
     }
     public static void zombieDie(LivingIncomingDamageEvent event , int lv){
         if (Mth.nextInt(RandomSource.create(),0,100) < lv) {

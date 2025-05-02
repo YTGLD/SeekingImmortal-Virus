@@ -6,6 +6,7 @@ import com.ytgld.seeking_immortal_virus.contents.ManBundleContents;
 import com.ytgld.seeking_immortal_virus.init.items.Drugs;
 import com.ytgld.seeking_immortal_virus.init.items.Items;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -33,6 +34,10 @@ public class health_dna extends ManDNA {
 
     public health_dna() {
         super(new Properties().stacksTo(1).rarity(Rarity.RARE).component(DataReg.man, ManBundleContents.EMPTY));
+    }
+    @Override
+    public int getSize() {
+        return 2;
     }
 
     @Override

@@ -41,7 +41,10 @@ public class bone_dna extends skin_dna{
 
         );
     }
-
+    @Override
+    public int getSize() {
+        return 3;
+    }
     @Override
     public void onUnequip(SlotContext slotContext, ItemStack newStack, ItemStack stack) {
         slotContext.entity().getAttributes().removeAttributeModifiers(hollow(stack));

@@ -6,6 +6,7 @@ import com.ytgld.seeking_immortal_virus.entity.extend.MoonTamableAnimal;
 import com.ytgld.seeking_immortal_virus.init.items.Items;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.Iplague;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Player;
@@ -32,6 +33,10 @@ public class white_blood_cells_are_abruptly_reduced extends ManDNA implements Ip
     public white_blood_cells_are_abruptly_reduced() {
         super(new Properties().stacksTo(1).rarity(Rarity.RARE).component(DataReg.man,
                 ManBundleContents.EMPTY));
+    }
+    @Override
+    public int getSize() {
+        return 2;
     }
     @Override
     public @Nullable List<Item> getDrug() {

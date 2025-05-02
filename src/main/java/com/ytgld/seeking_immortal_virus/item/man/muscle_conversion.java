@@ -10,6 +10,7 @@ import com.ytgld.seeking_immortal_virus.init.items.Items;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.AttReg;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.Iplague;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
@@ -41,6 +42,10 @@ public class muscle_conversion extends ManDNA implements Iplague {
                 ManBundleContents.EMPTY));
     }
 
+    @Override
+    public int getSize() {
+        return 2;
+    }
     @Override
     public @Nullable List<Item> getDrug() {
         return List.of();

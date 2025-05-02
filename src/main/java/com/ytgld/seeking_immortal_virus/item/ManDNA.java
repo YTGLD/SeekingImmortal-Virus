@@ -1,4 +1,4 @@
-package com.ytgld.seeking_immortal_virus.item.man;
+package com.ytgld.seeking_immortal_virus.item;
 
 import com.ytgld.seeking_immortal_virus.Handler;
 import com.ytgld.seeking_immortal_virus.contents.ManBundleContents;

@@ -11,7 +11,10 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class eye_lava_dna extends eye_dna {
-
+    @Override
+    public int getSize() {
+        return 3;
+    }
     @Override
     public @Nullable List<Item> getDrug() {
         return List.of(

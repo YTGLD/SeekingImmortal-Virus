@@ -1,7 +1,7 @@
 package com.ytgld.seeking_immortal_virus.init.items;
 
 import com.ytgld.seeking_immortal_virus.MoonStoneMod;
-import com.ytgld.seeking_immortal_virus.item.man.ManDNA;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.registries.DeferredHolder;

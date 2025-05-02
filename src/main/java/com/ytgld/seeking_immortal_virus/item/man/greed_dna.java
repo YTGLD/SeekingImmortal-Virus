@@ -34,6 +34,12 @@ public class greed_dna extends neuron_dna {
         每次触发战利品暴击，都会使箱子里的部分战利品数量翻倍
         触发战利品暴击后，概率清零
      */
+
+
+    @Override
+    public int getSize() {
+        return 3;
+    }
     @Override
     public @Nullable List<Item> getDrug() {
         return List.of(

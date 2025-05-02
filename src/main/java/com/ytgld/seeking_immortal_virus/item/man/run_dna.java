@@ -5,6 +5,7 @@ import com.ytgld.seeking_immortal_virus.contents.ManBundleContents;
 import com.ytgld.seeking_immortal_virus.init.items.Drugs;
 import com.ytgld.seeking_immortal_virus.init.items.Items;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Player;
@@ -22,7 +23,7 @@ import top.theillusivec4.curios.api.type.inventory.IDynamicStackHandler;
 import java.util.List;
 import java.util.Map;
 
-public class run_dna extends ManDNA{
+public class run_dna extends ManDNA {
 
     public run_dna() {
         super(new Properties().stacksTo(1).rarity(Rarity.RARE).component(DataReg.man,ManBundleContents.EMPTY));

@@ -8,7 +8,7 @@ import com.ytgld.seeking_immortal_virus.init.moonstoneitem.EntityTs;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.extend.MLS;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.extend.Perhaps;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.*;
-import com.ytgld.seeking_immortal_virus.item.man.ManDNA;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import com.ytgld.seeking_immortal_virus.item.plague.ALL.dna;
 import com.ytgld.seeking_immortal_virus.item.plague.BloodVirus.Skill.batskill;
 import com.ytgld.seeking_immortal_virus.item.plague.TheNecora.bnabush.cell_blood;

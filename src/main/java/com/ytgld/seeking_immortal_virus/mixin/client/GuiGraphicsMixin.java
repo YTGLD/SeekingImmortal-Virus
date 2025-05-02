@@ -10,7 +10,7 @@ import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.Blood;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.IDoom;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.INightmare;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.Iplague;
-import com.ytgld.seeking_immortal_virus.item.man.ManDNA;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import com.ytgld.seeking_immortal_virus.item.necora;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;

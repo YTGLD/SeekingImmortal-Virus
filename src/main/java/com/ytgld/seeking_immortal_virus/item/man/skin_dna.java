@@ -6,6 +6,7 @@ import com.ytgld.seeking_immortal_virus.contents.ManBundleContents;
 import com.ytgld.seeking_immortal_virus.init.items.Drugs;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.AttReg;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import net.minecraft.core.Holder;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
@@ -41,6 +42,10 @@ public class skin_dna extends ManDNA {
                 Drugs.stone_skin.get(),//硬质皮肤:增加20%护甲值但是减少15%挖掘速度
                 Drugs.molt.get()//蜕皮再生：受到伤害后5秒内，临时减少20%护甲值和增加40%治疗（不可叠加）
         );
+    }
+    @Override
+    public int getSize() {
+        return 2;
     }
 
     public static void hurt_of_skin_dna(LivingIncomingDamageEvent event){

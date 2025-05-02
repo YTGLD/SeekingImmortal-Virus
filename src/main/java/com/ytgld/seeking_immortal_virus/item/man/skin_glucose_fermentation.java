@@ -6,6 +6,7 @@ import com.ytgld.seeking_immortal_virus.entity.extend.MoonTamableAnimal;
 import com.ytgld.seeking_immortal_virus.init.items.Items;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.Iplague;
+import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.LivingEntity;
@@ -31,6 +32,10 @@ public class skin_glucose_fermentation  extends ManDNA implements Iplague {
     public skin_glucose_fermentation() {
         super(new Properties().stacksTo(1).rarity(Rarity.RARE).component(DataReg.man,
                 ManBundleContents.EMPTY));
+    }
+    @Override
+    public int getSize() {
+        return 2;
     }
     @Override
     public @Nullable List<Item> getDrug() {
