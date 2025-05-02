@@ -1,0 +1,32 @@
+{
+  "values": {
+    "seeking_immortal_virus:atp_height": {"chance": 0.8},
+    "seeking_immortal_virus:cell_big_boom": {"chance": 0.8},
+    "seeking_immortal_virus:speed_metabolism": {"chance": 0.8},
+    "seeking_immortal_virus:cell_disorder": {"chance": 0.8},
+    "seeking_immortal_virus:cell_off_on": {"chance": 0.8},
+    "seeking_immortal_virus:cell_darwin": {"chance": 0.8},
+    "seeking_immortal_virus:cell_god": {"chance": 0.8},
+    "seeking_immortal_virus:cell_inheritance": {"chance": 0.8},
+    "seeking_immortal_virus:cell_oxygen": {"chance": 0.8},
+    "seeking_immortal_virus:cell_break_down_water": {"chance": 0.8},
+    "seeking_immortal_virus:cell_ground": {"chance": 0.8},
+    "seeking_immortal_virus:cell_in_water": {"chance": 0.8},
+    "seeking_immortal_virus:cell_in_air": {"chance": 0.8},
+    "seeking_immortal_virus:cell_necrosis": {"chance": 0.8},
+    "seeking_immortal_virus:cell_digestion": {"chance": 0.8},
+    "seeking_immortal_virus:cell_acid": {"chance": 0.8},
+    "seeking_immortal_virus:cell_eyes": {"chance": 0.8},
+    "seeking_immortal_virus:cell_bone_add": {"chance": 0.8},
+    "seeking_immortal_virus:cell_sense": {"chance": 0.8},
+    "seeking_immortal_virus:cell_cranial": {"chance": 0.8},
+    "seeking_immortal_virus:cell_dna_suppression": {"chance": 0.8},
+    "seeking_immortal_virus:cell_putrefactive": {"chance": 0.8},
+    "seeking_immortal_virus:cell_synthesis": {"chance": 0.8},
+    "seeking_immortal_virus:cell_compress": {"chance": 0.8},
+    "seeking_immortal_virus:cell_preferential": {"chance": 0.8},
+    "seeking_immortal_virus:cell_flu": {"chance": 0.8},
+    "seeking_immortal_virus:cell_constant": {"chance": 0.8},
+    "seeking_immortal_virus:cell_chromosome": {"chance": 0.8}
+  }
+}

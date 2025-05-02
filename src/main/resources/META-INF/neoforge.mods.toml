@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+[[mods]]
+modId = "seeking_immortal_virus"
+version = "1.0.0.5-neoforge"
+displayName = "seeking_immortal_virus"
+authors = "Ytgld"
+description = '''.'''
+
+[[mixins]]
+config = "seeking_immortal_virus.mixins.json"
+
+[[dependencies.seeking_immortal_virus]]
+modId="neoforge"
+type="required"
+versionRange="[21.0.28-beta,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.seeking_immortal_virus]]
+modId="curios"
+type="required"
+versionRange="[9.4.0+1.21.1,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.seeking_immortal_virus]]
+modId="minecraft"
+type="required"
+versionRange="[1.21, 1.22)"
+ordering="NONE"
+side="BOTH"

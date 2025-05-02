@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmprism"
+    },
+    {
+      "item": "seeking_immortal_virus:nightmare_virus"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:nightmare_base_stone_brain",
+    "count": 1
+  }
+}

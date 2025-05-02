@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    "B":
+    {
+      "item": "seeking_immortal_virus:ironhorseshoe"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:goldhorseshoe",
+    "count": 1
+  }
+}

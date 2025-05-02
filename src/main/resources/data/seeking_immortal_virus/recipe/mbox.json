@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "B",
+    "A"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "seeking_immortal_virus:mshell"
+    },
+    "B":
+    {
+      "item": "minecraft:ender_chest"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:mbox",
+    "count": 1
+  }
+}

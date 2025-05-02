@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "seeking_immortal_virus:fungus",
+    "seeking_immortal_virus:germ",
+    "seeking_immortal_virus:parasite",
+    "seeking_immortal_virus:virus",
+
+    "seeking_immortal_virus:calcification",
+    "seeking_immortal_virus:masticatory",
+    "seeking_immortal_virus:polyphagia",
+    "seeking_immortal_virus:quadriceps",
+    "seeking_immortal_virus:reanimation"
+
+  ]
+}

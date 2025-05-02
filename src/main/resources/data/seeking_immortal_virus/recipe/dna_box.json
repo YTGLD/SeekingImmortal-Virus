@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chest_boat",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:medicinebox"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "seeking_immortal_virus:dna_box"
+  }
+}

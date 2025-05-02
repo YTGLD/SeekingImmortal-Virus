@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+
+    "seeking_immortal_virus:god_ambush",
+    "seeking_immortal_virus:god_atpoverdose",
+    "seeking_immortal_virus:god_putrefactive",
+
+    "seeking_immortal_virus:god_fermentation",
+    "seeking_immortal_virus:god_autolytic",
+    "seeking_immortal_virus:god_regenerative",
+
+    "seeking_immortal_virus:batgene",
+    "seeking_immortal_virus:bloodgene",
+    "seeking_immortal_virus:flygene",
+    "seeking_immortal_virus:heathgene",
+    "seeking_immortal_virus:ragegene",
+    "seeking_immortal_virus:sleepgene",
+
+    "seeking_immortal_virus:ambush",
+    "seeking_immortal_virus:atpoverdose",
+    "seeking_immortal_virus:autolytic",
+    "seeking_immortal_virus:fermentation",
+    "seeking_immortal_virus:putrefactive",
+    "seeking_immortal_virus:regenerative",
+
+
+    "seeking_immortal_virus:blood_stasis",
+    "seeking_immortal_virus:bone_structure",
+    "seeking_immortal_virus:mummification",
+    "seeking_immortal_virus:organizational_regeneration",
+    "seeking_immortal_virus:tumour",
+
+    "seeking_immortal_virus:bloodstain",
+    "seeking_immortal_virus:detect",
+    "seeking_immortal_virus:exercise_reinforcement",
+    "seeking_immortal_virus:plague_book",
+    "seeking_immortal_virus:spore_outbreak",
+    "seeking_immortal_virus:weak"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:ectoplasmball"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmball"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmball"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmball"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcloub"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcloub"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcloub"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcloub"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:ectoplasmcube",
+    "count": 1
+  }
+}

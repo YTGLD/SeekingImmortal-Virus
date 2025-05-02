@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:soulcloub"
+    },
+    {
+      "item": "seeking_immortal_virus:soulcloub"
+    },
+    {
+      "item": "seeking_immortal_virus:soulcloub"
+    },
+    {
+      "item": "seeking_immortal_virus:soulcloub"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:ectoplasmcloub",
+    "count": 1
+  }
+}

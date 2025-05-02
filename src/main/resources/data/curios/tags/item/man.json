@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "seeking_immortal_virus:run_dna",
+    "seeking_immortal_virus:health_dna",
+    "seeking_immortal_virus:copy_dna",
+    "seeking_immortal_virus:attack_dna",
+    "seeking_immortal_virus:greed_dna",
+    "seeking_immortal_virus:neuron_dna",
+    "seeking_immortal_virus:eye_dna",
+    "seeking_immortal_virus:eye_lava_dna",
+    "seeking_immortal_virus:skin_dna",
+    "seeking_immortal_virus:bone_dna",
+    "seeking_immortal_virus:muscle_conversion",
+    "seeking_immortal_virus:phosphate_bond",
+    "seeking_immortal_virus:chemical_compound",
+    "seeking_immortal_virus:skin_glucose_fermentation",
+    "seeking_immortal_virus:white_blood_cells_are_abruptly_reduced"
+  ]
+}

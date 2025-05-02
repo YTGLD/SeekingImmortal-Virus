@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:calcification"
+    },
+    {
+      "item": "seeking_immortal_virus:reanimation"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    {
+      "item": "seeking_immortal_virus:whiteorb"
+    },
+    {
+      "item": "seeking_immortal_virus:blackeorb"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:necoraeye",
+    "count": 1
+  }
+}

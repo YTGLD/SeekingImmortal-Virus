@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    {
+      "item": "alexscaves:uranium_shard"
+    },
+    {
+      "item": "alexscaves:uranium_shard"
+    },
+    {
+      "item": "alexscaves:uranium_shard"
+    },
+    {
+      "item": "alexscaves:uranium_shard"
+    },
+    {
+      "item": "alexscaves:uranium_shard"
+    },
+    {
+      "item": "seeking_immortal_virus:irradiatedorb"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:industrybox",
+    "count": 1
+  }
+}

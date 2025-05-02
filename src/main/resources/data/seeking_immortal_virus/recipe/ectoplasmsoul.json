@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    "B":
+    {
+      "item": "minecraft:golden_carrot"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:ectoplasmsoul",
+    "count": 1
+  }
+}

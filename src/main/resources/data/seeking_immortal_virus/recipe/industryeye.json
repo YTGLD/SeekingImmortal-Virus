@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:blessingseye"
+    },
+    {
+      "item": "seeking_immortal_virus:doomstone"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:industryeye",
+    "count": 1
+  }
+}

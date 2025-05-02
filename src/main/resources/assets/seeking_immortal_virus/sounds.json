@@ -1,0 +1,17 @@
+{
+	"black_hold": {
+		"sounds": [
+			"seeking_immortal_virus:black_hold"
+		]
+	},
+	"kidney": {
+		"sounds": [
+			"seeking_immortal_virus:kidney"
+		]
+	},
+	"kidney_die": {
+		"sounds": [
+			"seeking_immortal_virus:kidney_die"
+		]
+	}
+}

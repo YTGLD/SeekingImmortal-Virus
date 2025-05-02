@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:whiteorb"
+    },
+    {
+      "item": "seeking_immortal_virus:blackeorb"
+    },
+    {
+      "item": "seeking_immortal_virus:twistedstone"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmprism"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:rage_orb",
+    "count": 1
+  }
+}

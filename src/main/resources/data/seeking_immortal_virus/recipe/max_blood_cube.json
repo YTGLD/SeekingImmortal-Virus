@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    "B":
+    {
+      "item": "seeking_immortal_virus:max_blood_eye"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:max_blood_cube",
+    "count": 1
+  }
+}

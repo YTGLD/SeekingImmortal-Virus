@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:twistedstone"
+    },
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "item": "seeking_immortal_virus:luck_stone"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:rage_stone",
+    "count": 1
+  }
+}

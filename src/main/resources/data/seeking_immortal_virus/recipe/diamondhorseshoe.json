@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:diamond"
+    },
+    "B":
+    {
+      "item": "seeking_immortal_virus:goldhorseshoe"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:diamondhorseshoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    "player"
+  ],
+  "slots": [
+    "curio",
+    "medicine",
+    "necora",
+    "ncrdna",
+    "dna",
+    "man",
+    "back"
+  ]
+}

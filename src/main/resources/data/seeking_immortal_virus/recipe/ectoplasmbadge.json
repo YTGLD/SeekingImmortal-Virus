@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "seeking_immortal_virus:ectoplasmcloub"
+    },
+    "B":
+    {
+      "item": "seeking_immortal_virus:badgeofthedead"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:ectoplasmbadge",
+    "count": 1
+  }
+}

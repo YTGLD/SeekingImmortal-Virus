@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "seeking_immortal_virus:blood"
+    },
+    "B":
+    {
+      "item": "seeking_immortal_virus:mhead"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:rage_blood_head",
+    "count": 1
+  }
+}

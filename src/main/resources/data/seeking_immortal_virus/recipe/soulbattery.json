@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "seeking_immortal_virus:soulcloub"
+    },
+    "B":
+    {
+      "item": "seeking_immortal_virus:battery"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:soulbattery",
+    "count": 1
+  }
+}

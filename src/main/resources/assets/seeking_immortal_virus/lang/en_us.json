@@ -1,0 +1,1995 @@
+{
+  "key.seeking_immortal_virus.r": "技能",
+  "key.categories.seeking_immortal_virus": "求仙者:基因",
+  "curios.modifiers.necora": "when necora",
+  "key.seeking_immortal_virus.category": "seeking_immortal_virus",
+  "key.seeking_immortal_virus.desc": "Skill",
+  "item.seeking_immortal_virus.tool.string.sword": "右键开启或者关闭功能",
+  "item.seeking_immortal_virus.tooltips.off": "功能已开启",
+  "item.seeking_immortal_virus.tooltips.on": "功能已关闭",
+  "key.seeking_immortal_virus.y": "skill",
+  "seeking_immortal_virus.super_nightmare.name": "这个物品只能在佩戴噩梦基座的情况下使用",
+  "seeking_immortal_virus.nightmare.name": "这个物品只能在佩戴深渊之眼的情况下使用",
+  "allevent.seeking_immortal_virus.cannot": "你必须取出富饶之心内重复的物品",
+  "itemGroup.tabseeking_immortal_virus.blood": "seeking_immortal_virus : Blood",
+  "key.categories.seeking_immortal_virus.seeking_immortal_virus_category": "seeking_immortal_virus",
+  "seeking_immortal_virus.book.error": "you need patchouli mod",
+  "itemGroup.tabseeking_immortal_virus": "seeking_immortal_virus",
+  "itemGroup.tabseeking_immortal_virus.dna": "seeking_immortal_virus:DNA",
+  "itemGroup.tabseeking_immortal_virus.necora": "Moon Stone:DNA",
+  "seeking_immortal_virus.attribute.name.ectoplasm": "ectoplasm",
+  "seeking_immortal_virus.attribute.name.nano": "nano",
+  "seeking_immortal_virus.attribute.name.meet": "meet",
+  "seeking_immortal_virus.attribute.name.mysterious": "mysterious",
+  "seeking_immortal_virus.attribute.name.reality": "reality",
+  "seeking_immortal_virus.attribute.name.twisted": "twisted",
+  "item.seeking_immortal_virus.ectoplasmball": "ectoplasm ball",
+  "item.seeking_immortal_virus.ectoplasmcloub": "ectoplasm cloub",
+  "item.seeking_immortal_virus.ectoplasmcube": "ectoplasm cube",
+  "item.seeking_immortal_virus.ectoplasmslate": "ectoplasm slate",
+  "item.seeking_immortal_virus.ectoplasmhorseshoe": "ectoplasm horseshoe",
+  "item.seeking_immortal_virus.ectoplasmbadge": "ectoplasm badge",
+  "item.seeking_immortal_virus.ectoplasmapple": "ectoplasm apple",
+  "item.seeking_immortal_virus.ectoplasmstone": "ectoplasm stone",
+  "item.seeking_immortal_virus.ectoplasmprism": "ectoplasm prism",
+  "item.seeking_immortal_virus.ectoplasmfood": "ectoplasm food",
+  "item.seeking_immortal_virus.ectoplasmcharm": "ectoplasm charm",
+  "item.seeking_immortal_virus.ectoplasmcharmstone": "ectoplasm charm stone",
+  "item.seeking_immortal_virus.ectoplasmshild": "ectoplasm shild",
+  "item.seeking_immortal_virus.ectoplasmbattery": "ectoplasm battery",
+
+  "item.seeking_immortal_virus.at_a_book": "很普通的书",
+
+  "item.seeking_immortal_virus.badgeofthedead": "badge of the dead",
+  "item.seeking_immortal_virus.battery": "battery",
+  "item.seeking_immortal_virus.biggreedcrystal": "big greed crystal",
+  "item.seeking_immortal_virus.bigwarcrystal": "big war crystal",
+  "item.seeking_immortal_virus.blackeorb": "black orb",
+  "item.seeking_immortal_virus.blueamout": "blue amout",
+  "item.seeking_immortal_virus.greedamout": "greed amout",
+  "item.seeking_immortal_virus.greedcrystal": "greed crystal",
+  "item.seeking_immortal_virus.redamout": "red amout",
+  "item.seeking_immortal_virus.warcrystal": "war crystal",
+  "item.seeking_immortal_virus.whiteorb": "whit orb",
+  "item.seeking_immortal_virus.mbattery": "Morris's battery",
+  "item.seeking_immortal_virus.mblock": "Morris's cube",
+  "item.seeking_immortal_virus.mbottle": "Morris's drug",
+  "item.seeking_immortal_virus.mbox": "Morris's box",
+  "item.seeking_immortal_virus.meye": "Morris's eye",
+  "item.seeking_immortal_virus.mkidney": "Morris's kidney stone",
+  "item.seeking_immortal_virus.morb": "Morris's coral",
+  "item.seeking_immortal_virus.mring": "Morris's ring",
+  "item.seeking_immortal_virus.mshell": "Morris's conch",
+
+  "item.seeking_immortal_virus.nightmareanchor": "nightmare anchors",
+  "item.seeking_immortal_virus.nightmarecharm": "nightmare amulet",
+  "item.seeking_immortal_virus.nightmareeye": "nightmare eye",
+  "item.seeking_immortal_virus.nightmaremoai": "nightmare stone ball",
+  "item.seeking_immortal_virus.nightmarerotten": "nightmare rotten Heart",
+  "item.seeking_immortal_virus.nightmarestone": "nightmare stone",
+  "item.seeking_immortal_virus.nightmaretreasure": "nightmare treasure",
+  "item.seeking_immortal_virus.nightmarewater": "nightmare chalice",
+
+  "item.ectoplasmapple.tool.string": "Injury causes surrounding creatures to take 2% of their maximum life value in damage",
+  "item.ectoplasmhorseshoe.tool.string": "Reduces damage from falls by 90%",
+  "item.ectoplasmshild.tool.string": "continued Resistance up",
+  "item.ectoplasmshild.tool.string.2": "Reduces damage from explosions by 30%",
+  "item.ectoplasmshild.tool.string.3": "Every fifth hit of damage will immunize you from the next attack",
+
+
+  "item.mbattery.tool.string": "Zombies are afraid of you！！！",
+  "item.mbattery.tool.string.1": "Attacking zombies deals an additional 50% more damage",
+  "item.mbattery.tool.string.2": "+2 Fortune",
+  "item.mbattery.tool.string.3": "+2 Looting",
+
+  "item.mblock.tool.string": "+1 Fortune",
+  "item.mblock.tool.string.1": "+1 Looting",
+
+  "item.mbottle.tool.string": "When you're in Weakness：",
+  "item.mbottle.tool.string.1": "+2 Looting",
+  "item.mbottle.tool.string.2": "When you're in Mining Fatigue",
+  "item.mbottle.tool.string.3": "+2 Fortune",
+
+
+  "item.meye.tool.string": "Make undead creatures in a 10 square radius glow.",
+
+
+  "item.mkidney.tool.string": "Probability of not taking this damage when injured",
+  "item.mkidney.tool.string.1": "First 100%, second 50%, third 25%.",
+  "item.mkidney.tool.string.2": "And so on",
+  "item.mkidney.tool.string.3": "If immunity to damage fails, you take an additional 33% of your maximum life damage",
+  "item.mkidney.tool.string.4": "At the same time this item will go on a 10 second cooldown",
+
+
+  "item.morb.tool.string": "+1 Experience drop",
+  "item.morb.tool.string.1": "+50% Extra experience drops",
+
+
+  "item.mring.tool.string": "+100% Knockback distance",
+  "item.mring.tool.string.1": "+40% Healing capacity",
+
+  "item.mshell.tool.string": "-25% Damage from undead creatures",
+  "item.mshell.tool.string.1": "-10% Damage",
+
+
+  "item.seeking_immortal_virus.magiceye": "The Magical Mechanical Eye",
+  "item.seeking_immortal_virus.magicstone": "The Magical Mechanical Stone",
+  "item.seeking_immortal_virus.nanocube": "Nano-cube",
+  "item.seeking_immortal_virus.nanorobot": "Nano-robot",
+  "item.seeking_immortal_virus.thedoomstone": "Ancient core stone",
+  "item.seeking_immortal_virus.thefruit": "Paleo-fruit",
+
+  "item.seeking_immortal_virus.immortal": "§4The seal of immortal reincarnation",
+  "item.immortal.tool.string": "When attacked, there is an 80% chance to evade and reflect 50% of the damage to the attacker",
+  "item.immortal.tool.string.1": "If the attacker's health is greater than 70%, 150% of the damage is reflected and the invincibility frame is broken",
+  "item.immortal.tool.string.2": "Applies a Withered Buff to nearby mobs every 5 seconds, up to a maximum of level 5",
+  "item.immortal.tool.string.3": "Applied creatures have 20% less resistance, armor, healing, and 5% damage per level, movement speed, and attack speed",
+  "item.immortal.tool.string.4": "If you are killed, deal 20% of current health as piercing damage to the attacker and attach 10 levels of Decay (10 seconds).",
+  "item.immortal.tool.string.5": "Abyss and Nightmare items are neutralized",
+  "item.immortal.tool.string.6": "A person who is rumored to have the power of life and death...",
+  "item.immortal.tool.string.7": "You can control the power of the Supreme Dao...",
+  "item.immortal.tool.string.8": "But ...., at what cost？",
+
+  "item.nightmareanchor.tool.string": "Died while wearing it.",
+  "item.nightmareanchor.tool.string.1": "Record the location of this death.",
+  "item.nightmareanchor.tool.string.2": "Right click to teleport to the previous record point",
+  "item.nightmareanchor.tool.string.3": "But you have to be in the same dimension",
+  "item.nightmareanchor.tool.string.4": "while wearing:",
+  "item.nightmareanchor.tool.string.5": "Reduces curse from the Nightmare by 5%",
+  "item.nightmareanchor.tool.string.6": "Only those who bear the fear of the Nightmare",
+  "item.nightmareanchor.tool.string.7": "To be eligible to use this prop",
+
+  "effect.seeking_immortal_virus.dead": "枯朽",
+
+  "item.nightmarecharm.tool.string": "Reduces curses from Nightmare-eye by 15%",
+  "item.nightmarecharm.tool.string.1": "*overlay calculation",
+  "item.nightmarecharm.tool.string.2": "+1 curios slot",
+  "item.nightmarecharm.tool.string.3": "Only those who bear the fear of the Nightmare",
+  "item.nightmarecharm.tool.string.4": "To be eligible to use this prop",
+
+
+  "item.nightmareeye.tool.string": "Increase damage taken by 33%",
+  "item.nightmareeye.tool.string.1": "Most of your attributes will be reduced by 25%",
+  "item.nightmareeye.tool.string.2": "Can not Unequip ",
+
+
+  "item.nightmaremoai.tool.string": "+2 Enchantment level of the enchanted product",
+  "item.nightmaremoai.tool.string.1": "Only those who bear the fear of the Nightmare",
+  "item.nightmaremoai.tool.string.2": "can not Unequip",
+
+
+  "item.nightmarerotten.tool.string": "+20％ All Attributes",
+  "item.nightmarerotten.tool.string.1": "But for every additional 1 attribute",
+  "item.nightmarerotten.tool.string.2": "Curses from the Nightmare will increase by 0.2%",
+  "item.nightmarerotten.tool.string.3": "Only those who bear the fear of the Nightmare",
+  "item.nightmarerotten.tool.string.4": "To be eligible to use this prop",
+
+
+  "item.nightmarestone.tool.string": "For each debuff that exists on you:",
+  "item.nightmarestone.tool.string.1": "+4％ Damage, Speed, Armor",
+  "item.nightmarestone.tool.string.2": "+7％ Regeneration, Knockback Resistance",
+  "item.nightmarestone.tool.string.3": "+10％Breaking speed、Experience Drops",
+  "item.nightmarestone.tool.string.4": " Damage, Speed, Armor",
+  "item.nightmarestone.tool.string.5": " Life Restoration, Knockback Resistance",
+  "item.nightmarestone.tool.string.6": " Breaking speed、Experience Drops",
+  "item.nightmarestone.tool.string.7": "Double the duration of any debuffs on you",
+  "item.nightmarestone.tool.string.8": "Taking damage from any source gains a random debuff",
+  "item.nightmarestone.tool.string.9": "Only those who bear the fear of the Nightmare",
+  "item.nightmarestone.tool.string.10": "To be eligible to use this prop",
+
+
+
+  "item.nightmaretreasure.tool.string": "Reduces damage dealt by 50%",
+  "item.nightmaretreasure.tool.string.1": "Loot gained from kills has a 33% chance of getting triple",
+  "item.nightmaretreasure.tool.string.2": "Each increase of 1 in luck increases the probability by 3%",
+  "item.nightmaretreasure.tool.string.3": "Maximum 66%",
+  "item.nightmaretreasure.tool.string.4": "Only those who bear the fear of the Nightmare",
+  "item.nightmaretreasure.tool.string.5": "To be eligible to use this prop",
+  "item.nightmaretreasure.tool.string.6": "-33% looting",
+
+
+  "item.seeking_immortal_virus.diemug": "Death Cask",
+  "item.seeking_immortal_virus.evilcandle": "Evil Candle",
+  "item.seeking_immortal_virus.evilmug": "Evil Cask",
+  "item.seeking_immortal_virus.obsidianring": "Obsidian Ring",
+
+  "item.nightmarewater.tool.string": "Defeat...Frailty ......",
+  "item.nightmarewater.tool.string.1": "Nightmare…Eternity……",
+
+  "item.seeking_immortal_virus.soulbattery": "Soul-battery",
+  "item.seeking_immortal_virus.soulcube": "Soul-cube",
+
+
+  "item.magiceye.tool.string": "The Magical Mechanical Eye",
+  "item.magiceye.tool.string.1": "Will take 50% ranged damage",
+
+  "item.nanocube.tool.string": "Repair 30 durability points of your armor every 45 seconds.",
+  "item.nanocube.tool.string.1": "*cooldown reduced by 15 seconds when wearing batteries",
+
+  "item.nanorobot.tool.string": "Restore 30 durability points to main handheld items every 30 seconds",
+  "item.nanorobot.tool.string.1": "*cooldown reduced by 15 seconds when wearing batteries",
+
+  "item.thedoomstone.tool.string": "Your attacks will have a Blindness debuff.",
+  "item.thedoomstone.tool.string.1": "Will center on the attacking creature and inflict a sonic boom attack on creatures with the blindness debuff present",
+  "item.thedoomstone.tool.string.2": "Creatures attacked by Sonic Boom will continue to be affected by negative effects",
+
+
+  "item.thefruit.tool.string": "After eating:",
+  "item.thefruit.tool.string.1": "Not subject to luminous effects",
+  "item.thefruit.tool.string.2": "The Warden feels close to you!",
+  "item.thefruit.tool.string.3": "-99% attack of Warden damage",
+
+  "item.badgeofthedead.tool.string": "25% more damage against undead creatures",
+
+  "item.biggreedcrystal.tool.string": "+2 Fortune",
+
+  "item.greedcrystal.tool.string": "+1 Fortune",
+
+  "item.blueamout.tool.string": "Attacks have a chance to weaken enemies",
+  "item.blueamout.tool.string.1": "Probability of getting Resistance II when injured",
+
+  "item.greedamout.tool.string": "Attacks have a chance to draw life",
+  "item.greedamout.tool.string.1": "Probability of getting Absorption when injured",
+
+
+  "item.redamout.tool.string": "Attacks have a chance to send enemies flying",
+  "item.redamout.tool.string.1": "Probability of getting Strength II when injured",
+
+  "curios.identifier.nightmare": "§4噩梦之槽",
+  "curios.identifier.medicine": "medicine",
+  "curios.identifier.necora": "DNA",
+  "curios.identifier.ncrdna": "ncr dna",
+  "curios.identifier.dna": "dna",
+  "curios.modifiers.ncrdna": "necora",
+  "curios.modifiers.nightmare": "§4接受噩梦洗礼时",
+  "curios.modifiers.dna": "DNA",
+  "curios.modifiers.medicine": "medicine",
+
+  "item.seeking_immortal_virus.germ": "germ",
+  "item.seeking_immortal_virus.fungus": "fungus",
+  "item.seeking_immortal_virus.parasite": "parasite",
+  "item.seeking_immortal_virus.virus": "virus",
+
+  "item.fungus.tool.string": "Gain a life Restoration bonus based on the number of pets around you",
+  "item.fungus.tool.string.1": "Each pet boosts this bonus by 25%",
+  "item.fungus.tool.string.2": "Maximum 150%",
+  "item.fungus.tool.string.3": "Convert the Grass cubes under your feet",
+  "item.fungus.tool.string.4": "Gain life restoration on Mycelium cubes",
+  "item.fungus.tool.string.5": "Unaffected by effects including Wither, Weakness, Slowness, Poison generation",
+  "item.fungus.tool.string.6": "You burn in the sun, even if you wear a hat.",
+  "item.fungus.tool.string.7": "Strengthen nearby pets",
+
+
+  "item.germ.tool.string": "Increases the adaptation value of Germ when digging cubes:",
+  "item.germ.tool.string.1": "Additional attributes can be gained from Germ for every 250 points of adaptation value",
+
+
+  "item.parasite.tool.string": "Elevated Parasite activity based on the nutritional value of the food",
+  "item.parasite.tool.string.1": "The more active the Parasite, the stronger your attributes.",
+  "item.parasite.tool.string.2": "The higher the Parasite activity, the less activity can be increased",
+  "item.parasite.tool.string.3": "As the Parasites become more active, it will become increasingly difficult for you to get enough to eat",
+  "item.parasite.tool.string.4": "In moments of necessity, parasites will sacrifice activity to preserve their host!",
+  "item.parasite.tool.string.5": "You become weak when your Hunger Value is less than 50%.",
+
+
+  "item.virus.tool.string": "Killing creatures to take their DNA!",
+  "item.virus.tool.string.1": "Every 10 points of DNA taken deals an additional 2.5% damage to this type of creature.",
+  "item.virus.tool.string.2": "Maximum 50%",
+
+
+  "item.botton.tool.string": "*If you find some unspecified gene...",
+  "item.botton.tool.string.1": "*That way I can build you a whole new body.",
+  "item.botton.tool.string.2": "Wearing this item and opening loot boxes in Mordor may reveal some genomes",
+
+
+  "item.catalyzer.tool.string": "Right-click to use to infect some special items",
+
+
+  "item.batskill.tool.string": "Attacks have a 15% chance of summoning 3 bats",
+  "item.batskill.tool.string.1": "And within a radius of 12 squares",
+  "item.batskill.tool.string.2": "For each bat present, your damage is reduced by 5%.",
+  "item.batskill.tool.string.3": "Maximum 80%",
+  "item.batskill.tool.string.4": "Surrounding bats lose 10% of their life every 1 second.",
+  "item.batskill.tool.string.5": "Can be implanted in Bloodvirus",
+
+
+  "item.batgene.tool.string": "Bats in your vicinity take 60% less damage",
+  "item.batgene.tool.string.1": "For each bat present, you deal 10% more damage.",
+  "item.batgene.tool.string.2": "10% Damage reduction",
+
+
+  "item.flygene.tool.string": "13% increase in speed while flying",
+  "item.flygene.tool.string.1": "When gliding, use the arrow keys to accelerate or decelerate in the air.",
+
+
+  "item.ragegene.tool.string": "When your Attack Stamina Bar is at 100 percent",
+  "item.ragegene.tool.string.1": "Increases damage by 5% with each attack",
+  "item.ragegene.tool.string.2": "Maximum 100%",
+  "item.ragegene.tool.string.3": "Recalculated after taking damage",
+
+
+  "item.sleepgene.tool.string": "Doesn't get negative effects during the day",
+  "item.sleepgene.tool.string.1": "Can't get gain effects at night",
+
+
+  "item.medicinebox.tool.string": "If you find some good pills…",
+  "item.medicinebox.tool.string.1": "*That way I can build you a whole new body.",
+  "item.medicinebox.tool.string.2": "Wearing this item allows you to obtain pills in certain ways",
+  "item.medicinebox.tool.string.3": "You can choose to fuse the found pills or just wear the",
+  "item.medicinebox.tool.string.4": "This item must be worn in order to discover the pill!",
+  "item.medicinebox.tool.string.5": "",
+  "item.medicinebox.tool.string.6": "",
+  "item.medicinebox.tool.string.8": "Can eat",
+  "item.medicinebox.tool.string.9": "Random effect",
+  "item.calcification.tool.string": "*Calcifies the experimenter's skin and enhances the experimenter's ability to fight",
+  "item.calcification.tool.string.1": "Increases damage resistance by 11",
+  "item.calcification.tool.string.2": "Suffer 350 damage attempts",
+  "item.medicinebox.tool.string.eat": "you: +1 slot",
+
+  "item.masticatory.tool.string": "*Strengthening of the experimenter's occlusal muscles to the point of enhancing the experimenter's chewing ability",
+  "item.masticatory.tool.string.1": "50% reduction in eating time",
+  "item.masticatory.tool.string.2": "eat 8 gold apple",
+  "item.polyphagia.tool.string": "eat enchanted gold apple",
+  "item.polyphagia.tool.string.1": "when eat food you will heal 10% max health",
+
+
+  "item.quadriceps.tool.string": "*Strengthening of the experimenter's quadriceps muscles to the point of enhancing the experimenter's locomotor ability",
+  "item.quadriceps.tool.string.1": "Increases movement speed by 20%",
+  "item.quadriceps.tool.string.2": "Increases jump height by 50%",
+  "item.quadriceps.tool.string.3": "jump 500",
+
+
+  "item.reanimation.tool.string": "*Activate the experimenter's cells to the point of enhancing the experimenter's ability to regenerate cells",
+  "item.reanimation.tool.string.1": "Simultaneous restoration of basic functions of vital organs",
+  "item.reanimation.tool.string.2": "Resurrect！",
+  "item.reanimation.tool.string.3": "300 seconds cooldown",
+  "item.reanimation.tool.string.4": "die",
+
+
+  "item.autolytic.tool.string": "Suppresses the swimming speed reduction effect from the Necora virus",
+
+
+  "item.fermentation.tool.string": "10 seconds cooldown",
+  "item.fermentation.tool.string.1": "During cooldown, damage is reduced by 70%",
+  "item.fermentation.tool.string.2": "Increases damage by 300% after cooldown",
+  "item.fermentation.tool.string.3": "*Pathogens still retain their hunting instincts, which allows them to wait patiently and deliver the killing blow!",
+
+
+  "item.putrefactive.tool.string": "Increases the effect caused by carrion",
+
+
+  "item.regenerative.tool.string": "Restores 1 life point every 1.5 seconds",
+  "item.regenerative.tool.string.1": "*The cells of pathogens are more vibrant than in the past",
+
+
+  "item.bloodvirus.tool.string": "Increases damage against non-undead creatures by 25",
+  "item.bloodvirus.tool.string.1": "Increase speed at night by 17%",
+  "item.bloodvirus.tool.string.2": "When gliding, you can use the forward button to sprint",
+  "item.bloodvirus.tool.string.3": "In the dark, you'll get Night vision",
+  "item.bloodvirus.tool.string.4": "Increases life steal by 10%",
+  "item.bloodvirus.tool.string.5": "*feed on souls",
+  "item.bloodvirus.tool.string.6": "Reduces life restoration effects from any source by 30%",
+  "item.bloodvirus.tool.string.7": "You will burn in the sun and become extremely weak!",
+  "item.bloodvirus.tool.string.8": "Increases knockback distance by 100%",
+  "item.bloodvirus.tool.string.9": "Reduces life cap by 25%",
+  "item.bloodvirus.tool.string.10": "You can only eat meat.",
+  "item.bloodvirus.tool.string.11": "*Mutagenic parasites with sensory abilities which stimulate bloodlust in their hosts!",
+  "item.bloodvirus.tool.string.12": "It can also be implanted:",
+
+
+  "item.necora.tool.string": "5 curses that come with zombification:",
+  "item.necora.tool.string.1": "*You are terrified of the water; swimming speed is drastically reduced",
+  "item.necora.tool.string.2": "*You'll burn in the sun; maybe wearing something on your head will solve the problem for a while",
+  "item.necora.tool.string.3": "*Your body gradually reeks of rot; Human Villagers fear you, and Iron golems see you as an enemy.",
+  "item.necora.tool.string.4": "*Ability to recognize one's own kind; damage dealt to undead reduced by 20 percent",
+  "item.necora.tool.string.5": "*Once the virus is implanted, there will be no turning back!",
+  "item.necora.tool.string.6": "5 enhancements from zombification:",
+  "item.necora.tool.string.7": "*Your body is harder; damage increased by 3 points, armor value increased by 4 points",
+  "item.necora.tool.string.8": "*Difficult to be affected by the elements; 70% less magical damage taken",
+  "item.necora.tool.string.9": "*Any creature will be torn to carrion by you, eat them and you will gain additional effects!",
+  "item.necora.tool.string.10": "*You are considered a lord by your own kind; reduces damage dealt to you by undead creatures by 50%",
+  "item.necora.tool.string.11": "*Significant increase in cellular activity; 50% increase in life recovery",
+  "item.necora.tool.string.12": "The pathogen has not been classified",
+  "item.necora.tool.string.13": "and early medical reports indicate that it has",
+  "item.necora.tool.string.14": "Strong regeneration and an unending need to eat",
+  "item.necora.tool.string.15": "But much of its genetic structure remains an unsolved mystery...",
+
+
+
+  "item.seeking_immortal_virus.necora": "necora",
+  "item.seeking_immortal_virus.atpoverdose": "atpoverdose",
+  "item.seeking_immortal_virus.autolytic": "autolytic",
+  "item.seeking_immortal_virus.putrefactive": "putrefactive",
+  "item.seeking_immortal_virus.apple": "apple",
+  "item.seeking_immortal_virus.ambush": "ambush",
+  "item.seeking_immortal_virus.fermentation": "fermentation",
+  "item.seeking_immortal_virus.dna": "dna",
+  "item.seeking_immortal_virus.botton": "botton",
+  "item.seeking_immortal_virus.catalyzer": "catalyzer",
+
+  "item.seeking_immortal_virus.batskill": "batskill",
+
+
+  "item.seeking_immortal_virus.batgene": "batgene",
+  "item.seeking_immortal_virus.bloodgene": "bloodgene",
+  "item.seeking_immortal_virus.flygene": "flygene",
+  "item.seeking_immortal_virus.heathgene": "heathgene",
+  "item.seeking_immortal_virus.ragegene": "ragegene",
+  "item.seeking_immortal_virus.sleepgene": "sleepgene",
+  "item.soulbattery.tool.string": "+25％ Critical Damage",
+
+  "item.seeking_immortal_virus.calcification": "calcification",
+  "item.seeking_immortal_virus.masticatory": "masticatory",
+  "item.seeking_immortal_virus.polyphagia": "polyphagia",
+  "item.seeking_immortal_virus.quadriceps": "quadriceps",
+  "item.seeking_immortal_virus.reanimation": "reanimation",
+  "item.seeking_immortal_virus.regenerative": "regenerative",
+  "item.seeking_immortal_virus.twistedstone": "twisted stone",
+
+  "item.blackeorb.tool.string": "+ Wither orb Modifiers",
+
+  "item.seeking_immortal_virus.medicinebox": "medicine box",
+  "item.seeking_immortal_virus.maxamout": "max amout",
+  "item.seeking_immortal_virus.bloodvirus": "blood virus",
+
+  "item.diemug.tool.string": "Right click on this Holy Grail with the potion",
+  "item.diemug.tool.string.1": "ou can store the effect of the potion (there can be 8 types)",
+  "item.diemug.tool.string.2": "Obtain all medicinal effects after drinking",
+
+
+
+  "item.evilcandle.tool.string": "Lava Walker",
+  "item.evilcandle.tool.string.1": "Resists 80% lava damage",
+  "item.evilcandle.tool.string.2": "Quickly extinguish the flames on your body",
+
+
+  "item.evilmug.tool.string": "Empty",
+  "item.evilmug.tool.string.1": "Replenish the fresh blood in the barrel (secondary hand) from the damage caused during the attack",
+  "item.evilmug.tool.string.2": "And you can extract your own blood",
+  "item.evilmug.tool.string.3": "Drink！",
+  "item.heathgene.tool.string": "+10 heath",
+
+  "item.maxamout.tool.string": "Attacks weaken enemies",
+  "item.maxamout.tool.string.1": "Reduce damage taken by 15%",
+  "item.maxamout.tool.string.2": "There is a probability of obtaining damage absorption when injured",
+  "item.maxamout.tool.string.3": "Increase Vampire by 5%",
+  "item.maxamout.tool.string.6": "After taking damage, 20% will be returned to the attacker.",
+  "item.maxamout.tool.string.7": "Immune mining fatigue effect",
+  "item.maxamout.tool.string.8": "Increase swimming speed by 75%",
+
+  "allevent.seeking_immortal_virus.virus": "DNA has been collected : ",
+
+  "item.bloodgene.tool.string": "Basic damage, reduced attack speed by 50% ",
+  "item.bloodgene.tool.string.1": "Every time you take damage, you will receive an improvement",
+  "item.bloodgene.tool.string.2": "The maximum is 200% of the original",
+  "item.bloodgene.tool.string.3": "Increase damage taken by 10%",
+  "item.ambush.tool.string": "Can walk on liquid surfaces",
+
+  "item.fortunecrystal.tool.string": "+3 fortune",
+  "item.seeking_immortal_virus.fortunecrystal": "fortune crystal",
+  "item.seeking_immortal_virus.mayhemcrystal": "mayhem crystal",
+
+  "item.seeking_immortal_virus.flyeye": "fly eye",
+  "item.flyeye.tool.string": "+300% repelled",
+  "item.flyeye.tool.string.1": "+25% Invincible Frame",
+  "item.flyeye.tool.string.2": "Cause damage to surrounding creatures during invincibility",
+
+  "item.seeking_immortal_virus.plague": "plague",
+  "item.plague.tool.string": "Research progress",
+  "item.plague.tool.string.un": "use nightmare eye Can Un equip plague",
+
+  "item.plague.tool.string.1": "Virus progress",
+  "item.plague.tool.string.2": "Reverse research progress",
+
+  "item.plague.tool.string.3": "Kill creatures to obtain points",
+  "item.plague.tool.string.4": "You must study the points to 100%",
+  "item.plague.tool.string.5": "The number of points affects the attributes, and it is best to complete it within the specified time",
+  "item.plague.tool.string.6": "Can you dominate the world?",
+
+  "item.plague.tool.string.8": "+50% MAX_HEALTH",
+  "item.plague.tool.string.9": "+25% MOVEMENT_SPEED",
+  "item.plague.tool.string.10": "+66% ARMOR",
+  "item.plague.tool.string.11": "+90% KNOCKBACK_RESISTANCE",
+  "item.plague.tool.string.12": "+70% ATTACK_SPEED",
+  "item.plague.tool.string.13": "+70% ATTACK_DAMAGE",
+  "item.plague.tool.string.14": "+70% SWIM_SPEED",
+
+  "item.plague.tool.string.15": "+100% MOB DAMAGE",
+  "item.plague.tool.string.16": "+150% BOSS DAMAGE",
+  "item.plague.tool.string.17": "+100% HEAL",
+  "item.plague.tool.string.18": "+70% DIG SPEED",
+
+  "item.seeking_immortal_virus.soulbook": "a book",
+
+
+  "item.seeking_immortal_virus.doomeye": "eye of 7 sword",
+  "item.doomeye.tool.string": "Summon 7 flying swords to attack enemies when injured",
+
+
+  "item.seeking_immortal_virus.doomswoud": "rain sword",
+  "item.doomswoud.tool.string": "Hitting creatures causes 2 flying swords",
+  "item.doomswoud.tool.string.1": "Add 1 flying sword for every 20% increase in speed",
+  "item.doomswoud.tool.string.2": "Kill the creature and immediately summon 4 flying swords",
+
+  "item.seeking_immortal_virus.wind": "strong wind and swift rain",
+  "item.wind.tool.string": "Continuous running increases speed",
+
+  "item.seeking_immortal_virus.wind_and_rain": "wind and rain",
+  "item.wind_and_rain.tool.string": "Drag this item and right-click on sword weapons to enchant souls",
+  "item.wind_and_rain.tool.string.1": "Afterwards, use the soul possessed weapon and long press the right button to summon the flying sword",
+  "item.wind_and_rain.tool.string.2": "But each summon has a 1.5% chance of entering an 8-second cooldown",
+  "item.wind_and_rain.tool.string.3": "And it will consume durability",
+  "item.wind_and_rain.tool.string.4": "ou must possess both the Heart of Seven Swords and the Rain to use it properly",
+
+
+  "advancements.tooltip.ectoplasmstone.hand": "ectoplasm",
+  "advancements.tooltip.ectoplasmstone.text": "Obtain the stone at the beginning of the game",
+
+  "advancements.tooltip.twistedstone.hand": "twisted",
+  "advancements.tooltip.twistedstone.text": "Obtain the stone at the beginning of the game\"",
+
+
+  "advancements.tooltip.ectoplasmball.hand": "ectoplasm ball",
+  "advancements.tooltip.ectoplasmball.text": "KILL SOME MOB",
+
+
+  "advancements.tooltip.ectoplasmcloub.hand": "ectoplasm cloub",
+  "advancements.tooltip.ectoplasmcloub.text": "The die of monsters",
+
+
+  "advancements.tooltip.ectoplasmprism.hand": "ectoplasm prism",
+  "advancements.tooltip.ectoplasmprism.text": "A prism formed by the accumulation of corpses in the mountains",
+
+
+  "advancements.tooltip.ectoplasmcube.hand": "ectoplasm cube",
+  "advancements.tooltip.ectoplasmcube.text": "A cube formed by the accumulation of corpses",
+
+
+  "advancements.tooltip.maxamout.hand": "max amout",
+  "advancements.tooltip.maxamout.text": "Kill the Ancient Guardians while possessing red, blue, and green stones",
+
+  "advancements.tooltip.wind_and_rain.hand": "wind and rain",
+  "advancements.tooltip.wind_and_rain.text": "Open the box of the ancient city while possessing the Heart of the Seven Swords Shura and a sudden rain!",
+
+
+
+  "advancements.tooltip.nightmareeye.hand": "nightmare eye",
+  "advancements.tooltip.nightmareeye.text": "Open dungeons, mines, and ancient city boxes while wearing the Eye of the Abyss to obtain future items...",
+
+
+
+  "advancements.tooltip.medicinebox.hand": " medicine box",
+  "advancements.tooltip.medicinebox.text": "Complete some boring tasks while wearing this item",
+
+  "advancements.tooltip.calcification.hand": "calcification",
+  "advancements.tooltip.calcification.text": "Suffer 350 damage attempts",
+
+  "advancements.tooltip.masticatory.hand": "masticatory",
+  "advancements.tooltip.masticatory.text": "eat 8 gold apple",
+
+  "advancements.tooltip.polyphagia.hand": "masticatory",
+  "advancements.tooltip.polyphagia.text": "eat enchanted gold apple",
+
+  "advancements.tooltip.quadriceps.hand": "quadriceps",
+  "advancements.tooltip.quadriceps.text": "jump:500",
+
+  "advancements.tooltip.reanimation.hand": "reanimation",
+  "advancements.tooltip.reanimation.text": "die",
+
+  "advancements.tooltip.necora.hand": "necora",
+  "advancements.tooltip.necora.text": "Open the dungeon box while wearing this item",
+
+  "advancements.tooltip.botton.hand": "botton",
+  "advancements.tooltip.botton.text": "Use Shadow Plague Right Click Medicine Box",
+
+  "advancements.tooltip.catalyzer.hand": "catalyzer",
+  "advancements.tooltip.catalyzer.text": "Kill the Last Shadow Dragon after completing all the tasks of the medicine box",
+
+  "advancements.tooltip.bloodvirus.hand": "blood virus",
+  "advancements.tooltip.bloodvirus.text": "Use Shadow Plague Right Click necora",
+
+
+  "item.seeking_immortal_virus.ectoplasmstar": "ectoplasm star",
+  "item.ectoplasmstar.tool.string": "Every 1 point of luck increases attack speed by 1% and damage by 0.5%",
+  "item.ectoplasmstar.tool.string.1": "+20 Lucky",
+  "advancements.tooltip.ectoplasmstar.hand": "ectoplasm star",
+  "advancements.tooltip.ectoplasmstar.text": "do not eat",
+
+  "item.seeking_immortal_virus.ectoplasmsoul": "ectoplasm soul",
+  "advancements.tooltip.ectoplasmsoul.hand": "ectoplasm soul",
+  "advancements.tooltip.ectoplasmsoul.text": "look",
+
+  "item.seeking_immortal_virus.ectoplasmtree": "ectoplasm tree",
+  "advancements.tooltip.ectoplasmtree.hand": "ectoplasm tree",
+  "advancements.tooltip.ectoplasmtree.text": "Heart Tree",
+
+
+  "item.seeking_immortal_virus.brain": "love brain",
+  "item.brain.tool.string": "The effect is to deal 2.25 times magic damage on the sixth attack after attacking a creature 5 times",
+  "advancements.tooltip.brain.hand": "love brain",
+  "advancements.tooltip.brain.text": "I think you should love me",
+
+
+  "item.seeking_immortal_virus.beacon": "nano beacon",
+  "item.beacon.tool.string": "Every 30 seconds, clear all the effects of your own potion and synchronously add the potion effects to all creatures within the surrounding 5 grid range.",
+  "item.beacon.tool.string.1": "and synchronously add the potion effects to all creatures within the surrounding 5 grid range.",
+  "advancements.tooltip.beacon.hand": "nano beacon",
+  "advancements.tooltip.beacon.text": "Now, we truly share weal and woe.",
+
+
+  "item.seeking_immortal_virus.mhead": "m head",
+  "item.mhead.tool.string": "Causing fear towards a wide range of creatures after killing them",
+  "item.mhead.tool.string.1": "Target speed increases and recovers after taking your damage",
+  "advancements.tooltip.mhead.hand": "m head",
+  "advancements.tooltip.mhead.text": "fear",
+
+  "item.seeking_immortal_virus.cell": "cell",
+  "item.seeking_immortal_virus.adrenaline": "adrenaline",
+  "item.cell.tool.string": "Kill creatures to summon zombies",
+  "item.adrenaline.tool.string": "Summoned zombies inherit your attack power",
+  "item.adrenaline.tool.string.1": "And movement speed",
+  "advancements.tooltip.cell.all.text": "Treasure loot",
+  "advancements.tooltip.nightmare.all.text": "Treasure loot",
+  "advancements.tooltip.necora.all.text": "Treasure loot",
+
+
+  "item.seeking_immortal_virus.cell_mummy": "cell mummy",
+  "item.cell_mummy.tool.string": "Effectively reducing the decay rate of generated zombies",
+
+  "item.seeking_immortal_virus.cell_boom": "cell boom",
+  "item.cell_boom.tool.string": "You and the zombies will experience a violent explosion after death",
+
+  "item.seeking_immortal_virus.cell_calcification": "cell calcification",
+  "item.cell_calcification.tool.string": "Zombies receive 50% armor and health bonus from you",
+
+  "item.seeking_immortal_virus.cell_blood": "cell blood",
+  "item.cell_blood.tool.string": "Zombies gain the ability to suck blood and each attack prolongs their lifespan",
+
+  "item.seeking_immortal_virus.motor": "motor",
+  "item.motor.tool.string": "Increase by 15% in air, underwater, and land",
+
+  "item.seeking_immortal_virus.air": "air",
+  "item.air.tool.string": "Increase resistance by 20% while in the air",
+
+  "item.seeking_immortal_virus.watergen": "water",
+  "item.watergen.tool.string": "Increase resistance by 15% in water",
+
+  "item.seeking_immortal_virus.giant": "giant cell",
+  "item.seeking_immortal_virus.slime": "slime",
+  "item.giant.tool.string": "Kill creatures to summon cell zombie (5%)",
+
+  "item.slime.tool.string": "Kill creatures to summon slime zombie (33%)",
+  "advancements.tooltip.giant.text": "Wearing NECORA virus, killing Warden",
+  "entity.seeking_immortal_virus.as_sword": "sword",
+  "entity.seeking_immortal_virus.rage_blood": "rage_blood",
+  "entity.seeking_immortal_virus.cell_giant": "cell giant",
+  "entity.seeking_immortal_virus.cell_zombie": "cell zombie",
+  "entity.seeking_immortal_virus.nightmare_entity": "nightmare entity",
+  "entity.seeking_immortal_virus.nightmare_giant": "nightmare giant",
+  "entity.seeking_immortal_virus.nightmare_giant_to": "nightmare giant",
+  "entity.seeking_immortal_virus.cell_slime": "cell slime",
+  "entity.seeking_immortal_virus.sun": "sun",
+  "entity.seeking_immortal_virus.ytgld": "ytgld",
+  "entity.seeking_immortal_virus.blood_bat": "blood bat",
+  "entity.seeking_immortal_virus.sword_soul": "sword soul",
+  "item.doomeye.tool.string.1": "+33% damage when hit",
+
+  "entity.seeking_immortal_virus.line": "line",
+  "entity.seeking_immortal_virus.snake": "snake",
+  "entity.seeking_immortal_virus.flysword": "fly sword",
+  "entity.seeking_immortal_virus.suddenrain": "sudden rain",
+
+  "item.seeking_immortal_virus.gorillacake": "gorilla cake",
+  "item.seeking_immortal_virus.gorilladna": "gorilla dna",
+  "item.gorillacake.tool.string": "",
+
+  "item.gorilladna.tool.string": "Enable pathogens to modify chimpanzee genes and significantly improve their intelligence",
+  "item.gorilladna.tool.string.1": "And make the iris of the gorilla's eyes appear green without triggering any immune response\n",
+  "item.gorilladna.tool.string.2": "  This is the time when chimpanzees are rising!",
+  "advancements.tooltip.dna.text": "dna?",
+
+  "advancements.tooltip.germ.text": "Wear a culture dish and find it in the AncientCity",
+
+  "advancements.tooltip.fungus.text": "Kill mushroom cattle while wearing a culture dish and having a weak effect,",
+  "advancements.tooltip.virus.text": "When wearing a culture dish and experiencing weak effects, being hit by a withered skull",
+  "advancements.tooltip.parasite.text": "Wear a petri dish and eat: raw cod, raw salmon, raw beef, raw mutton, raw pork, raw rabbit meat, tropical fish, chicken, and eat any food",
+
+
+  "item.the_heart.tool.string": "Right click on the item to store in the heart, which can store up to 4 items",
+  "item.the_heart.tool.string.1": "If the dropped object is one of the items in the heart",
+  "item.the_heart.tool.string.2": "So multiply the number of dropped objects by 3",
+  "item.the_heart.tool.string.3": "can not remove",
+  "advancements.tooltip.the_heart.text": "treasure item",
+  "item.seeking_immortal_virus.the_heart": "the heart",
+  "item.seeking_immortal_virus.nightmare_orb": "nightmare_orb",
+  "item.seeking_immortal_virus.nightmare_heart": "nightmare heart",
+  "item.nightmare_heart.tool.string": "Kill creatures and summon the Abyss Cube",
+
+  "item.nightmare_orb.tool.string": "When your health is below 33%",
+  "item.nightmare_orb.tool.string.1": "All curses from the Abyss will be reversed into gains for you",
+  "item.nightmare_orb.tool.string.2": "But deal 1% maximum health damage per second",
+  "item.nightmare_orb.tool.string.3": "And unable to receive treatment during this period",
+  "item.seeking_immortal_virus.nightmare_head": "nightmare orb",
+  "item.seeking_immortal_virus.nightmare_cube": "nightmare cube",
+
+  "item.seeking_immortal_virus.giant_nightmare": "giant nightmare",
+  "item.giant_nightmare.tool.string": "Killing creatures has a chance to summon the Nightmare Giant",
+  "item.giant_nightmare.tool.string.1": "Increase cooling time",
+
+  "item.seeking_immortal_virus.speed_seed": "speed seed",
+  "item.speed_seed.tool.string": "Fixed speed to 120% of normal value",
+
+  "item.seeking_immortal_virus.sword_amout": "sword amout",
+  "item.sword_amout.tool.string": "Your attack speed will increase with the number of slashes, but it will not exceed 100%",
+ "item.sword_amout.tool.string.1": "But your damage will gradually decrease, at most to 33% of its original level",
+ "item.sword_amout.tool.string.2": "When attacking with full force, it will not cause invincible frame protection",
+ "item.sword_amout.tool.string.3": "When your slash count reaches 10, each attack will cause a range effect",
+
+  "item.seeking_immortal_virus.light_amout": "light amout",
+  "item.light_amout.tool.string": "If the distance of a single fall is greater than 2",
+  "item.light_amout.tool.string.1": "So the next all-out strike will be accompanied by a large-scale lightning attack",
+  "item.light_amout.tool.string.2": "The damage of lightning will increase with the increase of its own attack damage and fall distance",
+  "item.light_amout.tool.string.3": "For every additional grid, there will be a 10% increase in damage",
+  "item.nano_box.tool.string": "in shift ， you will summon light bolt",
+  "item.seeking_immortal_virus.nano_box": "light nano box",
+  "item.nano_box.tool.string.1": "Can be retrofitted with batteries",
+
+
+  "item.seeking_immortal_virus.anaerobic_cell": "anaerobic cell",
+  "item.anaerobic_cell.tool.string": "Nightmare Giant's Survival Time Increases by 50%",
+  "item.seeking_immortal_virus.giant_boom_cell": "giant boom cell",
+  "item.giant_boom_cell.tool.string": "Nightmare giant's death leads to devastating explosion",
+  "item.seeking_immortal_virus.not_blood_cell": "not blood cell",
+  "item.not_blood_cell.tool.string": " Nightmare Giant's ranged attacks will not cause damage to summoners",
+  "item.seeking_immortal_virus.subspace_cell": "subspace cell",
+  "item.subspace_cell.tool.string": "Summon Nightmare Giant to no longer consume health points",
+
+  "item.seeking_immortal_virus.bone_cell": "bone cell",
+  "item.bone_cell.tool.string": "Giant cell zombies will receive 70% of the summoner's armor value when summoned",
+
+  "item.seeking_immortal_virus.parasitic_cell": "parasitic cell",
+  "item.parasitic_cell.tool.string": "Giant cell zombies give birth to 5 cell zombies after death",
+
+  "item.seeking_immortal_virus.mother_cell": "mother cell",
+  "item.mother_cell.tool.string": "Giant cell zombies will generate an additional 2 cell zombies when summoned, with a 50% chance of summoning another giant zombie",
+
+  "item.seeking_immortal_virus.disgusting_cells": "disgusting cells",
+  "item.disgusting_cells.tool.string": "The survival time of giant cell zombies is increased by 100%",
+
+  "item.seeking_immortal_virus.bat_cell": "bat cell",
+  "item.bat_cell.tool.string": "Summon a Shadow Bat with 15% health loss",
+  "item.bat_cell.tool.string.1": "Reduce current health by 15% after summoning",
+  "item.bat_cell.tool.string.2": "The more health points lost, the higher the damage dealt by the Shadow Bat",
+
+  "item.seeking_immortal_virus.cell_doctor": "cell doctor",
+  "item.cell_doctor.tool.string": "You and the Shadow Bat will gain 20% of their bloodsucking ability",
+
+  "item.seeking_immortal_virus.cell_desecrate": "cell desecrate",
+  "item.cell_desecrate.tool.string": "You and Shadow Bat deal 40% more damage to non undead creatures",
+
+  "item.seeking_immortal_virus.cell_harvest": "cell harvest",
+  "item.cell_harvest.tool.string": "The probability of summoning Shadow Bat increases by 35%, but the cooldown time doubles",
+
+  "item.seeking_immortal_virus.cell_scientist": "cell scientist",
+  "item.cell_scientist.tool.string": "When summoning the Shadow Bat, the amount of blood sacrificed doubles, and the Shadow Bat's health and attack power increase according to the amount of blood sacrificed",
+
+
+  "item.seeking_immortal_virus.cell_immortal": "cell Immortal",
+  "item.cell_immortal.tool.string": "Your and Shadow Bat's armor value increases by 10 points",
+
+
+  "item.seeking_immortal_virus.cell_rage": "cell rage",
+  "item.cell_rage.tool.string": "Your attack damage increases by 25%, and Shadow Bat's damage is halved",
+
+  "item.seeking_immortal_virus.cell_blood_attack": "cell blood attack",
+  "item.cell_blood_attack.tool.string": "The Shadow Bat will restore 10% of the Sacrifice's health based on the damage it causes",
+
+
+  "item.seeking_immortal_virus.cell_fear": "cell fear",
+  "item.cell_fear.tool.string": "Increase the survival time of Shadow Bat by 50%",
+
+  "item.seeking_immortal_virus.cell_not_do": "cell not do",
+  "item.cell_not_do.tool.string": "Shadow bats no longer need to sacrifice health points",
+
+  "item.seeking_immortal_virus.the_pain_stone": "the pain stone",
+  "item.the_pain_stone.tool.string.1": "After killing a creature, convert 50% of its maximum health to the next additional attack damage",
+  "item.the_pain_stone.tool.string.2": "If the next damage caused exceeds the maximum health of the creature",
+  "item.the_pain_stone.tool.string.3": "So the additional damage will proportionally restore one's own health",
+  "item.the_pain_stone.tool.string.4": "-15% of any damage",
+  "item.the_pain_stone.tool.string.5": "next",
+
+  "item.seeking_immortal_virus.pain_candle": "the pain candle",
+  "item.pain_candle.tool.string": "When restoring health,+1% of damage is taken",
+  "item.pain_candle.tool.string.1": "Until it returns to full health status",
+  "item.pain_candle.tool.string.2": "+1. Life recovery",
+  "item.pain_candle.tool.string.3": "+33% Life Recovery",
+  "item.pain_candle.tool.string.4": "Hurt",
+
+
+  "item.seeking_immortal_virus.pain_ring": "the pain candle",
+  "item.pain_ring.tool.string": "When restoring health, increase damage by 1% (not exceeding 100%)",
+  "item.pain_ring.tool.string.1": "Until it returns to full health status",
+  "item.pain_ring.tool.string.2": "-50% heal",
+
+  "item.seeking_immortal_virus.max_sword": "max sword",
+  "effect.seeking_immortal_virus.rage": "rage",
+  "effect.seeking_immortal_virus.fear": "fear",
+  "effect.seeking_immortal_virus.pain": "pain",
+  "effect.seeking_immortal_virus.blood": "blood",
+
+
+  "item.max_sword.tool.string": "Each attack has a probability of generating a blood cell to rotate around you",
+  "item.max_sword.tool.string.1": "When the number of blood cells exceeds 8,",
+  "item.max_sword.tool.string.2": "The next slash will deal triple damage",
+  "item.max_sword.tool.string.3": "Blood cells will be absorbed by you over time",
+  "item.max_sword.tool.string.4": "Each absorption will restore a certain percentage of health",
+  "item.max_sword.tool.string.5": "Each blood cell provides a 5% damage bonus",
+  "item.max_sword.tool.string.6": "Blood cell explosion causes bleeding effect on organisms within 3 cells",
+  "item.max_sword.tool.string.7": "Kill the creature and obtain 1-3 blood cells",
+
+
+  "item.seeking_immortal_virus.max_blood_eye": "max blood eye",
+  "item.max_blood_eye.tool.string": "Every time you strike with all your might, you will experience bleeding",
+  "item.max_blood_eye.tool.string.1": "When the number of bleeding organisms in the vicinity exceeds 3",
+  "item.max_blood_eye.tool.string.2": "Generate a blood explosion and cause damage based on the number of organisms",
+  "item.max_blood_eye.tool.string.3": "The affected person will bleed, and if the condition already exists, it will be converted to serious injury",
+  "item.max_blood_eye.tool.string.4": "Cooling time 5 seconds",
+
+  "item.seeking_immortal_virus.max_eye": "max eye",
+  "item.max_eye.tool.string": "Killing organisms to obtain blood",
+  "item.max_eye.tool.string.1": "Up to 4 points can be stored",
+  "item.max_eye.tool.string.2": "When you have blood, you will reduce damage by 75%",
+  "item.max_eye.tool.string.3": "But every time you get hurt, you lose a drop of blood",
+  "item.max_eye.tool.string.4": "Over time, your health will also be absorbed and restored to 10% of your maximum health",
+
+
+  "item.seeking_immortal_virus.tooltip.battery": "Can be retrofitted with Nano",
+"item.medicinebox.tool.string.7": "",
+  "seeking_immortal_virus.string.cooling": "time:",
+  "tool.string.ectoplasmball": "",
+  "tool.string.ectoplasmball.1": "",
+  "tool.string.ectoplasmball.2": "",
+  "tool.string.ectoplasmball.3": "",
+  "item.nightmare_cube.tool.string": "You can press Shift while approaching the creature and release the dark dye thread",
+
+  "advancements.tooltip.max_eye.hand": "with no chink in one's armour！",
+  "advancements.tooltip.max_eye.text": "The blood eye",
+
+  "advancements.tooltip.max_sword.hand": "Eat me an axe！",
+  "advancements.tooltip.max_sword.text": "Max Sword",
+
+  "advancements.tooltip.blood_snake.hand": "blood snake",
+  "advancements.tooltip.blood_snake.text": "sweet snake",
+
+  "advancements.tooltip.max_blood_eye.hand": "max blood eye",
+  "advancements.tooltip.max_blood_eye.text": "out",
+  "item.nightmare_head.tool.string": "Immune to all non biological injuries",
+  "item.nightmare_head.tool.string.1": "Damage reduction from any source is ineffective and the damage taken is fixed at 1 point, with a maximum health value fixed at 10 points",
+  "item.nightmare_head.tool.string.2": "Restores 0.2 health point per second, unaffected by any bonuses",
+  "item.nightmare_head.tool.string.3": "Bounce 200% penetration damage to the attacker",
+  "item.nightmare_head.tool.string.4": "And every time you wear this item and die, it will reduce your health by 10% and cause the item to fall off",
+  "item.nightmare_head.tool.string.5": "Maximum health restored after wearing",
+  "item.nightmare_head.tool.string.6": "Reduce the curse of the abyss by 100%",
+  "item.nightmare_head.tool.string.7": "Unable to remove normally",
+  "item.nightmare_head.tool.string.8": "And there will always be a ratio between your health and maximum health",
+
+  "item.seeking_immortal_virus.the_prison_of_sin": "the prison of sin",
+  "item.the_prison_of_sin.tool.string": "Since wearing it, you have killed:",
+  "item.the_prison_of_sin.tool.string.1": "+50% of all attributes",
+  "item.the_prison_of_sin.tool.string.2": "-90% life limit",
+  "item.the_prison_of_sin.tool.string.3": "But for every different creature killed, this punishment will be reduced by 1%",
+  "item.the_prison_of_sin.tool.string.4": "Unable to remove",
+  "item.the_prison_of_sin.tool.string.5": "",
+  "item.the_prison_of_sin.tool.string.6": "",
+  "item.the_prison_of_sin.tool.string.7": "",
+  "item.the_prison_of_sin.tool.string.8": "",
+
+  "advancements.tooltip.the_prison_of_sin.hand": "Sin",
+  "advancements.tooltip.the_prison_of_sin.text": "",
+
+  "item.seeking_immortal_virus.blood_amout": "blood amout",
+  "item.blood_amout.tool.string": "Injured Summon Blood Spirit",
+
+  "item.seeking_immortal_virus.blood_snake": "blood amout",
+  "item.blood_snake.tool.string": "Kill the creature and launch 3 blood snakes",
+  "item.blood_snake.tool.string.1": "The number of blood snakes increases with the maximum health of the organism",
+  "item.blood_snake.tool.string.2": "But not exceeding 10",
+  "item.blood_snake.tool.string.3": "-20% Damage",
+
+  "advancements.tooltip.max_blood_cube.hand": "see me！",
+  "advancements.tooltip.max_blood_cube.text": "max blood cube",
+
+  "item.seeking_immortal_virus.max_blood_cube": "max blood cube",
+  "item.max_blood_cube.tool.string": "Aim at the creature and stealth, then long press and right-click to release the skill",
+  "item.max_blood_cube.tool.string.1": "Cannot attack during skill period",
+
+  "item.seeking_immortal_virus.blood_magic_box": "blood magic box",
+  "item.seeking_immortal_virus.blood": "blood",
+  "item.blood_magic_box.tool.string": "Kill mob , Now!",
+
+  "item.seeking_immortal_virus.blood_candle": "blood candle",
+  "item.blood_candle.tool.string.1": "如果丢失/失踪，请重新佩戴此物品 Or right click on this item",
+
+  "item.seeking_immortal_virus.the_blood_book": "Sealing Record",
+  "item.blood.tool.string.evil": "evil",
+  "item.blood.tool.string.evil.1": "There is a 33% chance that killing a creature will regenerate into a blood cell",
+  "item.blood.tool.string.evil.2": "Harvest blood cells to restore 4 health points",
+  "item.blood.tool.string.evil.3": "If you wear Shadow Plague, the health value restored by Evil Mind Demon will be changed to percentage form",
+
+  "item.blood.tool.string.sword.1": "Summon 1 Flying Sword for every 10% loss of health",
+  "item.blood.tool.string.sword.2": " If you wear the Seven Swords of Asura Heart or Sudden Rain, you will lose 50% of your health",
+  "item.blood.tool.string.sword": "sword",
+  "item.blood_candle.tool.string.2": "",
+
+
+  "item.blood_candle.tool.string": "Summon a giant blood spirit growth body to assist you in battle",
+
+
+  "entity.seeking_immortal_virus.owner_blood": "owner blood",
+
+
+  "attribute.name.seeking_immortal_virus.allattack": "all damage",
+  "attribute.name.seeking_immortal_virus.cit": "cit damage",
+  "attribute.name.seeking_immortal_virus.heal": "heal",
+
+
+
+
+  "item.seeking_immortal_virus.evil_blood": "evil blood",
+  "item.evil_blood.tool.string": "Summon a ？ to assist you in battle",
+
+  "advancements.tooltip.evil_blood.text": "evil blood",
+  "entity.seeking_immortal_virus.blood_orb_owner": "blood orb owner",
+
+
+
+
+  "item.seeking_immortal_virus.evil_mob": "evil mob",
+  "item.seeking_immortal_virus.god_lead": "god lead",
+  "item.seeking_immortal_virus.malice_die": "malice die",
+  "item.evil_mob.tool.string.1": "Allow you to use and discover corresponding items without wearing Abyss Eye or Necrora virus",
+  "item.evil_mob.tool.string.2": "null",
+  "item.evil_mob.tool.string.3": "null",
+  "item.god_lead.tool.string.1": "When fatally injured, the damage is transferred to nearby creatures (cool down for 10 seconds)",
+  "item.god_lead.tool.string.2": "If this organism dies, then cool it down and clear it",
+  "item.god_lead.tool.string.3": "+150% injured",
+
+  "item.malice_die.tool.string.1": "If the target of nearby creatures' attacks is you, then for every additional creature:",
+  "item.malice_die.tool.string.2": "+10% damage",
+  "item.malice_die.tool.string.3": "+9% Life Recovery",
+  "item.malice_die.tool.string.4": "+8% speed",
+  "item.malice_die.tool.string.5": "+7% attack speed",
+  "item.malice_die.tool.string.6": "+6% Armor",
+  "item.malice_die.tool.string.7": "+5% cit value",
+  "item.malice_die.tool.string.8": "Attacking will cause creatures within an 8-grid radius of the target to actively attack you",
+  "item.malice_die.tool.string.10": "If the number of targets is less than 3, the damage you cause will be reduced by 35%",
+
+  "item.seeking_immortal_virus.deceased_contract": "deceased contract",
+  "item.seeking_immortal_virus.blood_sun": "blood sun",
+  "item.blood_sun.tool.string": "kill the mob",
+  "item.seeking_immortal_virus.blood_jelly": "blood jelly",
+  "item.seeking_immortal_virus.dna_box": "dna box",
+  "item.seeking_immortal_virus.medicinebox.tool.2": "",
+
+
+  "item.seeking_immortal_virus.atp_height": "High ATP Energy",
+  "item.seeking_immortal_virus.cell_god": "Creationism",
+  "item.seeking_immortal_virus.cell_ground": "Ground Affinity",
+  "item.seeking_immortal_virus.cell_inheritance": "Simulated Genetic Inheritance",
+  "item.seeking_immortal_virus.cell_oxygen": "Alkaline Oxidation",
+  "item.seeking_immortal_virus.cell_big_boom": "Cytochrome Burst",
+  "item.seeking_immortal_virus.cell_break_down_water": "Alkaline Hydrolysis",
+  "item.seeking_immortal_virus.cell_darwin": "Darwinism",
+  "item.seeking_immortal_virus.cell_disorder": "Metabolic Disorder",
+  "item.seeking_immortal_virus.cell_in_air": "Air Affinity",
+  "item.seeking_immortal_virus.cell_in_water": "Water Affinity",
+  "item.seeking_immortal_virus.cell_off_on": "Catalyst Switch",
+  "item.seeking_immortal_virus.speed_metabolism": "Rapid Metabolism",
+  "item.seeking_immortal_virus.cell_necrosis": "Liquefactive Necrosis",
+  "item.seeking_immortal_virus.cell_digestion": "Epidermal Digestion",
+  "item.seeking_immortal_virus.cell_acid": "Acidic Fluid Reflux",
+  "item.seeking_immortal_virus.cell_disorder.tool": "Clear all BUFFs every (number) turns",
+  "item.seeking_immortal_virus.cell_god.tool": "Restore (number) health points when killing a creature",
+  "item.seeking_immortal_virus.cell_inheritance.tool": "Increase (number) damage resistance",
+  "item.seeking_immortal_virus.cell_big_boom.tool": "Increase (number) eating speed",
+  "item.seeking_immortal_virus.cell_darwin.tool": "Restore or deduct (number) health points when killing a creature",
+  "item.seeking_immortal_virus.speed_metabolism.tool": "Consume 1 hunger point when satiety is less than (number)",
+  "item.seeking_immortal_virus.cell_acid.tool": "Corrode the equipment of (number) attacked creatures",
+  "item.seeking_immortal_virus.cell_eyes.tool": "Make creatures within a radius of (number) glow",
+  "item.seeking_immortal_virus.cell_digestion.tool": "Increase (number) food satiety and hunger points",
+  "item.seeking_immortal_virus.cell_cranial.tool": "Increase (number) head damage resistance",
+  "item.seeking_immortal_virus.cell_compress.tool": "Increase (number) damage reflection",
+  "item.seeking_immortal_virus.cell_flu.tool": "Weaken creatures within a radius of (number)",
+  "item.seeking_immortal_virus.cell_constant.tool": "Increase (number) invincibility frames",
+
+  "item.seeking_immortal_virus.cell_eyes": "Cobra Lock",
+  "item.seeking_immortal_virus.cell_bone_add": "Bone Structure Aberration",
+  "item.seeking_immortal_virus.cell_sense": "Enhanced Sensory System",
+  "item.seeking_immortal_virus.cell_cranial": "Brain Tissue Transfer",
+  "item.seeking_immortal_virus.cell_dna_suppression": "Neurotransmitter Inhibition",
+  "item.seeking_immortal_virus.cell_putrefactive": "Heat Decomposition Inhibition",
+  "item.seeking_immortal_virus.cell_synthesis": "Peptide Synthesis Enhancement",
+  "item.seeking_immortal_virus.cell_compress": "Lethal Gene Compression",
+  "item.seeking_immortal_virus.cell_preferential": "Selective Evolution",
+  "item.seeking_immortal_virus.cell_flu": "Flu-like Virus",
+  "item.seeking_immortal_virus.cell_constant": "Constant Factor Surge",
+  "item.seeking_immortal_virus.cell_chromosome": "Chromosome Structure Variation",
+
+  "error.seeking_immortal_virus.dna_box": "",
+  "advancements.tooltip.blood.hand": "",
+  "advancements.tooltip.blood.text": "=",
+
+  "advancements.tooltip.blood_magic_box.hand": "",
+  "advancements.tooltip.blood_magic_box.text": "",
+
+  "advancements.tooltip.blood_sun.hand": "",
+  "advancements.tooltip.blood_sun.text": "",
+  "item.seeking_immortal_virus.medicinebox.tool": "",
+  "seeking_immortal_virus.difficulty.name.all": " DNA",
+
+  "seeking_immortal_virus.curse.name.all.this": "this item is",
+  "seeking_immortal_virus.curse.name.meet": "meet",
+  "seeking_immortal_virus.curse.name.all": "curse",
+
+  "seeking_immortal_virus.difficulty.name.peaceful": "peaceful",
+  "seeking_immortal_virus.difficulty.name.easy": "easy",
+  "seeking_immortal_virus.difficulty.name.normal": "normal",
+  "seeking_immortal_virus.difficulty.name.hard": "hard",
+  "seeking_immortal_virus.difficulty.name.god_loot_a": "",
+  "seeking_immortal_virus.difficulty.name.god_loot_b": "",
+  "seeking_immortal_virus.difficulty.name.god_loot_c": "",
+
+  "seeking_immortal_virus.curse.name.die": "die",
+  "seeking_immortal_virus.curse.name.doctor": "doctor",
+  "seeking_immortal_virus.curse.name.cell_cell": "cell ",
+  "seeking_immortal_virus.curse.name.chromosome": "chromosome",
+  "item.deceased_contract.tool.string": "you can find in curse item",
+
+  "seeking_immortal_virus.curse.name.bone": "bone",
+  "seeking_immortal_virus.curse.name.die_body": "die body",
+  "seeking_immortal_virus.difficulty.name.god": "god",
+  "seeking_immortal_virus.difficulty.name.true_god": "神化",
+
+  "item.blood.tool.string.winds.1": "5% speed bonus converted to attack damage",
+  "item.blood.tool.string.winds.2": "If you wear a nightmare item, the damage doubles",
+  "item.blood.tool.string.winds": "winds",
+  "item.seeking_immortal_virus.body_stone":"body stone",
+
+   "item.probability.tool.string.1":"Your attack damage will fluctuate between 10% and 400%,",
+  "item.probability.tool.string.2": "The damage you receive will fluctuate between 25% and 200%,",
+  "item.probability.tool.string.3": "Every bit of luck adds 1% to the minimum value,",
+  "item.probability.tool.string.4": "For the Wanmo Stone,",
+  "item.probability.tool.string.5": "Add 400% to the maximum and minimum values of the curse attribute obtained,",
+  "item.probability.tool.string.6": "Every bit of luck adds 5% to the maximum and minimum values,",
+
+    "item.body_stone.tool.string": "This item will curse all the accessories in the box",
+  "item.body_stone.tool.string.1": "And randomly add 1-2 negative enchantments",
+  "item.body_stone.tool.string.2": "As compensation, every item with negative enchantments will receive powerful gains",
+  "item.body_stone.tool.string.3": "Each level of enchantment:",
+  "item.body_stone.tool.string.4": "+0.1 damage, critical strike, maximum life",
+  "item.body_stone.tool.string.5": "+0.002 treatment",
+  "item.body_stone.tool.string.6": "+2% excavation speed",
+  "item.body_stone.tool.string.7": "+3% resistance and retreat",
+  "item.body_stone.tool.string.8": "+0.4% speed, melee damage, attack speed",
+  "attribute.name.seeking_immortal_virus.dig": "dig",
+
+  "item.seeking_immortal_virus.luck_ring":"luck ring",
+  "item.luck_ring.tool.string.1":"when 5 exp level:",
+  "item.luck_ring.tool.string.2": "+1 luck",
+
+  "item.seeking_immortal_virus.moon_stone":"moon stone",
+  "item.moon_stone.tool.string.1": "Hit the creature and immediately trigger all killing effects, cool down for 20 seconds",
+
+  "item.seeking_immortal_virus.luck_stone":"luck stone",
+  "item.luck_stone.tool.string.1":"when 10 luck:",
+  "item.luck_stone.tool.string.2": "+1 looting and fortune",
+
+
+  "item.seeking_immortal_virus.rage_blood_head":"rage blood head",
+  "item.rage_blood_head.tool.string":"Summon rage blood when kill mob",
+  "item.rage_blood_head.tool.string.1":"",
+
+
+  "item.seeking_immortal_virus.killer": "undead head",
+  "item.killer.tool.string.1": "For every 1% loss of health:",
+  "item.killer.tool.string.2": "+1.25% treatment",
+  "item.killer.tool.string.3": "+0.8% speed",
+  "item.killer.tool.string.4": "+0.75% damage",
+  "item.killer.tool.string.5": "+0.5% Attack Speed",
+  "item.killer.tool.string.6": "+0.35% armor",
+  "item.killer.tool.string.7": "Now",
+  "item.killer.tool.string.8": "treatment:",
+  "item.killer.tool.string.9": "speed:",
+  "item.killer.tool.string.10": "damage:",
+  "item.killer.tool.string.11": "Attack Speed:",
+  "item.killer.tool.string.12": "armor:",
+
+  "item.seeking_immortal_virus.as_amout": "a sword amout",
+  "item.as_amout.tool.string.1": "Launches 7 flying swords from behind the target when attacking",
+  "item.as_amout.tool.string.2": "The flying swords can exist for 20 seconds",
+
+  "item.as_amout.tool.string.3": "In the first 10 seconds, they will attempt to attack creatures",
+  "item.as_amout.tool.string.4": "In the last 10 seconds, they will attempt to fly towards players",
+
+  "item.as_amout.tool.string.5": "These flying swords come with 10% of the player's attack attributes",
+  "item.as_amout.tool.string.6": "If a flying sword is picked up, it restores 5% of maximum health",
+
+  "item.as_amout.tool.string.7": "Cooldown of 3 second",
+
+  "item.seeking_immortal_virus.necora_baby":"necora baby",
+    "item.necora_baby.tool.string":"Summon a corrupt soul",
+  "item.necora_baby.tool.string.1":"You can implant gene fragments into it",
+  "item.necora_baby.tool.string.2":"If the Soul of Corruption dies/is lost, you can re equip this item",
+  "item.necora_baby.tool.string.3":"The soul of corruption will also teleport items to your side after death",
+
+
+  "item.seeking_immortal_virus.bloodstain": "Bloodstain",
+  "item.bloodstain.tool.string": "Picking up blood orbs causes an explosion, but does not break blocks",
+
+  "item.seeking_immortal_virus.detect": "Element Detection",
+  "item.detect.tool.string": "Creatures locked by zombies will glow",
+
+  "item.seeking_immortal_virus.exercise_reinforcement": "Exercise Reinforcement",
+  "item.exercise_reinforcement.tool.string": "Zombies gain 60% of the summoner's movement speed",
+
+  "item.seeking_immortal_virus.plague_book": "Plague",
+  "item.plague_book.tool.string": "Creatures attacked by zombies will take an additional 33% damage for a short time",
+
+  "item.seeking_immortal_virus.spore_outbreak": "Spore Eruption",
+  "item.spore_outbreak.tool.string": "Picking up blood orbs restores 20% of maximum health",
+
+  "item.seeking_immortal_virus.weak": "Neurasthenia",
+  "item.weak.tool.string": "Picking up blood orbs immediately loses 10% of health but gains 5 yellow hearts",
+
+
+  "item.seeking_immortal_virus.million": "Seven Swords of Asura: All Methods",
+  "item.million.tool.string.1": "This box contains 30 flying swords",
+  "item.million.tool.string.2": "Each attack will summon 3 flying swords",
+  "item.million.tool.string.3": "Each time a flying sword is picked up, 1 will be restored",
+  "item.million.tool.string.4": "Each flying sword picked up grants a 1% damage boost",
+  "item.million.tool.string.5": "Lasts for 10 seconds, can stack up to 100%",
+  "item.million.tool.string.6": "Shift",
+  "item.million.tool.string.7": "Gain boost:",
+  "item.million.tool.string.8": "Stored flying sword count:",
+  "item.seeking_immortal_virus.nine_sword_book": "Nine Sword Unity Technique",
+  "item.nine_sword_book.tool.string.all": "修炼到[剑帝][剑祖]级别后，属性增长降低22.5%”",
+
+  "item.nine_sword_book.tool.string.1": "For each sword-type weapon in the quick slot:",
+  "item.nine_sword_book.tool.string.2": "Damage",
+  "item.nine_sword_book.tool.string.3": "Attack Speed",
+  "item.nine_sword_book.tool.string.4": "Speed",
+  "item.nine_sword_book.tool.string.5": "Healing",
+  "item.nine_sword_book.tool.string.6": "Flying Sword",
+  "item.nine_sword_book_lvl.tool.string.2": "修炼进度",
+
+  "item.nine_sword_book.tool.string.7": "The next slash will deal (total damage of all sword-type weapons in the quick slot) of health points",
+  "item.nine_sword_book.tool.string.8": "Cooldown 5 seconds",
+
+  "item.nine_sword_book.tool.string.9": "When dealing damage, there is a 5% (per Flying Sword count) chance to release all Flying Swords",
+  "item.nine_sword_book.tool.string.10": "Flying Swords slowly recover over time",
+  "item.nine_sword_book.tool.string.11": "Each Flying Sword hit restores 1% of your current health",
+  "item.nine_sword_book.tool.string.12": "-25% All Damage",
+  "item.nine_sword_book.tool.string.13": "-50% Maximum Health",
+  "sword.seeking_immortal_virus.lvl": "lvl",
+  "item.nine_sword_book_lvl.tool.string.1": "Sword Man :",
+  "item.book.tool.string.modi_blood": "Demonic Possession",
+  "item.the_blood_book.tool.string": "Blood Spirit Growth's damage is increased by 50%",
+  "item.the_blood_book.tool.string.1": "Blood Grower's blood bead speed is reduced by 50%",
+  "item.the_blood_book.tool.string.2": "The blood beads of the Blood Spirit Grower will explode",
+  "item.the_blood_book.tool.string.3": "Blood Grower's fire speed is increased by 30%",
+  "item.the_blood_book.tool.string.4": "Blood Spirit Grower's Lifespan is reduced by 60%",
+  "item.the_blood_book.tool.string.5": "Comes with all the features of the Graver and the Blasphemer",
+  "item.the_blood_book.tool.string.6": "Each hit of the Blood Soul Grower is equivalent to an attack from you",
+
+
+  "item.nine_sword_book.tool.string.14": "You cannot use non-sword-type weapons",
+  "item.nine_sword_book_skill.tool.string.1": "剑仙",
+  "item.nine_sword_book_skill.tool.string.2": "剑神",
+  "item.nine_sword_book_skill.tool.string.3": "剑圣",
+  "item.book.tool.string": "Your body has been shaped by:",
+  "item.book.tool.string.nine_sword": "Sword Bone Power",
+  "item.book.tool.string.nine_sword.not": "This technique can only be comprehended and used after shaping the Sword Bone",
+  "item.book.tool.string.blood_book.not": "This item can only be understood and used after demonic possession.",
+  "item.seeking_immortal_virus.blood_stasis": "Blood Stasis",
+  "item.blood_stasis.tool.string": "Restores 10% of the summoner's maximum health after the zombie's death",
+  "item.seeking_immortal_virus.bone_structure": "Abnormal Bone Structure",
+  "item.bone_structure.tool.string": "Zombies inherit 70% of the player's armor value and 30% of the maximum health",
+  "item.seeking_immortal_virus.mummification": "Mummification",
+  "item.mummification.tool.string": "Effectively slows down the zombie's corruption rate but reduces attack damage by 20%",
+  "item.seeking_immortal_virus.organizational_regeneration": "Organizational Regeneration",
+  "item.organizational_regeneration.tool.string": "Zombies will slowly regain health while increasing their corruption rate",
+  "item.seeking_immortal_virus.tumour": "Tumor",
+  "item.tumour.tool.string": "Zombie damage is halved, but health is doubled",
+  "seeking_immortal_virus.config.ectoplasm": "ectoplasm of luck",
+  "enchantment.seeking_immortal_virus.terror": "terror",
+  "enchantment.seeking_immortal_virus.malice": "malice",
+  "enchantment.seeking_immortal_virus.threat": "threat",
+  "item.seeking_immortal_virus.probability":"probability stone",
+
+  "seeking_immortal_virus.jei.ectoplasmstone": "One of the random amulets at the start of the game",
+  "seeking_immortal_virus.jei.twistedstone": "One of the random amulets at the start of the game",
+
+  "seeking_immortal_virus.jei.necora.all": "Requires wearing Necora virus to be found in dungeons and mines",
+  "seeking_immortal_virus.jei.necora.treasure.all": "Requires wearing Necora virus to be found in treasure loot",
+  "seeking_immortal_virus.jei.necora.giant_nightmare.all": "Requires wearing Nightmare Giant genetic fragment to be found in treasure loot",
+
+  "seeking_immortal_virus.jei.necora.bnabush.all": "Requires wearing Necora virus to be found in treasure loot",
+
+  "seeking_immortal_virus.jei.crafting_box": "使用大量DNA来构成模组内的重要物品",
+  "seeking_immortal_virus.jei.cell.all": "Requires wearing Cell Rebirth gene to be found in treasure loot",
+  "seeking_immortal_virus.jei.maulice.all": "Killing zombies may drop",
+  "seeking_immortal_virus.jei.blood": "Requires wearing Blood Magic Box to acquire by killing creatures",
+
+  "seeking_immortal_virus.jei.bloodvirus.all": "Requires wearing Shadow Plague to be found in dungeons and mines",
+  "seeking_immortal_virus.jei.bloodvirus": "Requires wearing a medical kit that unlocks all medications and killing the Ender Dragon to obtain Shadow Gene, then using the Shadow Gene on Necora virus to get Shadow Plague",
+  "seeking_immortal_virus.jei.bloodvirus.treasure.all": "Requires wearing Shadow Plague to be found in treasures",
+  "seeking_immortal_virus.jei.ectoplasm.all": "Most ectoplasmic items can be eaten, recovering a large amount of hunger",
+  "seeking_immortal_virus.jei.ectoplasm.ectoplasmcloub": "Can be obtained by killing creatures, or it can be crafted",
+  "seeking_immortal_virus.jei.ectoplasm.ectoplasmball": "Can be obtained by killing creatures, there is a very high chance to find it in loot chests",
+  "seeking_immortal_virus.jei.loot.all": "Has a chance to be found in loot chests",
+  "seeking_immortal_virus.jei.maxamout": "Wear three colors of runes, then kill the Ancient Guardian",
+  "seeking_immortal_virus.jei.pain.all": "Found in the Nether",
+  "seeking_immortal_virus.jei.nanodoom.all": "Found in ancient cities",
+  "seeking_immortal_virus.jei.wind_and_rain": "Wear Seven Swords of Asura and Sudden Rain, then touch dungeon/mines/treasures/city type chests",
+  "seeking_immortal_virus.jei.calcification": ": Take 350 damage, requires wearing a medical kit",
+  "seeking_immortal_virus.jei.masticatory": ": Die once, requires wearing a medical kit",
+  "seeking_immortal_virus.jei.polyphagia": ": Eat an enchanted golden apple, requires wearing a medical kit",
+  "seeking_immortal_virus.jei.quadriceps": ": Jump 500 times, requires wearing a medical kit",
+  "seeking_immortal_virus.jei.reanimation": ": Eat 8 golden apples, requires wearing a medical kit",
+  "seeking_immortal_virus.jei.blood.all": "： found in treasure",
+  "seeking_immortal_virus.jei.nightmare": ": Requires wearing nightmare eye to be found in dungeons and mines",
+
+  "seeking_immortal_virus.jei.fortunecrystal": "It can not only be crafted but also exchanged with the toolsmith villagers.",
+  "seeking_immortal_virus.jei.mayhemcrystal": "It can not only be crafted but also exchanged with the weaponsmith villagers.",
+  "seeking_immortal_virus.jei.treasure": "It is an item found in treasure loot chests.",
+  "seeking_immortal_virus.jei.city": "It is an item that can not only be crafted but also found in ancient cities.",
+  "seeking_immortal_virus.jei.deceased_contract": "“I think this is a curse, but its allure is truly hard to resist... Once the contract is signed, it will cling to you forever, but that's not the worst part; it will plunge you into suffering and slaughter, becoming a minion of hell.\nKilling creatures has a 10% chance to obtain their blood.\nCollecting blood restores 5% of maximum health.\n-20% damage\n-25% resistance\n-15% critical hit\n-30% healing\n\nHowever:\nKilling creatures has a 40% chance to summon a zombie.\nKilling creatures has a 20% chance to summon a giant zombie.\nAdditionally:\nSummoned zombies receive 50% of the summoner's damage, speed, defense, and maximum health bonuses.\nSummoned zombies gain all positive potion effects currently existing on the summoner.\n\nNecora virus and its associated items are nullified.\nShadow plague and its associated items are nullified.",
+  "seeking_immortal_virus.jei.deceased_contract.all": "It is an item that can only be discovered in dungeons while wearing the Necromancer Contract.",
+
+  "item.deceased_contract.tool.string.0": "杀死生物有15%的概率获得它们的血液",
+  "item.deceased_contract.tool.string.1": "拾取血液恢复15%最大生命值",
+  "item.deceased_contract.tool.string.2": "-20%伤害\n-25%抗性\n-15%暴击\n-30%治疗",
+  "item.deceased_contract.tool.string.3": "杀死生物有30%的概率召唤一只僵尸\n杀死生物有15%的概率召唤一只巨人僵尸\n召唤的僵尸最大生命值为20%",
+  "item.deceased_contract.tool.string.4": "召唤的僵尸获得50%召唤者的伤害，速度，防御，最大生命值的加成",
+  "item.deceased_contract.tool.string.5": "召唤的僵尸获得获得召唤者目前存在的所有正面药水状态",
+  "item.deceased_contract.tool.string.6": "Necora病毒及其附属物品无效化\n暗影瘟疫及其附属物品无效化",
+  "item.deceased_contract.tool.string.7": "你必须佩戴",
+  "item.deceased_contract.tool.string.8": "秒后才能取下",
+  "item.deceased_contract.tool.string.9": "目前，它是可以被取下的",
+
+
+  "item.seeking_immortal_virus.blood_all":"它发现于古城，但是需要佩戴封魔烛台才能发现",
+
+  "item.seeking_immortal_virus.owner_blood_eye": "Desecrator",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.owner_blood_eye": "It is found in ancient cities but requires wearing the Sealing Candelabra to be discovered.\n\nReduces the attack interval of Blood Spawn by 20%.",
+
+  "item.seeking_immortal_virus.owner_blood_attack_eye": "Blood Curse",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.owner_blood_attack_eye": "It is found in ancient cities but requires wearing the Sealing Candelabra to be discovered.\n\nIncreases the attack interval of Blood Spawn by 10%.\nIncreases Blood Damage by 20%.",
+
+  "item.seeking_immortal_virus.owner_blood_speed_eye": "Scribe",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.owner_blood_speed_eye": "It is found in ancient cities but requires wearing the Sealing Candelabra to be discovered.\n\nReduces the attack interval of Blood Spawn by 50%.\nIncreases Blood Orb speed by 300%.\nHowever, the launched Blood Orbs will no longer track entities.",
+
+  "item.seeking_immortal_virus.owner_blood_boom_eye": "Laborer",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.owner_blood_boom_eye": "It is found in ancient cities but requires wearing the Sealing Candelabra to be discovered.\n\nBlood Orbs will explode on impact.\nReduces Blood Orb speed by 20%.\nIncreases the attack interval of Blood Spawn by 200%.",
+
+  "item.seeking_immortal_virus.owner_blood_effect_eye": "Judge",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.owner_blood_effect_eye": "It is found in ancient cities but requires wearing the Sealing Candelabra to be discovered.\n\nBlood Orbs will apply a large amount of negative effects upon impact.\nReduces Blood Damage by 50%.",
+  "item.seeking_immortal_virus.owner_blood_vex": "Wraith",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.owner_blood_vex": "It is found in ancient cities, but requires wearing the Sealing Candelabra to be discovered.\n\nBlood Orbs will not disappear upon hitting and will penetrate entities.\nEach penetration increases damage and speed by 50%,\nbut reduces base speed and damage by 50%.",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "item.seeking_immortal_virus.nightmare_base": "§4Nightmare Base",
+  "item.nightmare_base.tool.string": "-15% damage,health,armor",
+  "item.nightmare_base.tool.string.1": "Evil Thought Antimony, Blood Cruel Lead, Malicious Mourning Nullification",
+
+  "item.seeking_immortal_virus.nightmare_base_stone": "§4Deadly Obelisk",
+  "item.nightmare_base_stone.tool.string": "Damage taken increases by 500% when health is full",
+  "item.nightmare_base_stone.tool.string.1": "But you can unlock the following items",
+  "item.seeking_immortal_virus.nightmare_base_stone_meet": "§4Despair Resonance",
+  "item.nightmare_base_stone_meet.tool.string.1": "Enhance the following accessories",
+  "item.seeking_immortal_virus.ectoplasmstar.nightmare_base_stone_meet": "Double luck, and each point of luck increases healing by 2.5%",
+  "item.seeking_immortal_virus.ectoplasmstar.mayhemcrystal": "Damage amplification increases by 50%",
+  "item.seeking_immortal_virus.ectoplasmstar.maxamout": "All effect BUFF levels increase by 2",
+  "item.seeking_immortal_virus.ectoplasmstar.maxamout.1": "All trigger effects add 100%",
+  "item.seeking_immortal_virus.ectoplasmstar.maxamout.2": "Reflection damage increase by 400%",
+  "item.seeking_immortal_virus.nightmare_base_stone_virus": "§4Nightecora Virus",
+  "item.nightmare_base_stone_virus.tool.string": "Damage increases by 100%",
+  "item.nightmare_base_stone_virus.tool.string.1": "Healing increases by 100%",
+  "item.nightmare_base_stone_virus.tool.string.2": "Critical hit chance increases by 100%",
+  "item.nightmare_base_stone_virus.tool.string.3": "Any damage received will additionally inflict a penalty of 25% of the maximum health, unaffected by any bonuses",
+
+  "item.seeking_immortal_virus.nightmare_base_stone_brain": "§4Apocalypse Brain",
+  "item.nightmare_base_stone_brain.tool.string": "Damage reduced by 100% when at full health",
+  "item.nightmare_base_stone_brain.tool.string.1": "Damage increased by 50% when not at full health",
+  "item.nightmare_base_stone_brain.tool.string.2": "Resistance increased by 50% when not at full health",
+
+  "item.seeking_immortal_virus.nightmare_base_black_eye": "§4Evil Eye of Insight",
+  "item.nightmare_base_black_eye.tool.string": "Blurred vision from the injury that recovers over time",
+  "item.nightmare_base_black_eye.tool.string.1": "But you can unlock the following items",
+  "item.seeking_immortal_virus.nightmare_base_black_eye_eye": "§4Dreadful Tumor",
+  "item.nightmare_base_black_eye_eye.tool.string": "Creatures under your gaze will be unable to move",
+  "item.nightmare_base_black_eye_eye.tool.string.1": "They will also receive a large amount of negative BUFFs",
+  "item.nightmare_base_black_eye_eye.tool.string.2": "When you look at any creature, you will gain a 100% damage bonus",
+
+  "item.seeking_immortal_virus.nightmare_base_black_eye_red": "§4Sinful Red Lip",
+  "item.nightmare_base_black_eye_red.tool.string": "Killing creatures increases all attributes by 5%",
+  "item.nightmare_base_black_eye_red.tool.string.1": "Up to a maximum increase of 50%",
+  "item.nightmare_base_black_eye_red.tool.string.2": "These attributes will decrease over time",
+
+  "item.seeking_immortal_virus.nightmare_base_black_eye_heart": "§4Heart of Despair",
+  "item.nightmare_base_black_eye_heart.tool.string": "Nearby creatures take 25% more damage",
+  "item.nightmare_base_black_eye_heart.tool.string.1": "They will restore health to you",
+  "item.nightmare_base_black_eye_heart.tool.string.2": "And they will no longer receive any healing",
+
+
+
+  "advancements.tooltip.nightmare_base_stone.text": "获得死兆方尖碑",
+  "advancements.tooltip.nightmare_base_stone.hand": "噩梦的方尖碑",
+
+  "advancements.tooltip.nightmare_base_black_eye_heart.text": "获得死心之胚",
+  "advancements.tooltip.nightmare_base_black_eye_heart.hand": "无休止的痛苦",
+
+  "advancements.tooltip.nightmare_base_black_eye_eye.text": "获得肉瘤",
+  "advancements.tooltip.nightmare_base_black_eye_eye.hand": "不详因子",
+
+  "advancements.tooltip.nightmare_base_black_eye_red.text": "获得这个口红",
+  "advancements.tooltip.nightmare_base_black_eye_red.hand": "真刺激啊！",
+
+  "advancements.tooltip.nightmare_base_stone_meet.text": "获得绝望共鸣",
+  "advancements.tooltip.nightmare_base_stone_meet.hand": "噩梦降至",
+
+  "advancements.tooltip.nightmare_base_stone_brain.text": "获得末世之脑",
+  "advancements.tooltip.nightmare_base_stone_brain.hand": "疯狂大脑",
+
+  "advancements.tooltip.nightmare_base_black_eye.text": "获得邪念之窥眸",
+  "advancements.tooltip.nightmare_base_black_eye.hand": "永远凝视",
+
+  "advancements.tooltip.nightmare_base_stone_virus.text": "获得Nightecora病毒",
+  "advancements.tooltip.nightmare_base_stone_virus.hand": "融合体",
+
+
+
+  "item.seeking_immortal_virus.nightmare_virus":"nightmare virus",
+
+  "item.seeking_immortal_virus.nightmare_base_reversal":"§4Reversal Object",
+
+  "item.nightmare_base_reversal.tool.string": "Every death reduces attributes to 0%",
+  "item.nightmare_base_reversal.tool.string.2": "Attributes gradually recover at a rate of 4% per second after resurrection",
+  "item.nightmare_base_reversal.tool.string.3": "Poison is fatal for you",
+
+  "item.seeking_immortal_virus.nightmare_base_reversal_orb": "§4Reversal Orb",
+  "item.nightmare_base_reversal_orb.tool.string": "Healing will only reduce health",
+  "item.nightmare_base_reversal_orb.tool.string.2": "Resets health to full every 10 seconds",
+
+  "item.seeking_immortal_virus.nightmare_base_reversal_card": "§4Unstable Card",
+  "item.nightmare_base_reversal_card.tool.string": "The speed of attribute recovery during each resurrection is reduced to 2%",
+  "item.nightmare_base_reversal_card.tool.string.2": "But can only recover up to 150% of the original",
+
+  "item.seeking_immortal_virus.nightmare_base_reversal_mysterious": "§4Mysterious Object",
+  "item.nightmare_base_reversal_mysterious.tool.string": "Suppress the negative effects of the Nightmare Base at the cost of reducing all attributes by 10%",
+
+
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base.all": ", requires wearing:",
+
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_black_eye_heart": "Trigger the Undying Totem acquisition when the following conditions are met: Poisoned, Withering, Slowness, Blindness, and on Fire",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_black_eye_eye": "Kill the Guardian",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_black_eye_red": "Found in Ancient Cities, about 5% chance",
+
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_stone_brain": "Kill Zombies to obtain materials, but only one of this material can be obtained",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_stone_meet": "Kill the Ender Dragon",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_stone_virus": "Triggered by receiving Withering damage to get an Undying Totem",
+
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_reversal_card": "Kill the Ender Dragon",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_reversal_mysterious": "Open chests in Ancient Cities while wearing Reversal Orb, 100% chance, but can only obtain one",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_reversal_orb": "Kill yourself with poison damage from the Reversal Object",
+
+  "item.seeking_immortal_virus.nightmare_base_redemption":"§4'Redemption'",
+  "item.nightmare_base_redemption.tool.string": "Increase 15% decay of Nightmare Base attributes",
+  "advancements.tooltip.nightmare_base_redemption.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_redemption.hand": "Rumor",
+
+  "item.seeking_immortal_virus.nightmare_base_redemption_deception":"§4Deception",
+  "item.nightmare_base_redemption_deception.tool.string": "Resist lethal damage, restore all health",
+  "item.nightmare_base_redemption_deception.tool.string.1": "And gain 7 seconds of invincibility and calm the rage of nearby creatures, cooldown 60 seconds",
+  "advancements.tooltip.nightmare_base_redemption_deception.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_redemption_deception.hand": "Sealed Rumor",
+
+
+  "item.seeking_immortal_virus.nightmare_base_redemption_degenerate":"§4Degeneration",
+  "item.nightmare_base_redemption_degenerate.tool.string": "Immune to magic damage",
+  "item.nightmare_base_redemption_degenerate.tool.string.1": "Immune to fall damage",
+  "item.nightmare_base_redemption_degenerate.tool.string.2": "Immune to fire damage",
+  "advancements.tooltip.nightmare_base_redemption_degenerate.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_redemption_degenerate.hand": "Song of Shadows",
+
+
+  "item.seeking_immortal_virus.nightmare_base_redemption_down_and_out":"§4Down and Out",
+  "item.nightmare_base_redemption_down_and_out.tool.string": "Reduce 35% decay of Nightmare Base attributes, if it drops to negative, it turns into a positive attribute increase",
+  "advancements.tooltip.nightmare_base_redemption_down_and_out.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_redemption_down_and_out.hand": "River of History",
+
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_redemption_deception": "Kill 100 Pillagers under an ominous sign",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_redemption_degenerate": "Kill 100 Villagers under the Village Hero effect",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_redemption_down_and_out": "Complete a failed raid",
+
+  "advancements.tooltip.nightmare_base_reversal_card.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_reversal_card.hand": "Reversal Reversal",
+  "advancements.tooltip.nightmare_base_reversal_mysterious.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_reversal_mysterious.hand": "Mysterious Corpse",
+  "advancements.tooltip.nightmare_base_reversal_orb.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_reversal_orb.hand": "Poor Acting",
+  "advancements.tooltip.nightmare_base_reversal.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_reversal.hand": "Reincarnation",
+
+
+
+
+
+
+
+
+
+
+
+  "item.seeking_immortal_virus.nightmare_base_fool":"§4Fool's Danger",
+  "item.nightmare_base_fool.tool.string": "Starting from 2 pieces, each additional accessory will reduce health by 1%",
+  "item.nightmare_base_fool.tool.string.1": "Starting from 5 pieces, each additional accessory will reduce damage by 2%",
+  "item.nightmare_base_fool.tool.string.2": "Damage and health penalty of 50% or less.",
+
+  "advancements.tooltip.nightmare_base_fool.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_fool.hand": "Choice",
+
+  "item.seeking_immortal_virus.nightmare_base_fool_betray":"§4Possession Pendant",
+  "item.nightmare_base_fool_betray.tool.string": "Makes some types of nearby creatures actively ally with you",
+  "item.nightmare_base_fool_betray.tool.string.1": "Allying creatures gain positive BUFFs consistent with you",
+  "item.nightmare_base_fool_betray.tool.string.2": "The master of the possessed servant loses 10% of maximum health",
+  "item.nightmare_base_fool_betray.tool.string.3": "Cooldown increases by 5 seconds for each target possessed",
+  "advancements.tooltip.nightmare_base_fool_betray.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_fool_betray.hand": "Why is this",
+
+
+  "item.seeking_immortal_virus.nightmare_base_fool_bone":"§4Dangerous Skull",
+  "item.nightmare_base_fool_bone.tool.string": "If a creature's attack target is you",
+  "item.nightmare_base_fool_bone.tool.string.1": "Then your damage to it is doubled",
+  "item.nightmare_base_fool_bone.tool.string.2": "And attacks have a 30% chance to break the invincibility frame",
+  "advancements.tooltip.nightmare_base_fool_bone.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_fool_bone.hand": "Do slimes have bones?",
+
+
+  "item.seeking_immortal_virus.nightmare_base_fool_soul":"§4Wraith Soul",
+  "item.nightmare_base_fool_soul.tool.string": "Fool's Danger damage penalty judgment increased from 5 to 14",
+  "item.nightmare_base_fool_soul.tool.string.1": "Fool's Danger life penalty judgment increased from 2 to 9",
+  "item.nightmare_base_fool_soul.tool.string.2": "Each accessory worn increases healing by 3%",
+  "item.nightmare_base_fool_soul.tool.string.3": "Each Nightmare accessory increases health by 6",
+  "advancements.tooltip.nightmare_base_fool_soul.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_fool_soul.hand": "River of History",
+
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_fool_betray": "Kill the Ender Dragon",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_fool_bone": "Kill the Guardian",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_fool_soul": "Kill the Wither",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "item.seeking_immortal_virus.nightmare_base_insight":"§4Nightmare Insight",
+  "item.nightmare_base_insight.tool.string": "Reduce the enchantment level of enchanted items by 1",
+  "item.nightmare_base_insight.tool.string.1": "Reduce the enchantment level of enchanted items by 50%",
+
+  "advancements.tooltip.nightmare_base_insight.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_insight.hand": "The Pain of Stagnation",
+
+  "item.seeking_immortal_virus.nightmare_base_insight_drug":"§4Madness Potion",
+  "item.nightmare_base_insight_drug.tool.string": "Damage, armor, health increase by 100%",
+  "item.nightmare_base_insight_drug.tool.string.1": "But for each accessory worn, this bonus will decrease by 8%",
+  "advancements.tooltip.nightmare_base_insight_drug.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_insight_drug.hand": "Eternal Life",
+
+  "item.seeking_immortal_virus.nightmare_base_insight_insane":"§4Insanity Stone",
+  "item.nightmare_base_insight_insane.tool.string": "When you slay a creature",
+  "item.nightmare_base_insight_insane.tool.string.1": "Restore health based on the intensity of the slain creature",
+  "item.nightmare_base_insight_insane.tool.string.2": "And the damage of the next attack increases by 150%",
+  "advancements.tooltip.nightmare_base_insight_insane.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_insight_insane.hand": "War God Stone",
+
+
+  "item.seeking_immortal_virus.nightmare_base_insight_collapse":"§4Destruction Mirror",
+  "item.nightmare_base_insight_collapse.tool.string": "Double the number of universal accessory slots",
+  "advancements.tooltip.nightmare_base_insight_collapse.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_insight_collapse.hand": "Strength of Collapse",
+
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_insight_drug": "Complete all tasks in the medicine box",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_insight_insane": "Die or jump into the End portal to return to the Overworld",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_insight_collapse": "Kill the Ender Dragon",
+
+
+
+
+
+
+  "item.seeking_immortal_virus.coffin_item":"亚特格拉德的宝贝小匣子",
+  "item.seeking_immortal_virus.coffin.tool.string":"亚特格拉德的宝贝小匣子",
+
+  "item.seeking_immortal_virus.nightmare_axe":"nightmare axe",
+  "item.nightmare_axe.tool.string": "Kill creatures to summon the Chaos Battle Axe",
+  "item.nightmare_axe.tool.string.1": "For each nearby Chaos Waraxe:",
+  "item.nightmare_axe.tool.string.2": "+25% damage",
+  "item.nightmare_axe.tool.string.3": "+25% heal",
+
+  "item.seeking_immortal_virus.coffin.tool.string.1": "唯有那掌握生死轮回之力的人",
+  "item.seeking_immortal_virus.coffin.tool.string.2": "才能规避大道因果的反噬...",
+  "item.seeking_immortal_virus.coffin.tool.string.3": "释放棺椁内的终极黑暗吧",
+
+  "curios.modifiers.crystal": "佩戴水晶时",
+  "curios.modifiers.stone": "佩戴符石后",
+  "curios.identifier.crystal": "crystal",
+  "curios.identifier.stone": "stone",
+  "item.seeking_immortal_virus.belt":"珠宝腰带",
+
+
+  "item.seeking_immortal_virus.rage_crystal":"血怒水晶",
+  "item.seeking_immortal_virus.rage_crystal_big":"大血怒水晶",
+  "item.seeking_immortal_virus.rage_crystal_max":"战神晶体",
+
+
+
+
+  "item.seeking_immortal_virus.nightmare_base_start":"§4Beginning of Nightmare",
+  "item.nightmare_base_start.tool.string": "Armor is nullified",
+  "item.nightmare_base_start.tool.string.1": "Every time you take damage, it forcibly reduces 1 health point",
+  "advancements.tooltip.nightmare_base_start.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_start.hand": "The 'Immortal'",
+
+  "item.seeking_immortal_virus.nightmare_base_start_pod":"§4Immortal Bud",
+  "item.nightmare_base_start_pod.tool.string": "Resistance increased by 20%",
+  "advancements.tooltip.nightmare_base_start_pod.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_start_pod.hand": "Immortal Flower, Immortal Fruit",
+
+
+  "item.seeking_immortal_virus.nightmare_base_start_egg":"§4Origin Egg",
+  "item.nightmare_base_start_egg.tool.string": "Luck +10",
+  "item.nightmare_base_start_egg.tool.string.1": "All damage +20%",
+  "item.nightmare_base_start_egg.tool.string.2": "Healing +50%",
+
+  "advancements.tooltip.nightmare_base_start_egg.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_start_egg.hand": "A lazy egg",
+
+  "item.seeking_immortal_virus.nightmare_base_start_power":"§4Astonishing Power",
+  "item.nightmare_base_start_power.tool.string": "For each positive potion effect present",
+  "item.nightmare_base_start_power.tool.string.1": "All your attributes increase by 2%",
+  "advancements.tooltip.nightmare_base_start_power.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base_start_power.hand": "Strength of Collapse",
+
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_start_power": "Kill the Guardian",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_start_egg": "Kill the Sniffer",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.nightmare_base_start_pod": "Open dungeon chests, 25% chance, can only get one",
+
+
+
+
+
+
+  "seeking_immortal_virus.greed_dna.event": "战利品暴击已触发！",
+
+
+  "item.twelve_sword.tool.string.1": "杀死生物召唤剑阵",
+  "item.twelve_sword.tool.string.2": "在剑阵附近获得1%0~120%的伤害加成",
+  "item.twelve_sword.tool.string.3": "剑阵内的生物会被死界碑坠落攻击",
+  "item.twelve_sword.tool.string.4": "数量取决于你生肖物品的数量",
+
+
+  "seeking_immortal_virus.jei.necora": "This is a zombie virus that requires gene recombination box to recombine. Right-click to insert:\n48 ATP high energy\n32 Darwinism\n64 Catalyst Switch\n24 Rapid Metabolism\n20 Metabolic Disorder\n12 Peptide Synthesis Enhancement\n24 Neurotransmitter Inhibition\n8 liquefactive necrosis\n1 Spirit Prism\nWhen you have collected all materials, you can proceed to the next step of your plan......\nFinally, right-click to use the gene recombination box item\nMake sure to free up space in your backpack!",
+  "seeking_immortal_virus.jei.cell": "This is an important accessory item for the zombie virus, used to summon cell zombies to assist in combat. They can be enhanced by partial segmental gene groups. It requires gene recombination box to recombine. Right-click to insert:\n20 ATP high energy\n16 Creationism\n40 Rapid Metabolism\n64 Metabolic Disorder\n24 liquefactive necrosis\n1 Spirit Prism\n8 Spirit Orbs.\nFinally, right-click to use the gene recombination box item\nMake sure to free up space in your backpack!",
+  "seeking_immortal_virus.jei.giant": "This is an accessory item for the zombie virus, used to summon giant cell zombies to assist in combat. They can be enhanced by partial segmental gene groups. It requires gene recombination box to recombine. Right-click to insert:\n30 ATP high energy\n24 Creationism\n60 Rapid Metabolism\n64 Metabolic Disorder\n12 liquefactive necrosis\n1 Cell Regeneration\n1 Spirit Prism.\nFinally, right-click to use the gene recombination box item\nMake sure to free up space in your backpack!",
+  "seeking_immortal_virus.jei.giant_nightmare": "This is a variant item of the zombie virus and giant zombie, used to summon nightmare giants to assist in combat. They can be enhanced by partial segmental gene groups. It requires gene recombination box to recombine. Right-click to insert:\n64 ATP high energy\n16 Rapid Metabolism\n64 Neurotransmitter Inhibition\n64 Peptide Synthesis Enhancement\n64 Darwinism\n64 Catalyst Switch\n1 Giant Zombie Gene Fragment\n1 Spirit Prism.\nFinally, right-click to use the gene recombination box item\nMake sure to free up space in your backpack!",
+
+  "item.dnas.tool.string": "Hint: Use medicine crusher box to break down gene items",
+
+  "seeking_immortal_virus.jei.god_dna": "Synthesize by using two identical 'God-like gene sequences' DNA items",
+  "item.seeking_immortal_virus.god_ambush": "Drift Fermentation",
+  "item.god_ambush.tool.string": "Increases 10% resistance",
+  "item.seeking_immortal_virus.god_atpoverdose": "ATP Overdose",
+  "item.seeking_immortal_virus.god_putrefactive": "Putrefactive Resistance",
+  "item.god_putrefactive.tool.string": "Eating food gains significant benefit buffs",
+  "item.god_putrefactive.tool.string.1": "Eating food restores 10% of max health",
+  "item.seeking_immortal_virus.god_fermentation": "Ambush Hunting",
+  "item.seeking_immortal_virus.god_autolytic": "Autolysis Inhibition",
+
+  "item.seeking_immortal_virus.god_regenerative": "Regenerative Vitalization",
+  "item.god_regenerative.tool.string": "Restores 1 health point every 0.75 seconds",
+
+  "item.seeking_immortal_virus.rage_charm": "Rage Ruler Charm",
+  "item.rage_charm.tool.string": "Killing creatures grants attribute bonuses",
+  "item.rage_charm.tool.string.1": "Bonuses decrease over time",
+
+  "item.seeking_immortal_virus.rage_eye": "Rage Eye of the Thief",
+  "item.rage_eye.tool.string": "Left-click on creatures to steal 10% of their base attributes",
+  "item.rage_eye.tool.string.4": "Stolen attributes cannot exceed 25% of yours",
+  "item.rage_eye.tool.string.2": "Item will lock regardless of whether attributes are stolen",
+
+  "item.seeking_immortal_virus.magnet": "Magnet",
+  "item.magnet.tool.string": "Attracts dropped items within an 8-block radius",
+
+  "item.seeking_immortal_virus.rage_magnet": "Rage Magnet",
+  "item.rage_magnet.tool.string": "Restores health when attracting dropped items",
+
+  "item.seeking_immortal_virus.rage_stone": "Nether Stone",
+  "item.rage_stone.tool.string": "Converts nearby dropped Nether Stones into experience orbs",
+
+  "item.seeking_immortal_virus.rage_head": "Rage Charm",
+  "item.rage_head.tool.string": "+2 projectile count",
+  "item.rage_head.tool.string.1": "+25% bow pull speed",
+
+  "item.seeking_immortal_virus.universe": "Universe Template",
+  "item.universe.tool.string": "Gains special abilities of the item after synthesis in inventory",
+  "item.universe.tool.string.1": "Automatically obtains some special abilities of the item",
+  "item.universe.tool.string.2": "Usable 3 times",
+  "item.universe.tool.string.3": "You have synthesized the following items:",
+  "item.universe.tool.null": "Empty",
+
+
+
+
+  "seeking_immortal_virus.drug.string": "Can be right-clicked to insert into player genome",
+  "item.man.tool.string": "Supports implantation of the following drugs:",
+  "curios.modifiers.man": "When implanted into player genome",
+  "curios.identifier.man": "Player genome slot",
+
+  "item.seeking_immortal_virus.run_dna": "Endurance Enhancement Gene",
+  "item.run_dna.tool.string": "Increases 10% resistance while sprinting",
+
+  "item.seeking_immortal_virus.protein": "Protein Activation",
+  "item.seeking_immortal_virus.hydrolysis": "Abnormal Phosphorylation",
+  "item.seeking_immortal_virus.cp_energy": "CP Energy Release",
+  "item.seeking_immortal_virus.phosphorylation": "ATP Hydrolysis Anomaly",
+
+  "item.protein.tool.string": "Increases sprint speed by 20%",
+  "item.hydrolysis.tool.string": "Increases jump height by 50% and reduces damage by 10% while sprinting",
+  "item.cp_energy.tool.string": "Increases damage by 10% while sprinting",
+  "item.phosphorylation.tool.string": "Sprint speed is halved, but default damage increases by 20%",
+
+  "item.seeking_immortal_virus.health_dna": "Health Enhancement Gene",
+  "item.health_dna.tool.string": "Increases health by 8 points",
+
+  "item.seeking_immortal_virus.stem_cell_proliferation": "Stem Cell Hyperplasia",
+  "item.seeking_immortal_virus.lymphatic": "Lymphokine Release",
+  "item.seeking_immortal_virus.abnormal": "Abnormal Transmutation",
+  "item.seeking_immortal_virus.catalyst_for_life": "Anomaly Catalyst",
+
+  "item.stem_cell_proliferation.tool.string": "Increases treatment by 5% for every 10% health loss",
+  "item.lymphatic.tool.string": "Increases treatment by 5% for every negative status",
+  "item.abnormal.tool.string": "Reduces duration of positive potion effects by 50% and restores 6 health points when any effect ends",
+  "item.catalyst_for_life.tool.string": " Increases health by 4 points",
+
+  "item.seeking_immortal_virus.copy_dna": "Replication Enhancement Gene",
+  "item.copy_dna.tool.string": "Increases max health by 10 points, reduces treatment by 10%",
+
+  "item.seeking_immortal_virus.lymphadenopathy": "Lymphadenopathy",
+  "item.seeking_immortal_virus.connective_tissue": "Connective Tissue Hyperplasia",
+  "item.seeking_immortal_virus.paralysis": "Immune Paralysis",
+  "item.seeking_immortal_virus.formative_cell": "Formative Cell Hyperplasia",
+
+  "item.lymphadenopathy.tool.string": "Reduces duration of all potion effects by 66% and restores 5% of max health when any effect ends",
+  "item.connective_tissue.tool.string": "Reduces projectile damage by 20% and restores 2 health points when taking projectile damage",
+  "item.paralysis.tool.string": "Increases health by 10 points, reduces treatment by 10%",
+  "item.formative_cell.tool.string": "Increases treatment by 40% when health is below 50%",
+
+
+
+  "item.seeking_immortal_virus.attack_dna": "Abnormal Muscle Enhancement Gene",
+  "item.attack_dna.tool.string": "Increases damage by 4 points, reduces attack speed by 20%",
+
+  "item.seeking_immortal_virus.reverse_correction": "Reverse Correction Enhancement",
+  "item.seeking_immortal_virus.self_correction": "Self Correction Enhancement",
+  "item.seeking_immortal_virus.abnormal_muscles": "Abnormal Muscle Enhancement",
+  "item.seeking_immortal_virus.abnormal_endurance": "Abnormal Endurance",
+
+  "item.reverse_correction.tool.string": "Has a 15% chance to cause extra damage with normal attacks",
+  "item.self_correction.tool.string": "Has a chance to cause an additional 25% damage on critical hits",
+  "item.abnormal_muscles.tool.string": "Increases damage by 30% while sprinting",
+  "item.abnormal_endurance.tool.string": "Increases attack damage by 20%, reduces max health by 20%",
+
+  "item.seeking_immortal_virus.greed_dna.event": "Loot Critical Hit Triggered!",
+
+  "item.seeking_immortal_virus.greed_dna": "Decay Greed Gene",
+  "item.greed_dna.tool.string": "Increases loot critical hit probability by 3% each time a new loot chest is opened",
+  "item.greed_dna.tool.string.1": "Loot critical hit probability does not exceed 30%",
+  "item.greed_dna.tool.string.2": "Doubles the quantity of some loot items when a loot critical hit is triggered",
+  "item.greed_dna.tool.string.3": "Loot critical hit probability resets after triggering",
+  "item.greed_dna.tool.string.4": "触发战利品暴击后，概率清零",
+
+  "item.seeking_immortal_virus.iris": "Iris Anomaly",
+  "item.seeking_immortal_virus.brain_off": "Brain Tissue Atrophy",
+  "item.seeking_immortal_virus.brain_enhance": "Brain Function Enhancement",
+  "item.iris.tool.string": "Increases loot critical hit probability by 4% for a single loot chest, and increases max loot critical hit probability by 33%",
+  "item.iris.tool.string.1": "Reduces Looting and Fortune by 3 levels",
+
+  "item.brain_off.tool.string": "Reduces loot critical hit probability by 1% for a single loot chest",
+  "item.brain_off.tool.string.1": "Increases Looting and Fortune by 4 levels",
+
+  "item.brain_enhance.tool.string": "Loot critical hit probability is always 10%",
+
+
+
+  "item.seeking_immortal_virus.neuron_dna": "Neuron Enhancement Gene",
+  "item.neuron_dna.tool.string": "Reduces Looting and Fortune by 1 level",
+  "item.neuron_dna.tool.string.1": "Increases loot critical hit probability by 5%",
+  "item.neuron_dna.tool.string.2": "Triggers loot critical hit based on this probability and doubles the dropped loot quantity",
+  "item.neuron_dna.tool.string.4": "Loot critical hit probability:",
+
+  "item.seeking_immortal_virus.system_paralysis": "Nervous System Paralysis",
+  "item.seeking_immortal_virus.memory": "Memory Reconstruction",
+  "item.seeking_immortal_virus.tissue_atrophy": "Tissue Atrophy",
+
+  "item.system_paralysis.tool.string": "Reduces Looting by 1 level",
+  "item.system_paralysis.tool.string.1": "Provides 2% loot critical hit probability per level of Looting",
+
+  "item.memory.tool.string": "Provides 1% loot critical hit probability for killing creatures",
+  "item.memory.tool.string.1": "Loot critical hit probability resets after triggering",
+
+  "item.tissue_atrophy.tool.string": "Increases Looting and Fortune by 3 levels",
+  "item.tissue_atrophy.tool.string.1": "Loot critical hit probability is always 0%",
+
+  "item.seeking_immortal_virus.eye_dna": "Sensory System Enhancement Gene",
+  "item.eye_dna.tool.string": "Improves underwater vision, allowing clear vision in water",
+
+  "item.seeking_immortal_virus.eye_lava_dna": "Cortical Anomaly Gene",
+  "item.eye_lava_dna.tool.string": "Provides extremely high vision capabilities, allowing clear vision in any fluid",
+
+  "item.seeking_immortal_virus.eye_system": "Abnormal Visual System",
+  "item.eye_system.tool.string": "Provides night vision",
+
+  "item.seeking_immortal_virus.hell_eye": "Infernal Eye",
+  "item.hell_eye.tool.string": "Right-click the item to toggle switch",
+  "item.hell_eye.tool.string.1": "When activated:",
+
+  "item.hell_eye.tool.string.2": "When you stare at a creature, it will target you instead",
+  "item.hell_eye.tool.string.3": "And applies a 'Fate' effect every 5 seconds",
+  "item.hell_eye.tool.string.4": "Each level of Fate effect provides 10% damage and resistance",
+
+  "item.hell_eye.tool.string.5": "When Fate stacks to 6 layers, the target's effects are cleared",
+  "item.hell_eye.tool.string.6": "Causes the target to take 45% of max health true damage",
+  "item.hell_eye.tool.string.7": "And adds all positive effects to you",
+
+  "attribute.name.seeking_immortal_virus.owner_blood_damage": "Damage of Blood Spirit",
+  "attribute.name.seeking_immortal_virus.owner_blood_speed": "Speed of Blood Beads of Blood Spirit",
+  "attribute.name.seeking_immortal_virus.owner_blood_time": "Duration of Blood Beads of Blood Spirit",
+  "attribute.name.seeking_immortal_virus.owner_blood_attack_speed": "Attack Interval of Blood Spirit",
+
+
+
+  "item.seeking_immortal_virus.skin_dna": "Epidermis Enhancement Gene",
+
+  "item.seeking_immortal_virus.scale": "Skin Scleroderma",
+  "item.seeking_immortal_virus.stone_skin": "Keratinization of Corneal Layer",
+  "item.seeking_immortal_virus.molt": "Dermal Layer Metamorphosis",
+
+  "item.scale.tool.string": "Increases armor by 2 points, gains 25% armor-based resilience",
+  "item.stone_skin.tool.string": "Increases armor value by 20% but reduces mining speed by 15%",
+  "item.molt.tool.string": "Temporarily reduces armor by 20% and increases treatment by 40% within 5 seconds after taking damage (non-stacking)",
+
+
+  "item.seeking_immortal_virus.bone_dna": "Bone Differentiation Gene",
+
+  "item.seeking_immortal_virus.bone_spur": "Bone Spur",
+  "item.seeking_immortal_virus.hollow": "Hollow Bone",
+  "item.seeking_immortal_virus.proliferative_bone": "Proliferative Bone",
+
+  "item.bone_spur.tool.string": "Reflect 20% damage, 50% chance to receive an additional 25% damage when reflecting",
+  "item.hollow.tool.string": "Increase fall damage by 100% and attack speed by 25%",
+  "item.proliferative_bone.tool.string": "Increase armor and resilience by 25%, reduce speed by 15%",
+
+
+  "attribute.name.seeking_immortal_virus.zombie_attack_damage": "僵尸的伤害",
+
+  "item.seeking_immortal_virus.muscle_conversion": "肌肉转化",
+  "item.muscle_conversion.tool.string": "玩家本体伤害降低20%",
+  "item.muscle_conversion.tool.string.1": "召唤的僵尸继承玩家50%的攻击力",
+  "item.muscle_conversion.tool.string.2": "召唤的僵尸伤害提高30%",
+
+
+  "item.seeking_immortal_virus.skin_glucose_fermentation": "肌糖原酵解",
+  "item.skin_glucose_fermentation.tool.string": "召唤的僵尸被杀死时",
+  "item.skin_glucose_fermentation.tool.string.1": "攻击者会受到基于僵尸50%最大生命值和护甲总和的伤害",
+
+  "item.seeking_immortal_virus.white_blood_cells_are_abruptly_reduced": "白细胞骤减",
+  "item.white_blood_cells_are_abruptly_reduced.tool.string": "召唤的僵尸会将15%恢复的生命值附加的玩家身上",
+  "item.white_blood_cells_are_abruptly_reduced.tool.string.1": "召唤的僵尸不再会恢复生命值",
+  "item.seeking_immortal_virus.the_god_sword": "恶意立方体",
+  "item.god_sword.tool.string": "在你的后面将漂浮神者剑魂",
+  "item.god_sword.tool.string.1": "他会缓慢恢复能量护盾，最大存储12面护盾",
+  "item.god_sword.tool.string.2": "护盾遭受攻击时，消耗能量并对攻击者造成250%的当量伤害并造成大量负面效果",
+  "item.god_sword.tool.string.3": "玩家将获得大量增益效果",
+  "item.god_sword.tool.string.4": "每有一面护盾都将每秒恢复玩家1%的最大生命值",
+  "item.god_sword.tool.string.5": "剑魂会附近目标并每次造成10%玩家攻击属性的伤害",
+  "item.god_sword.tool.string.6": "伤害会逐渐增加，剑魂的激光造成伤害相当于玩家发起了攻击",
+
+  "item.seeking_immortal_virus.the_owner_blood_stone": "连锁血石",
+  "item.the_owner_blood_stone.tool.string": "杀死生物产生血球",
+  "item.the_owner_blood_stone.tool.string.1": "血球将造成125%被杀生物生命值的伤害",
+  "item.the_owner_blood_stone.tool.string.2": "并冲向附近的生物",
+  "item.the_owner_blood_stone.tool.string.3": "血球相当于你发起了一次攻击",
+
+  "item.seeking_immortal_virus.phosphate_bond": "高能磷酸键断裂",
+  "item.phosphate_bond.tool.string": "召唤的僵尸死亡后回复玩家10%最大生命值",
+  "item.phosphate_bond.tool.string.1": "召唤的僵尸最少能承受6次伤害",
+  "item.phosphate_bond.tool.string.2": "召唤的僵尸不会恢复生命值",
+
+
+  "item.seeking_immortal_virus.chemical_compound": "化合物合成",
+  "item.chemical_compound.tool.string": "每存在一只细胞僵尸，治疗增加25%",
+  "item.chemical_compound.tool.string.1": "每存在一只巨型细胞僵尸，伤害提高20%",
+  "item.chemical_compound.tool.string.2": "僵尸受伤有5%的概率使主人受到50%的当量伤害",
+  "item.chemical_compound.tool.string.3": "主人的攻击不会触发",
+
+  "item.seeking_immortal_virus.ytgld_virus": "ytgld virus",
+  "item.ytgld_virus.tool.string.1": "你真的能主宰世界吗？",
+  "item.ytgld_virus.tool.string.2": "研究点数：",
+  "item.ytgld_virus.tool.string.3":"病毒点数：" ,
+  "item.ytgld_virus.tool.string.4":"这是一个极为危险的病毒" ,
+  "item.ytgld_virus.tool.string.5":"你必须在规定时间内将研究点数达到100%" ,
+  "item.ytgld_virus.tool.string.6": "来解锁终极湮灭基因",
+  "item.ytgld_virus.tool.string.7":"研究点数会影响你的正常生理状态",
+  "item.ytgld_virus.tool.string.8":"病毒也会在你的体内复制影响正常生命体征",
+  "item.ytgld_virus.tool.string.9":"所以你必须与时间赛跑",
+  "item.ytgld_virus.tool.string.10": "已获得研究点数的负面效果：",
+  "item.ytgld_virus.tool.string.11": "生命值:",
+  "item.ytgld_virus.tool.string.12": "护甲值:",
+  "item.ytgld_virus.tool.string.13": "近战伤害:",
+  "item.ytgld_virus.tool.string.14": "病毒带来的负面效果：",
+  "item.ytgld_virus.tool.string.15": "速度:",
+  "item.ytgld_virus.tool.string.16": "治疗:",
+  "item.ytgld_virus.tool.string.17": "抗性:",
+  "item.ytgld_virus.tool.string.18": "攻击速度:",
+  "item.ytgld_virus.tool.string.19":"主宰者啊，为世界带来永恒的终极黑暗吧！" ,
+  "item.ytgld_virus.tool.string.20":"你获得了：" ,
+  "item.ytgld_virus.tool.string.21":  "+300% 对高生命值生物的伤害" ,
+  "item.ytgld_virus.tool.string.22":  "+250% 对怪物的伤害" ,
+  "item.ytgld_virus.tool.string.23":  "+225% 对友好生物的伤害" ,
+  "item.ytgld_virus.tool.string.24":  "+200% 对玩家的伤害" ,
+  "item.ytgld_virus.tool.string.25":  "+150% 护甲" ,
+  "item.ytgld_virus.tool.string.26":  "+100% 击退抗性" ,
+  "item.ytgld_virus.tool.string.27":  "+100% 水下速度" ,
+  "item.ytgld_virus.tool.string.28":  "+80% 生命值" ,
+  "item.ytgld_virus.tool.string.29":  "+70% 攻速" ,
+  "item.ytgld_virus.tool.string.30":  "+65% 治疗" ,
+  "item.ytgld_virus.tool.string.31":  "+20% 速度" ,
+  "item.ytgld_virus.tool.string.32":  "+50% 触及距离" ,
+  "item.ytgld_virus.tool.string.33":  "+25% 攻击距离" ,
+  "item.ytgld_virus.tool.string.34":  "+20% 抗性" ,
+  "item.ytgld_virus.tool.string.35": "每次死亡都会减少1%研究进度",
+  "item.ytgld_virus.tool.string.36": "吃下灵质立方来抑制病毒的复制速度",
+  "item.ytgld_virus.tool.string.eat": "吃下灵质立方来激活病毒！",
+
+
+  "item.ytgld_virus.tool.string.37": "在第一个阶段玩家需要杀死生物来增加点数",
+  "item.ytgld_virus.tool.string.38":"可以食用金苹果来降低病毒的增值速度",
+  "item.ytgld_virus.tool.string.39": "病毒增值速度为100%",
+  "item.ytgld_virus.tool.string.40": "研究点数达到阈值，需要杀死凋零来进化！",
+
+  "item.ytgld_virus.tool.string.41": "在第二个阶段玩家只能杀死亡灵来获取点数",
+  "item.ytgld_virus.tool.string.42":"只可以食用灵质立方来降低病毒的增值速度",
+  "item.ytgld_virus.tool.string.43": "每次死亡都会减少1%的研究点数",
+  "item.ytgld_virus.tool.string.44": "病毒增值速度为150%",
+  "item.ytgld_virus.tool.string.45": "研究点数达到阈值，需要杀死末影龙来进化！",
+
+
+  "item.ytgld_virus.tool.string.46": "这个阶段玩家可以杀死任何生物来获得点数",
+  "item.ytgld_virus.tool.string.47":"玩家不再可以减少病毒增值速度",
+  "item.ytgld_virus.tool.string.48": "来自病毒的所有属性衰败增加50%",
+  "item.ytgld_virus.tool.string.49": "病毒增值速度为200%",
+
+
+  "item.seeking_immortal_virus.rage_bottle": "Golden Bottle",
+  "item.rage_bottle.tool.string": "Converts 50% of obtained experience to energy",
+  "item.rage_bottle.tool.string.1": "Each point of energy reduces treatment by 0.01% and resistance by 0.03%",
+
+  "item.rage_bottle.tool.string.2": "Quickly consumes energy to restore hunger and saturation",
+  "item.rage_bottle.tool.string.3": "Each point of energy increases health by 0.04% and general damage by 0.02%",
+  "item.rage_bottle.tool.string.4": "Maximum energy: 5000",
+  "hurt.seeking_immortal_virus.string": "Extra damage",
+  "item.seeking_immortal_virus.rage_orb": "Sorcerer's Rage Orb",
+  "item.rage_orb.tool.string": "+40% Damage enchantment effect",
+  "item.rage_orb.tool.string.2": "-80% Knockback enchantment effect",
+  "item.rage_orb.tool.string.3": "+1 Fortune",
+  "item.rage_orb.tool.string.4": "+1 Looting",
+
+  "item.seeking_immortal_virus.sword": "Cannot shoot flying swords when wearing both the Seven Swords Cultivation Sword Array Scroll and Ten Thousand Methods, but damage is increased by 20%",
+
+  "item.seeking_immortal_virus.rage_lock": "Rage Lock",
+  "item.rage_lock.tool.string": "-75% treatment",
+  "item.rage_lock.tool.string.1": "+25% full health resistance",
+  "item.rage_lock.tool.string.2": "+10% all damage",
+  "item.rage_lock.tool.string.3": "+10% life steal",
+  "item.rage_lock.tool.string.4": "+40% massacre life steal",
+
+  "seeking_immortal_virus.use.dna": "Hint: Use medicine crusher box to decompose",
+
+  "item.seeking_immortal_virus.twelve_sword": "Twelve Gods Sword Array",
+  "item.seeking_immortal_virus.undead_blood_charm": "Death Sentence Charm",
+  "item.undead_blood_charm.tool.string.1": "Marks attackers, dealing 150% of your restoration amount as damage to them each time you restore health",
+  "item.undead_blood_charm.tool.string.2": "Marks creatures with hostility towards you, dealing 50% of your restoration amount as damage to them each time you restore health",
+  "item.undead_blood_charm.tool.string.3": "Deals additional 50% damage to undead",
+  "item.undead_blood_charm.tool.string.4": "Increases treatment by 50%",
+  "item.undead_blood_charm.tool.string.5": "Increases damage taken by 40%",
+
+  "item.at_a_book.tool.string.lvl.1": "Golden Immortal",
+  "item.at_a_book.tool.string.lvl.2": "Golden Immortal",
+  "item.at_a_book.tool.string.lvl.3": "Immortal Lord",
+  "item.at_a_book.tool.string.lvl.4": "Immortal Emperor",
+  "item.at_a_book.tool.string.lvl.5": "Spirit Refinement",
+  "item.at_a_book.tool.string.lvl.6": "Heavenly Deity",
+  "item.at_a_book.tool.string.lvl.7": "Main Deity",
+  "item.at_a_book.tool.string.lvl.8": "Heavenly Tribulation",
+  "item.at_a_book.tool.string.lvl.9": "Integration with Dao",
+  "item.at_a_book.tool.string.lvl.10": "Sacred Profound",
+  "item.at_a_book.tool.string.lvl.11": "Sacred Monarch",
+
+  "item.at_a_book.tool.string.lvl.12": "Sacred Lord",
+  "item.at_a_book.tool.string.lvl.13": "Sacred Emperor",
+  "item.at_a_book.tool.string.lvl.14": "Main Sacred",
+  "item.at_a_book.tool.string.lvl.15": "Heavenly Sacred",
+  "item.at_a_book.tool.string.lvl.16": "Yin-Yang",
+  "item.at_a_book.tool.string.lvl.17": "Supreme",
+  "item.at_a_book.tool.string.lvl.18": "Spirit Sovereign",
+  "item.at_a_book.tool.string.lvl.19": "Hybrid Primordial",
+  "item.at_a_book.tool.string.lvl.20": "Half Supreme",
+  "item.at_a_book.tool.string.lvl.21": "Extreme Region",
+  "attribute.name.seeking_immortal_virus.res": "Resistance",
+
+
+  "item.seeking_immortal_virus.smithing_food":"The earth is clumped",
+
+  "item.string.tool.string": "Permanently adds an accessory slot after consumption！",
+  "item.string.tool.string.1": "This stone is very hard...",
+  "item.seeking_immortal_virus.smithing_food.string": "But it still bleeds the tooth",
+  "item.string.tool.string.2": "Be careful not to get your teeth out...",
+
+  "seeking_immortal_virus.twelve.1": "子",
+  "seeking_immortal_virus.twelve.2": "丑",
+  "seeking_immortal_virus.twelve.3": "寅",
+  "seeking_immortal_virus.twelve.4": "卯",
+  "seeking_immortal_virus.twelve.5": "辰",
+  "seeking_immortal_virus.twelve.6": "巳",
+  "seeking_immortal_virus.twelve.7": "午",
+  "seeking_immortal_virus.twelve.8": "未",
+  "seeking_immortal_virus.twelve.9": "申",
+  "seeking_immortal_virus.twelve.10": "酉",
+  "seeking_immortal_virus.twelve.11": "戌",
+  "seeking_immortal_virus.twelve.12": "亥",
+  "advancements.tooltip.nightmare_base.text": "Obtain this item",
+  "advancements.tooltip.nightmare_base.hand": "Beginning",
+  "item.seeking_immortal_virus.coffin":"葬神棺",
+
+  "item.seeking_immortal_virus.owner_blood_earth":"Qiankun",
+
+  "item.seeking_immortal_virus.crafting_box":"crafting box",
+  "seeking_immortal_virus.jei.item.seeking_immortal_virus.owner_blood_earth": "It is found in ancient cities, but requires wearing the Sealing Candelabra to be discovered.\n\nBlood Orbs' damage equals the owner's damage.\nBlood Orbs' speed equals the owner's speed.\nThe attack speed of Blood Spirit proliferators will be multiplied by the owner's attack speed."
+
+}
+

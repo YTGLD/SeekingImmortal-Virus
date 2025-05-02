@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCD",
+    "AAA"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "seeking_immortal_virus:ectoplasmball"
+    },
+    "B":
+    {
+      "item": "seeking_immortal_virus:nanocube"
+    },
+    "C":
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    "D":
+    {
+      "item": "seeking_immortal_virus:mkidney"
+    }
+
+  },
+  "result": {
+    "id": "seeking_immortal_virus:ragecharm",
+    "count": 1
+  }
+}

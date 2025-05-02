@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:glass"
+    },
+    "B":
+    {
+      "item": "seeking_immortal_virus:ectoplasmprism"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:dna",
+    "count": 1
+  }
+}

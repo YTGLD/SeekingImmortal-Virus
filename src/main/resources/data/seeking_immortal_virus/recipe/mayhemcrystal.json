@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:ectoplasmprism"
+    },
+    {
+      "item": "seeking_immortal_virus:bigwarcrystal"
+    },
+    {
+      "item": "seeking_immortal_virus:bigwarcrystal"
+    },
+    {
+      "item": "minecraft:netherite_sword"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:mayhemcrystal",
+    "count": 1
+  }
+}

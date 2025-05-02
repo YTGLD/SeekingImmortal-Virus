@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "minecraft:slime_ball"
+    },
+    "B":
+    {
+      "item": "seeking_immortal_virus:brain"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:mhead",
+    "count": 1
+  }
+}

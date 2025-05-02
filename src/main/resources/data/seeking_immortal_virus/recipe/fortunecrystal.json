@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:ectoplasmprism"
+    },
+    {
+      "item": "seeking_immortal_virus:biggreedcrystal"
+    },
+    {
+      "item": "seeking_immortal_virus:biggreedcrystal"
+    },
+    {
+      "item": "minecraft:emerald_block"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:fortunecrystal",
+    "count": 1
+  }
+}

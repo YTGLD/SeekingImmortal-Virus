@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:warcrystal"
+    },
+    {
+      "item": "seeking_immortal_virus:warcrystal"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:bigwarcrystal",
+    "count": 1
+  }
+}

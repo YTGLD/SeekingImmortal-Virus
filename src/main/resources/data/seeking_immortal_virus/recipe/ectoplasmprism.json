@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:ectoplasmprism",
+    "count": 1
+  }
+}

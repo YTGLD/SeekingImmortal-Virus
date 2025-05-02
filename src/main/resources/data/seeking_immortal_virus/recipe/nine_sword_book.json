@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "seeking_immortal_virus:soulbook"
+    },
+    {
+      "item": "seeking_immortal_virus:malice_die"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmprism"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmprism"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:nine_sword_book",
+    "count": 1
+  }
+}

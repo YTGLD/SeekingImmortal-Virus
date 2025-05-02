@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chest_boat",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:blood_amout"
+    },
+    {
+      "item": "seeking_immortal_virus:blood_snake"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    {
+      "item": "seeking_immortal_virus:blood"
+    },
+    {
+      "item": "seeking_immortal_virus:blood"
+    },
+    {
+      "item": "seeking_immortal_virus:blood"
+    },
+    {
+      "item": "seeking_immortal_virus:blood"
+    },
+    {
+      "item": "seeking_immortal_virus:blood"
+    },
+    {
+      "item": "seeking_immortal_virus:blood"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "seeking_immortal_virus:blood_candle"
+  }
+}

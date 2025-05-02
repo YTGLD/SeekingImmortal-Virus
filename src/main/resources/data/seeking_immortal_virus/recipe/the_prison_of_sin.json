@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:blood_amout"
+    },
+    {
+      "item": "seeking_immortal_virus:mayhemcrystal"
+    },
+    {
+      "item": "seeking_immortal_virus:fortunecrystal"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:the_prison_of_sin",
+    "count": 1
+  }
+}

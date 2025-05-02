@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:eye_dna"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:eye_lava_dna",
+    "count": 1
+  }
+}

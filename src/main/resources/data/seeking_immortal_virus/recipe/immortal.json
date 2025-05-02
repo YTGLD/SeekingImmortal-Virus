@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:nightmare_head"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmprism"
+    },
+    {
+      "item": "seeking_immortal_virus:maxamout"
+    },
+
+
+    {
+      "tag": "curios:nightmare"
+    },
+    {
+      "tag": "curios:nightmare"
+    },
+    {
+      "tag": "curios:nightmare"
+    },
+    {
+      "tag": "curios:nightmare"
+    },
+    {
+      "tag": "curios:nightmare"
+    },
+    {
+      "tag": "curios:nightmare"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:immortal",
+    "count": 1
+  }
+}

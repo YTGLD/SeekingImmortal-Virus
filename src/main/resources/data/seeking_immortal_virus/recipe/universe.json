@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coast_armor_trim_smithing_template"
+    },
+    {
+      "item": "minecraft:ward_armor_trim_smithing_template"
+    },
+    {
+      "item": "minecraft:tide_armor_trim_smithing_template"
+    },
+    {
+      "item": "minecraft:rib_armor_trim_smithing_template"
+    },
+    {
+      "item": "minecraft:eye_armor_trim_smithing_template"
+    },
+
+
+    {
+      "item": "seeking_immortal_virus:rage_crystal_max"
+    },
+    {
+      "item": "seeking_immortal_virus:mayhemcrystal"
+    },
+    {
+      "item": "seeking_immortal_virus:fortunecrystal"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:universe",
+    "count": 1
+  }
+}

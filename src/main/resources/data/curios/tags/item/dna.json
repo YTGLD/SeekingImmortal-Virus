@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "seeking_immortal_virus:adrenaline",
+    "seeking_immortal_virus:cell_boom",
+    "seeking_immortal_virus:cell_mummy",
+    "seeking_immortal_virus:cell_calcification",
+    "seeking_immortal_virus:cell_blood",
+    "seeking_immortal_virus:giant_nightmare",
+    "seeking_immortal_virus:cell_blood_attack",
+    "seeking_immortal_virus:cell_desecrate",
+    "seeking_immortal_virus:cell_doctor",
+    "seeking_immortal_virus:cell_fear",
+    "seeking_immortal_virus:cell_harvest",
+    "seeking_immortal_virus:cell_immortal",
+    "seeking_immortal_virus:cell_not_do",
+    "seeking_immortal_virus:cell_rage",
+    "seeking_immortal_virus:cell_scientist",
+
+    "seeking_immortal_virus:mother_cell",
+    "seeking_immortal_virus:giant_boom_cell",
+    "seeking_immortal_virus:parasitic_cell",
+    "seeking_immortal_virus:disgusting_cells",
+    "seeking_immortal_virus:subspace_cell",
+    "seeking_immortal_virus:anaerobic_cell",
+    "seeking_immortal_virus:bone_cell"
+
+
+  ]
+}

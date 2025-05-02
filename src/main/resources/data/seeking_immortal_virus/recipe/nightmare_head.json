@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:nightmare_heart"
+    },
+    {
+      "item": "seeking_immortal_virus:nightmare_orb"
+    },
+    {
+      "item": "seeking_immortal_virus:nightmareanchor"
+    },
+    {
+      "item": "seeking_immortal_virus:nightmarecharm"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmprism"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "seeking_immortal_virus:nightmareeye"
+    }
+  ],
+  "result": {
+    "id": "seeking_immortal_virus:nightmare_head",
+    "count": 1
+  }
+}

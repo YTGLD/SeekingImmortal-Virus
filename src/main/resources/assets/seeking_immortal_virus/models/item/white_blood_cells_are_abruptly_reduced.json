@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "seeking_immortal_virus:item/white_blood_cells_are_abruptly_reduced"
+  }
+}

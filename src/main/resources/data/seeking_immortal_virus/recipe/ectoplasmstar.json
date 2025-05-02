@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BAB",
+    "ABA"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "seeking_immortal_virus:ectoplasmprism"
+    },
+    "B":
+    {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:ectoplasmstar",
+    "count": 1
+  }
+}

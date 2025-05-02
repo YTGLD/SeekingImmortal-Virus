@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "CBC",
+    "AAA"
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "seeking_immortal_virus:ectoplasmcloub"
+    },
+    "B":
+    {
+      "item": "seeking_immortal_virus:battery"
+    },
+    "C":
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    }
+  },
+  "result": {
+    "id": "seeking_immortal_virus:ectoplasmbattery",
+    "count": 1
+  }
+}
