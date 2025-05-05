@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/ectoplasmcube",
+  "criteria": {
+    "nightmareeye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:nightmareeye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.nightmareeye.text"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:nightmareeye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tooltip.nightmareeye.hand"
+    }
+  },
+  "requirements": [
+    [
+      "nightmareeye"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

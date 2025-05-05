@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/catalyzer",
+  "criteria": {
+    "bloodvirus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:bloodvirus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.bloodvirus.text"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:bloodvirus"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tooltip.bloodvirus.hand"
+    }
+  },
+  "requirements": [
+    [
+      "bloodvirus"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

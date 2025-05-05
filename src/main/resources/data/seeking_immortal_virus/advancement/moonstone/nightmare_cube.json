@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/nightmare_orb",
+  "criteria": {
+    "nightmare_cube": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:nightmare_cube"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": ""
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:nightmare_cube"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "item.seeking_immortal_virus.nightmare_cube"
+    }
+  },
+  "requirements": [
+    [
+      "nightmare_cube"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

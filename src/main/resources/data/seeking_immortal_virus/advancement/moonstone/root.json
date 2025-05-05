@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "root": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:battery"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/cracked_deepslate_tiles.png",
+    "description": {
+      "text": "seeking_immortal_virus"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:battery"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "seeking_immortal_virus"
+    }
+  },
+  "requirements": [
+    [
+      "root"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/putrefactive",
+  "criteria": {
+    "ambush": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:ambush"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.necora.all.text"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:ambush"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "item.seeking_immortal_virus.ambush"
+    }
+  },
+  "requirements": [
+    [
+      "ambush"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

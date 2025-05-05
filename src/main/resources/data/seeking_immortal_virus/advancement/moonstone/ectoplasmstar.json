@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/ectoplasmprism",
+  "criteria": {
+    "ectoplasmstar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:ectoplasmstar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.ectoplasmstar.text"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:ectoplasmstar"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tooltip.ectoplasmstar.hand"
+    }
+  },
+  "requirements": [
+    [
+      "ectoplasmstar"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

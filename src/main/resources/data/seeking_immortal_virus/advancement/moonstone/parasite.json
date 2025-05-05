@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/dna",
+  "criteria": {
+    "parasite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:parasite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.parasite.text"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:parasite"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "item.seeking_immortal_virus.parasite"
+    }
+  },
+  "requirements": [
+    [
+      "parasite"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/ectoplasmcube",
+  "criteria": {
+    "ectoplasmsoul": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:ectoplasmsoul"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.ectoplasmsoul.text"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:ectoplasmsoul"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tooltip.ectoplasmsoul.hand"
+    }
+  },
+  "requirements": [
+    [
+      "ectoplasmsoul"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

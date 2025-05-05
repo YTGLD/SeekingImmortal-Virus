@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/nightmarerotten",
+  "criteria": {
+    "nightmarestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:nightmarestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.nightmare.all.text"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:nightmarestone"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "item.seeking_immortal_virus.nightmarestone"
+    }
+  },
+  "requirements": [
+    [
+      "nightmarestone"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

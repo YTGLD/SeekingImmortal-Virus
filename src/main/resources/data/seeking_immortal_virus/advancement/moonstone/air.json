@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/necora",
+  "criteria": {
+    "air": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:air"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.cell.all.text"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:air"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "item.seeking_immortal_virus.air"
+    }
+  },
+  "requirements": [
+    [
+      "air"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/nightmare_orb",
+  "criteria": {
+    "nightmare_heart": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:nightmare_heart"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.nightmare.all.text"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:nightmare_heart"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "item.seeking_immortal_virus.nightmare_heart"
+    }
+  },
+  "requirements": [
+    [
+      "nightmare_heart"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

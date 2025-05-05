@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/medicinebox",
+  "criteria": {
+    "masticatory": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:masticatory"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.masticatory.text"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:masticatory"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tooltip.masticatory.hand"
+    }
+  },
+  "requirements": [
+    [
+      "masticatory"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

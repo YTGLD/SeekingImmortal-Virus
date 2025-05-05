@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/medicinebox",
+  "criteria": {
+    "reanimation": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:reanimation"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.reanimation.text"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:reanimation"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tooltip.reanimation.hand"
+    }
+  },
+  "requirements": [
+    [
+      "reanimation"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

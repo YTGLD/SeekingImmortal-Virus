@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/catalyzer",
+  "criteria": {
+    "evil_blood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:evil_blood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "item.seeking_immortal_virus.evil_blood"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:evil_blood"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tooltip.evil_blood.text"
+    }
+  },
+  "requirements": [
+    [
+      "evil_blood"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

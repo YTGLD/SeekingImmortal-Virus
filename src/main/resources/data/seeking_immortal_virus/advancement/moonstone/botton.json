@@ -1,0 +1,41 @@
+{
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/catalyzer",
+  "criteria": {
+    "botton": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:botton"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tooltip.botton.text"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:botton"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tooltip.botton.hand"
+    }
+  },
+  "requirements": [
+    [
+      "botton"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}
