@@ -6,16 +6,11 @@
       "item": "seeking_immortal_virus:run_dna"
     },
     {
-      "item": "seeking_immortal_virus:redamout"
-    },
-    {
       "item": "seeking_immortal_virus:ectoplasmcube"
-    },
-    {
-      "tag": "curios:crystal"
-    },
-    {
-      "tag": "curios:crystal"
+    }, {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    }, {
+      "item": "seeking_immortal_virus:ectoplasmcube"
     }
   ],
   "result": {

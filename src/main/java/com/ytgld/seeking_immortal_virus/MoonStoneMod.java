@@ -1,5 +1,8 @@
 package com.ytgld.seeking_immortal_virus;
 
+import com.google.common.collect.Maps;
+import com.google.common.collect.Sets;
+import com.google.gson.JsonElement;
 import com.mojang.blaze3d.vertex.DefaultVertexFormat;
 import com.mojang.logging.LogUtils;
 import com.ytgld.seeking_immortal_virus.client.particle.blood;
@@ -9,6 +12,7 @@ import com.ytgld.seeking_immortal_virus.client.particle.red;
 import com.ytgld.seeking_immortal_virus.client.renderer.MRender;
 import com.ytgld.seeking_immortal_virus.crafting.AllCrafting;
 import com.ytgld.seeking_immortal_virus.crafting.MoonRecipeProvider;
+import com.ytgld.seeking_immortal_virus.crafting.models.ItemModelGen;
 import com.ytgld.seeking_immortal_virus.entity.client.NigBoomRender;
 import com.ytgld.seeking_immortal_virus.entity.client.YtgldRender;
 import com.ytgld.seeking_immortal_virus.entity.client.blood.BloodBatRenderer;
@@ -26,8 +30,11 @@ import com.ytgld.seeking_immortal_virus.init.moonstoneitem.*;
 import net.minecraft.client.renderer.ShaderInstance;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.DataProvider;
 import net.minecraft.data.PackOutput;
+import net.minecraft.data.models.model.ModelTemplates;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -38,12 +45,18 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import net.neoforged.neoforge.client.event.RegisterShadersEvent;
+import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 import org.slf4j.Logger;
 
 import java.io.IOException;
+import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.CompletableFuture;
+import java.util.function.BiConsumer;
+import java.util.function.Supplier;
 
 @Mod(MoonStoneMod.MODID)
 public class MoonStoneMod {
@@ -90,6 +103,8 @@ public class MoonStoneMod {
         DataGenerator gen = event.getGenerator();
         PackOutput packOutput = gen.getPackOutput();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
+
+        gen.addProvider(event.includeServer(), new ItemModelGen(packOutput,MODID,event.getExistingFileHelper()));
         gen.addProvider(event.includeServer(), new MoonRecipeProvider(packOutput, lookupProvider));
 
     }

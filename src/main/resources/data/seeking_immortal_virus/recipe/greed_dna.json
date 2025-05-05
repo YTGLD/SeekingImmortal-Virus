@@ -3,13 +3,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "seeking_immortal_virus:mblock"
-    },
-    {
-      "item": "seeking_immortal_virus:biggreedcrystal"
-    },
-    {
       "item": "seeking_immortal_virus:neuron_dna"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmcube"
     },
     {
       "item": "seeking_immortal_virus:ectoplasmcube"
