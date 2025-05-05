@@ -149,7 +149,7 @@ public class MRender extends RenderType {
                                             false).add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/man.png"),
                                             false, false).build()).createCompositeState(false));
 
-    private static final RenderType GATEWAY =
+    public static final RenderType GATEWAY =
             create("gateway",
                     DefaultVertexFormat.POSITION,
                     VertexFormat.Mode.QUADS,

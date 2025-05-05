@@ -10,9 +10,9 @@
     "LivingEntityMixin",
     "MobEffectInstanceMixin",
     "PlayerMixin"
-
   ],
   "client": [
+    "client.ATabMixin",
     "client.CameraMixin",
     "client.GameRendererMixin",
     "client.GuiGraphicsMixin",

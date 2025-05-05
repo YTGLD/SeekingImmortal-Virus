@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "root": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "seeking_immortal_virus:necora"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/air.png",
+    "description": {
+      "text": "NecoraVirus"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "seeking_immortal_virus:necora"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "NecoraVirus"
+    }
+  },
+  "requirements": [
+    [
+      "root"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
