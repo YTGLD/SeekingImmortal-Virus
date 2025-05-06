@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.init.items;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.item.ManDNA;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;
@@ -10,7 +10,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.List;
 
 public class Drugs {
-    public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(BuiltInRegistries.ITEM, MoonStoneMod.MODID);
+    public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(BuiltInRegistries.ITEM, SeekingImmortalVirus.MODID);
     public static final DeferredHolder<Item, ?> protein = REGISTRY.register("protein", ()->new ManDNA.Drug(List.of("item.protein.tool.string")));
     public static final DeferredHolder<Item, ?> hydrolysis = REGISTRY.register("hydrolysis", ()->new ManDNA.Drug(List.of("item.hydrolysis.tool.string")));
     public static final DeferredHolder<Item, ?> cp_energy = REGISTRY.register("cp_energy", ()->new ManDNA.Drug(List.of("item.cp_energy.tool.string")));

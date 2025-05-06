@@ -1,7 +1,7 @@
 package com.ytgld.seeking_immortal_virus.entity.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.client.CircleCubeBoom;
 import com.ytgld.seeking_immortal_virus.entity.zombie.test_e;
 import net.minecraft.client.renderer.MultiBufferSource;
@@ -26,7 +26,7 @@ public class NigBoomRender extends EntityRenderer<test_e> {
 
     @Override
     public ResourceLocation getTextureLocation(test_e p_114482_) {
-        return ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/entity/flysword.png");
+        return ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/entity/flysword.png");
     }
 }
 

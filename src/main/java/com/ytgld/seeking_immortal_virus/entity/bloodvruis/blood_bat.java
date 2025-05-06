@@ -2,7 +2,7 @@ package com.ytgld.seeking_immortal_virus.entity.bloodvruis;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.EntityTs;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.Particles;
 import com.ytgld.seeking_immortal_virus.item.plague.BloodVirus.dna.bat_cell;
@@ -91,7 +91,7 @@ public class blood_bat extends TamableAnimal {
                             && tamableAnimal.getOwner() != null
                             && tamableAnimal.getOwner().equals(this.getOwner()))) {
                         ResourceLocation entity = BuiltInRegistries.ENTITY_TYPE.getKey(mob.getType());
-                        if (!entity.getNamespace().equals(MoonStoneMod.MODID)) {
+                        if (!entity.getNamespace().equals(SeekingImmortalVirus.MODID)) {
                             this.setTarget(mob);
                         }
                     }
@@ -116,18 +116,18 @@ public class blood_bat extends TamableAnimal {
         }
         if (this.getOwner()!= null) {
             if (this.getOwner().getLastHurtByMob()!= null) {
-                if (!this.getOwner().getLastHurtByMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtByMob().getType()).getNamespace().equals(MoonStoneMod.MODID)) {
+                if (!this.getOwner().getLastHurtByMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtByMob().getType()).getNamespace().equals(SeekingImmortalVirus.MODID)) {
                     this.setTarget(this.getOwner().getLastHurtByMob());
                 }
             }
             if (this.getOwner().getLastAttacker()!= null) {
-                if (!this.getOwner().getLastAttacker().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastAttacker().getType()).getNamespace().equals(MoonStoneMod.MODID)) {
+                if (!this.getOwner().getLastAttacker().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastAttacker().getType()).getNamespace().equals(SeekingImmortalVirus.MODID)) {
                     this.setTarget(this.getOwner().getLastAttacker());
                 }
 
             }
             if (this.getOwner().getLastHurtMob()!= null) {
-                if (!this.getOwner().getLastHurtMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtMob().getType()).getNamespace().equals(MoonStoneMod.MODID)) {
+                if (!this.getOwner().getLastHurtMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtMob().getType()).getNamespace().equals(SeekingImmortalVirus.MODID)) {
                     this.setTarget(this.getOwner().getLastHurtMob());
                 }
 
@@ -156,7 +156,7 @@ public class blood_bat extends TamableAnimal {
 
                 ResourceLocation name = BuiltInRegistries.ENTITY_TYPE.getKey(livingEntity.getType());
                 if (name!= null) {
-                    if (!name.getNamespace().equals(MoonStoneMod.MODID)) {
+                    if (!name.getNamespace().equals(SeekingImmortalVirus.MODID)) {
                         if (this.getOwner() != null && !this.getOwner().is(livingEntity)&&this.getTarget()!=null) {
 
                             if (this.getTarget().is(livingEntity)) {

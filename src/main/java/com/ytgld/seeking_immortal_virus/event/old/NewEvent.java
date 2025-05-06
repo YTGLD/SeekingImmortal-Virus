@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.event.old;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.event.loot.DungeonLoot;
 import com.ytgld.seeking_immortal_virus.init.items.DNAItems;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.AttReg;
@@ -159,7 +159,7 @@ public class NewEvent {
                 IDynamicStackHandler stackHandler = stacksHandler.getStacks();
                 for (int i = 0; i < stacksHandler.getSlots(); i++) {
                     ItemStack stack = stackHandler.getStackInSlot(i);
-                    if (BuiltInRegistries.ITEM.getKey(stack.getItem()).getNamespace().equals(MoonStoneMod.MODID)){
+                    if (BuiltInRegistries.ITEM.getKey(stack.getItem()).getNamespace().equals(SeekingImmortalVirus.MODID)){
 
                         float s = event.getAmount();
                         if (s>Integer.MAX_VALUE){

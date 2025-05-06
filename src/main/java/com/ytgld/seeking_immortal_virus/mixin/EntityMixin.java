@@ -1,7 +1,7 @@
 package com.ytgld.seeking_immortal_virus.mixin;
 
 import com.ytgld.seeking_immortal_virus.Config;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.damagesource.DamageSource;
@@ -28,7 +28,7 @@ public abstract class EntityMixin {
             Entity entity = (Entity) (Object) this;
             if (entity instanceof TamableAnimal tamableAnimal){
                 ResourceLocation resourceLocation = BuiltInRegistries.ENTITY_TYPE.getKey(tamableAnimal.getType());
-                if (resourceLocation.getNamespace().equals(MoonStoneMod.MODID)){
+                if (resourceLocation.getNamespace().equals(SeekingImmortalVirus.MODID)){
                     if (tamableAnimal.getOwner()!=null &&tamableAnimal.getOwner().is(player)){
                         if (Config.SERVER.immortalZombie.get()){
                             cir.setReturnValue(true);

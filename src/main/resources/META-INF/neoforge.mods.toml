@@ -3,7 +3,7 @@ loaderVersion = "[4,)"
 license = "All Rights Reserved"
 [[mods]]
 modId = "seeking_immortal_virus"
-version = "1.0.2.0-neoforge"
+version = "1.0.2.2-neoforge"
 displayName = "seeking_immortal_virus"
 authors = "Ytgld"
 description = '''.'''

@@ -4,7 +4,7 @@ import com.google.gson.JsonSyntaxException;
 import com.mojang.blaze3d.pipeline.RenderTarget;
 import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.PostChain;
@@ -32,7 +32,7 @@ public class MoonPost {
     }
 
     public static void onInitializeOutline(Minecraft minecraft) {
-        registry.add(MoonStoneMod.POST);
+        registry.add(SeekingImmortalVirus.POST);
 
         clear();
         for (ResourceLocation resourceLocation : registry) {
@@ -45,7 +45,7 @@ public class MoonPost {
 
             } catch (IOException | JsonSyntaxException ioexception) {
 
-                MoonStoneMod.LOGGER.error(String.valueOf(ioexception));
+                SeekingImmortalVirus.LOGGER.error(String.valueOf(ioexception));
 
                 postChain = null;
                 renderTarget = null;

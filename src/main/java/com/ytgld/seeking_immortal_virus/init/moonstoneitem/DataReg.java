@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.init.moonstoneitem;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.contents.BundleContents;
 import com.ytgld.seeking_immortal_virus.contents.BundleContentsDNA;
 import com.ytgld.seeking_immortal_virus.contents.ManBundleContents;
@@ -11,7 +11,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class DataReg {
-    public static final DeferredRegister<DataComponentType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.DATA_COMPONENT_TYPE, MoonStoneMod.MODID);
+    public static final DeferredRegister<DataComponentType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.DATA_COMPONENT_TYPE, SeekingImmortalVirus.MODID);
 
     public static final DeferredHolder<DataComponentType<?>, DataComponentType<CompoundTag>> tag =
             REGISTRY.register("tag",()-> DataComponentType.<CompoundTag>builder().persistent(CompoundTag.CODEC).build());

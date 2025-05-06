@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.init.moonstoneitem;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -11,9 +11,9 @@ import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-@EventBusSubscriber(modid = MoonStoneMod.MODID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = SeekingImmortalVirus.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class EntityTs {
-    public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.ENTITY_TYPE, MoonStoneMod.MODID);
+    public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.ENTITY_TYPE, SeekingImmortalVirus.MODID);
 
     public static final DeferredHolder<EntityType<?>, EntityType<com.ytgld.seeking_immortal_virus.entity.zombie.cell_zombie>> cell_zombie = REGISTRY.register("cell_zombie",
             ()-> EntityType.Builder.of(com.ytgld.seeking_immortal_virus.entity.zombie.cell_zombie::new, MobCategory.MONSTER).sized(0.6F, 1.95F).clientTrackingRange(8).build("cell_zombie"));

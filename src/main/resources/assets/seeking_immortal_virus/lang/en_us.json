@@ -236,14 +236,6 @@
   "item.redamout.tool.string.1": "Probability of getting Strength II when injured",
 
   "curios.identifier.nightmare": "§4噩梦之槽",
-  "curios.identifier.medicine": "medicine",
-  "curios.identifier.necora": "DNA",
-  "curios.identifier.ncrdna": "ncr dna",
-  "curios.identifier.dna": "dna",
-  "curios.modifiers.ncrdna": "necora",
-  "curios.modifiers.nightmare": "§4接受噩梦洗礼时",
-  "curios.modifiers.dna": "DNA",
-  "curios.modifiers.medicine": "medicine",
 
   "item.seeking_immortal_virus.germ": "germ",
   "item.seeking_immortal_virus.fungus": "fungus",
@@ -1658,7 +1650,7 @@
   "seeking_immortal_virus.drug.string": "Can be right-clicked to insert into player genome",
   "item.man.tool.string": "Supports implantation of the following drugs:",
   "curios.modifiers.man": "When implanted into player genome",
-  "curios.identifier.man": "Player genome slot",
+  "curios.identifier.man": "玩家基因槽",
 
   "item.seeking_immortal_virus.run_dna": "Endurance Enhancement Gene",
   "item.run_dna.tool.string": "Increases 10% resistance while sprinting",
@@ -1734,7 +1726,10 @@
 
   "item.brain_enhance.tool.string": "Loot critical hit probability is always 10%",
 
-
+"item.seeking_immortal_virus.muscle_conversion": "muscle transformation",
+  "item.muscle_conversion.tool.string": "Reduces Player's Damage by 20%",
+  "item.muscle_conversion.tool.string.1": "Summoned zombies inherit 50% of the player's attack damage",
+  "item.muscle_conversion.tool.string.2": "30% increased damage of summoned zombies",
 
   "item.seeking_immortal_virus.neuron_dna": "Neuron Enhancement Gene",
   "item.neuron_dna.tool.string": "Reduces Looting and Fortune by 1 level",
@@ -1804,107 +1799,93 @@
   "item.hollow.tool.string": "Increase fall damage by 100% and attack speed by 25%",
   "item.proliferative_bone.tool.string": "Increase armor and resilience by 25%, reduce speed by 15%",
 
+"attribute.name.seeking_immortal_virus.zombie_attack_damage": "zombie damage",
+"item.seeking_immortal_virus.skin_glucose_fermentation": "muscle glycogen fermentation",
+  "item.skin_glucose_fermentation.tool.string": "When a summoned zombie is killed",
+  "item.skin_glucose_fermentation.tool.string.1": "Attacker takes damage based on 50% of the zombie's maximum health and armor",
 
-  "attribute.name.seeking_immortal_virus.zombie_attack_damage": "僵尸的伤害",
+"item.seeking_immortal_virus.white_blood_cells_are_abruptly_reduced": "leukopenia",
+  "item.white_blood_cells_are_abruptly_reduced.tool.string": "Summoned zombies will attach 15% of their restored health to the player",
+  "item.white_blood_cells_are_abruptly_reduced.tool.string.1": "Summoned zombies no longer regenerate health",
+  "item.seeking_immortal_virus.the_god_sword": "Malicious Cube",
+  "item.god_sword.tool.string": "Behind you will float the Divine Sword Soul",
+  "item.god_sword.tool.string.1": "He slowly restores energy shields, up to a maximum of 12 shields",
+  "item.god_sword.tool.string.2": "When the shield is attacked, it consumes energy and deals 250% equivalent damage to the attacker and deals a large number of negative effects",
+  "item.god_sword.tool.string.3": "Player will get a lot of positive effects",
+  "item.god_sword.tool.string.4": "Each shield restores 1% of the player's maximum health per second",
+  "item.god_sword.tool.string.5": "Sword Soul will deal 10% of the player's ATK DMG each time near the target",
+  "item.god_sword.tool.string.6": "The damage will gradually increase, the laser damage dealt by the sword soul is equivalent to the player initiating an attack",
 
-  "item.seeking_immortal_virus.muscle_conversion": "肌肉转化",
-  "item.muscle_conversion.tool.string": "玩家本体伤害降低20%",
-  "item.muscle_conversion.tool.string.1": "召唤的僵尸继承玩家50%的攻击力",
-  "item.muscle_conversion.tool.string.2": "召唤的僵尸伤害提高30%",
+"item.seeking_immortal_virus.the_owner_blood_stone": "chain bloodstone",
+  "item.the_owner_blood_stone.tool.string": "Kill mobs to produce blood cells",
+  "item.the_owner_blood_stone.tool.string.1": "Blood Cells deal damage equal to 125% of the health of slain mobs",
+  "item.the_owner_blood_stone.tool.string.2": "and rush at nearby creatures",
+  "item.the_owner_blood_stone.tool.string.3": "Bloodball is equivalent to an attack you have launched",
 
+"item.seeking_immortal_virus.phosphate_bond": "high-energy phosphate bond break",
+  "item.phosphate_bond.tool.string": "Restore 10% of the player's maximum health when a summoned zombie dies",
+  "item.phosphate_bond.tool.string.1": "Summoned zombies can take at least 6 damage",
+  "item.phosphate_bond.tool.string.2": "Summoned zombies do not regenerate health",
 
-  "item.seeking_immortal_virus.skin_glucose_fermentation": "肌糖原酵解",
-  "item.skin_glucose_fermentation.tool.string": "召唤的僵尸被杀死时",
-  "item.skin_glucose_fermentation.tool.string.1": "攻击者会受到基于僵尸50%最大生命值和护甲总和的伤害",
+"item.seeking_immortal_virus.chemical_compound": "compound synthesis",
+  "item.chemical_compound.tool.string": "Heal 25% for each Cell Zombie",
+  "item.chemical_compound.tool.string.1": "Increases damage by 20% per Giant Cell Zombie",
+  "item.chemical_compound.tool.string.2": "Zombie damage has a 5% chance to cause the owner to take 50% equivalent damage",
+  "item.chemical_compound.tool.string.3": "Master's attack does not trigger",
+"item.seeking_immortal_virus.ytgld_virus": "ytgld virus",
+  "item.ytgld_virus.tool.string.1": "Can you really rule the world?" ,
+  "item.ytgld_virus.tool.string.2": "Research Points:",
+  "item.ytgld_virus.tool.string.3":"Virus Points:" ,
+  "item.ytgld_virus.tool.string.4": "This is an extremely dangerous virus",
+  "item.ytgld_virus.tool.string.5": "You must reach 100% of your research points within the allotted time",
+  "item.ytgld_virus.tool.string.6": "to unlock the ultimate annihilation gene",
+  "item.ytgld_virus.tool.string.7": "Research points affect your normal physiological state",
+  "item.ytgld_virus.tool.string.8": "Viruses can also replicate in your body, affecting normal vital signs",
+  "item.ytgld_virus.tool.string.9": "So you have to race against time",
+  "item.ytgld_virus.tool.string.10": "Negative effects of Research Points earned:",
+  "item.ytgld_virus.tool.string.11": "Health:",
+  "item.ytgld_virus.tool.string.12": "Armor:",
+  "item.ytgld_virus.tool.string.13": "melee damage:",
+  "item.ytgld_virus.tool.string.14": "Negative effects of the virus:",
+  "item.ytgld_virus.tool.string.15": "Velocity:",
+  "item.ytgld_virus.tool.string.16": "Treatment:",
+  "item.ytgld_virus.tool.string.17": "Resistance:",
+  "item.ytgld_virus.tool.string.18": "Attack Speed:",
+  "item.ytgld_virus.tool.string.19": "O Jugger, bring eternal ultimate darkness to the world!" ,
+  "item.ytgld_virus.tool.string.20":"You gained:",
+  "item.ytgld_virus.tool.string.21": "+300% damage to high health mobs",
+  "item.ytgld_virus.tool.string.22": "+250% damage to monsters" ,
+  "item.ytgld_virus.tool.string.23": "+225% damage to friendly mobs",
+  "item.ytgld_virus.tool.string.24": "+200% damage to players",
+  "item.ytgld_virus.tool.string.25": "+150% Armor" ,
+  "item.ytgld_virus.tool.string.26": "+100% knockback resistance" ,
+  "item.ytgld_virus.tool.string.27": "+100% underwater speed",
+  "item.ytgld_virus.tool.string.28": "+80% Health" ,
+  "item.ytgld_virus.tool.string.29": "+70% attack speed" ,
+  "item.ytgld_virus.tool.string.30": "+65% heal" ,
+  "item.ytgld_virus.tool.string.31": "+20% speed",
+  "item.ytgld_virus.tool.string.32": "+50% touch distance" ,
+  "item.ytgld_virus.tool.string.33": "+25% Attack Range" ,
+  "item.ytgld_virus.tool.string.34": "+20% Resistance" ,
+  "item.ytgld_virus.tool.string.35": "Research progress is reduced by 1% with each death",
+  "item.ytgld_virus.tool.string.36": "Eat the Psionic Cube to inhibit the replication rate of the virus",
+  "item.ytgld_virus.tool.string.eat": "Eat the Psionic Cube to activate the virus!" ,
 
-  "item.seeking_immortal_virus.white_blood_cells_are_abruptly_reduced": "白细胞骤减",
-  "item.white_blood_cells_are_abruptly_reduced.tool.string": "召唤的僵尸会将15%恢复的生命值附加的玩家身上",
-  "item.white_blood_cells_are_abruptly_reduced.tool.string.1": "召唤的僵尸不再会恢复生命值",
-  "item.seeking_immortal_virus.the_god_sword": "恶意立方体",
-  "item.god_sword.tool.string": "在你的后面将漂浮神者剑魂",
-  "item.god_sword.tool.string.1": "他会缓慢恢复能量护盾，最大存储12面护盾",
-  "item.god_sword.tool.string.2": "护盾遭受攻击时，消耗能量并对攻击者造成250%的当量伤害并造成大量负面效果",
-  "item.god_sword.tool.string.3": "玩家将获得大量增益效果",
-  "item.god_sword.tool.string.4": "每有一面护盾都将每秒恢复玩家1%的最大生命值",
-  "item.god_sword.tool.string.5": "剑魂会附近目标并每次造成10%玩家攻击属性的伤害",
-  "item.god_sword.tool.string.6": "伤害会逐渐增加，剑魂的激光造成伤害相当于玩家发起了攻击",
+"item.ytgld_virus.tool.string.37": "In the first phase the player needs to kill mobs to increase points",
+  "item.ytgld_virus.tool.string.38": "Golden apples can be eaten to reduce the rate at which viruses multiply",
+  "item.ytgld_virus.tool.string.39": "Virus multiplies by 100%",
+  "item.ytgld_virus.tool.string.40": "Research points have reached a threshold, you need to kill withers to evolve!" ,
 
-  "item.seeking_immortal_virus.the_owner_blood_stone": "连锁血石",
-  "item.the_owner_blood_stone.tool.string": "杀死生物产生血球",
-  "item.the_owner_blood_stone.tool.string.1": "血球将造成125%被杀生物生命值的伤害",
-  "item.the_owner_blood_stone.tool.string.2": "并冲向附近的生物",
-  "item.the_owner_blood_stone.tool.string.3": "血球相当于你发起了一次攻击",
+"item.ytgld_virus.tool.string.41": "In the second phase, the player can only kill the Necrons to earn points",
+  "item.ytgld_virus.tool.string.42": "Only the Spiritual Cube can be eaten to reduce the growth rate of the virus",
+  "item.ytgld_virus.tool.string.43": "Research points are reduced by 1% per death",
+  "item.ytgld_virus.tool.string.44": "Virus multiplies by 150%",
+  "item.ytgld_virus.tool.string.45": "Research point threshold, you need to kill the ender dragon to evolve!" ,
 
-  "item.seeking_immortal_virus.phosphate_bond": "高能磷酸键断裂",
-  "item.phosphate_bond.tool.string": "召唤的僵尸死亡后回复玩家10%最大生命值",
-  "item.phosphate_bond.tool.string.1": "召唤的僵尸最少能承受6次伤害",
-  "item.phosphate_bond.tool.string.2": "召唤的僵尸不会恢复生命值",
-
-
-  "item.seeking_immortal_virus.chemical_compound": "化合物合成",
-  "item.chemical_compound.tool.string": "每存在一只细胞僵尸，治疗增加25%",
-  "item.chemical_compound.tool.string.1": "每存在一只巨型细胞僵尸，伤害提高20%",
-  "item.chemical_compound.tool.string.2": "僵尸受伤有5%的概率使主人受到50%的当量伤害",
-  "item.chemical_compound.tool.string.3": "主人的攻击不会触发",
-
-  "item.seeking_immortal_virus.ytgld_virus": "ytgld virus",
-  "item.ytgld_virus.tool.string.1": "你真的能主宰世界吗？",
-  "item.ytgld_virus.tool.string.2": "研究点数：",
-  "item.ytgld_virus.tool.string.3":"病毒点数：" ,
-  "item.ytgld_virus.tool.string.4":"这是一个极为危险的病毒" ,
-  "item.ytgld_virus.tool.string.5":"你必须在规定时间内将研究点数达到100%" ,
-  "item.ytgld_virus.tool.string.6": "来解锁终极湮灭基因",
-  "item.ytgld_virus.tool.string.7":"研究点数会影响你的正常生理状态",
-  "item.ytgld_virus.tool.string.8":"病毒也会在你的体内复制影响正常生命体征",
-  "item.ytgld_virus.tool.string.9":"所以你必须与时间赛跑",
-  "item.ytgld_virus.tool.string.10": "已获得研究点数的负面效果：",
-  "item.ytgld_virus.tool.string.11": "生命值:",
-  "item.ytgld_virus.tool.string.12": "护甲值:",
-  "item.ytgld_virus.tool.string.13": "近战伤害:",
-  "item.ytgld_virus.tool.string.14": "病毒带来的负面效果：",
-  "item.ytgld_virus.tool.string.15": "速度:",
-  "item.ytgld_virus.tool.string.16": "治疗:",
-  "item.ytgld_virus.tool.string.17": "抗性:",
-  "item.ytgld_virus.tool.string.18": "攻击速度:",
-  "item.ytgld_virus.tool.string.19":"主宰者啊，为世界带来永恒的终极黑暗吧！" ,
-  "item.ytgld_virus.tool.string.20":"你获得了：" ,
-  "item.ytgld_virus.tool.string.21":  "+300% 对高生命值生物的伤害" ,
-  "item.ytgld_virus.tool.string.22":  "+250% 对怪物的伤害" ,
-  "item.ytgld_virus.tool.string.23":  "+225% 对友好生物的伤害" ,
-  "item.ytgld_virus.tool.string.24":  "+200% 对玩家的伤害" ,
-  "item.ytgld_virus.tool.string.25":  "+150% 护甲" ,
-  "item.ytgld_virus.tool.string.26":  "+100% 击退抗性" ,
-  "item.ytgld_virus.tool.string.27":  "+100% 水下速度" ,
-  "item.ytgld_virus.tool.string.28":  "+80% 生命值" ,
-  "item.ytgld_virus.tool.string.29":  "+70% 攻速" ,
-  "item.ytgld_virus.tool.string.30":  "+65% 治疗" ,
-  "item.ytgld_virus.tool.string.31":  "+20% 速度" ,
-  "item.ytgld_virus.tool.string.32":  "+50% 触及距离" ,
-  "item.ytgld_virus.tool.string.33":  "+25% 攻击距离" ,
-  "item.ytgld_virus.tool.string.34":  "+20% 抗性" ,
-  "item.ytgld_virus.tool.string.35": "每次死亡都会减少1%研究进度",
-  "item.ytgld_virus.tool.string.36": "吃下灵质立方来抑制病毒的复制速度",
-  "item.ytgld_virus.tool.string.eat": "吃下灵质立方来激活病毒！",
-
-
-  "item.ytgld_virus.tool.string.37": "在第一个阶段玩家需要杀死生物来增加点数",
-  "item.ytgld_virus.tool.string.38":"可以食用金苹果来降低病毒的增值速度",
-  "item.ytgld_virus.tool.string.39": "病毒增值速度为100%",
-  "item.ytgld_virus.tool.string.40": "研究点数达到阈值，需要杀死凋零来进化！",
-
-  "item.ytgld_virus.tool.string.41": "在第二个阶段玩家只能杀死亡灵来获取点数",
-  "item.ytgld_virus.tool.string.42":"只可以食用灵质立方来降低病毒的增值速度",
-  "item.ytgld_virus.tool.string.43": "每次死亡都会减少1%的研究点数",
-  "item.ytgld_virus.tool.string.44": "病毒增值速度为150%",
-  "item.ytgld_virus.tool.string.45": "研究点数达到阈值，需要杀死末影龙来进化！",
-
-
-  "item.ytgld_virus.tool.string.46": "这个阶段玩家可以杀死任何生物来获得点数",
-  "item.ytgld_virus.tool.string.47":"玩家不再可以减少病毒增值速度",
-  "item.ytgld_virus.tool.string.48": "来自病毒的所有属性衰败增加50%",
-  "item.ytgld_virus.tool.string.49": "病毒增值速度为200%",
-
-
+"item.ytgld_virus.tool.string.46": "At this stage the player can kill any mob to gain points",
+  "item.ytgld_virus.tool.string.47": "Players can no longer reduce the rate at which viruses grow faster",
+  "item.ytgld_virus.tool.string.48": "50% increased decay of all stats from viruses",
+  "item.ytgld_virus.tool.string.49": "Virus multiplies by 200%",
   "item.seeking_immortal_virus.rage_bottle": "Golden Bottle",
   "item.rage_bottle.tool.string": "Converts 50% of obtained experience to energy",
   "item.rage_bottle.tool.string.1": "Each point of energy reduces treatment by 0.01% and resistance by 0.03%",
@@ -1985,6 +1966,49 @@
   "advancements.tooltip.nightmare_base.text": "Obtain this item",
   "advancements.tooltip.nightmare_base.hand": "Beginning",
   "item.seeking_immortal_virus.coffin":"葬神棺",
+
+
+
+
+
+
+
+
+  "item.god.tool.string": "Crafted using the same item from two god-like sequences",
+
+
+
+  "item.seeking_immortal_virus.dehydration_condensation":"phosphate dehydration condensation",
+  "item.dehydration_condensation.tool.string.0": "Summoned cell zombies will merge with each other",
+  "item.dehydration_condensation.tool.string.1": "Increases after fusion according to pre-fusion zombie attributes",
+  "item.dehydration_condensation.tool.string.2": "Gain 10% more Max Health and Size when fused",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "curios.identifier.medicine": "药物",
+  "curios.identifier.necora": "异种基因槽",
+  "curios.identifier.ncrdna": "基因片段",
+  "curios.identifier.dna": "分段基因组",
+  "curios.modifiers.ncrdna": "佩戴时",
+  "curios.modifiers.medicine": "佩戴时",
+
+
+
+
+
+
 
   "item.seeking_immortal_virus.owner_blood_earth":"Qiankun",
 

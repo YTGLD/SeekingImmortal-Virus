@@ -1,9 +1,10 @@
 package com.ytgld.seeking_immortal_virus.init.items;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.extend.apple;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.extend.medicinebox;
 import com.ytgld.seeking_immortal_virus.item.bloodvirus;
+import com.ytgld.seeking_immortal_virus.item.decorated.dehydration_condensation;
 import com.ytgld.seeking_immortal_virus.item.ectoplasm.*;
 import com.ytgld.seeking_immortal_virus.item.man.*;
 import com.ytgld.seeking_immortal_virus.item.necora;
@@ -29,7 +30,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class Items {
-    public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(BuiltInRegistries.ITEM, MoonStoneMod.MODID);
+    public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(BuiltInRegistries.ITEM, SeekingImmortalVirus.MODID);
     public static final DeferredHolder<Item,?> ectoplasmapple  =REGISTRY.register("ectoplasmapple", ectoplasmapple::new);
     public static final DeferredHolder<Item,?> ectoplasmball  =REGISTRY.register("ectoplasmball", ectoplasmball::new);
     public static final DeferredHolder<Item,?> ectoplasmbattery  =REGISTRY.register("ectoplasmbattery", ectoplasmbattery::new);
@@ -146,6 +147,7 @@ public class Items {
     public static final DeferredHolder<Item,?> skin_glucose_fermentation =REGISTRY.register("skin_glucose_fermentation", skin_glucose_fermentation::new );
 
     public static final DeferredHolder<Item,?>  ytgld_virus =REGISTRY.register("ytgld_virus", ytgld_virus::new );
+    public static final DeferredHolder<Item,?>  dehydration_condensation =REGISTRY.register("dehydration_condensation", dehydration_condensation::new );
 
     public static final DeferredHolder<Item,?> the_heart_image =REGISTRY.register("the_heart_image", ()-> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON)));
     public static final DeferredHolder<Item,?> medicinebox_ui =REGISTRY.register("medicinebox_ui", ()-> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON)));

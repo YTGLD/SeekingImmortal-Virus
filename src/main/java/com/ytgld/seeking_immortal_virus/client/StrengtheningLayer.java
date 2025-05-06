@@ -4,7 +4,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.math.Axis;
 import com.ytgld.seeking_immortal_virus.ConfigClient;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.client.renderer.MRender;
 import com.ytgld.seeking_immortal_virus.client.renderer.MoonPost;
 import com.ytgld.seeking_immortal_virus.entity.bloodvruis.test_blood;
@@ -52,7 +52,7 @@ public class StrengtheningLayer<T extends LivingEntity, M extends EntityModel<T>
         }
         if (entity.getType() == (EntityTs.nightmare_giant_to.get()) ) {
             if (ConfigClient.Client.Shader.get()) {
-                MoonPost.renderEffectForNextTick(MoonStoneMod.POST);
+                MoonPost.renderEffectForNextTick(SeekingImmortalVirus.POST);
             }
             matrices.pushPose();
             matrices.translate(0, 0.175, -0.15);
@@ -61,7 +61,7 @@ public class StrengtheningLayer<T extends LivingEntity, M extends EntityModel<T>
         }
         if (entity.getType() == (EntityTs.ytgld.get()) ) {
             if (ConfigClient.Client.Shader.get()) {
-                MoonPost.renderEffectForNextTick(MoonStoneMod.POST);
+                MoonPost.renderEffectForNextTick(SeekingImmortalVirus.POST);
             }
             matrices.pushPose();
             matrices.translate(0, 0.175, -0.15);

@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.init.moonstoneitem;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import net.minecraft.core.particles.ParticleType;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -17,7 +17,7 @@ public class Particles {
     public static final DeferredHolder<ParticleType<?>, SimpleParticleType> blood;
 
     static {
-        PARTICLE_TYPES = DeferredRegister.create(BuiltInRegistries.PARTICLE_TYPE, MoonStoneMod.MODID);
+        PARTICLE_TYPES = DeferredRegister.create(BuiltInRegistries.PARTICLE_TYPE, SeekingImmortalVirus.MODID);
 
         gold = PARTICLE_TYPES.register("red", ()->{
             return new SimpleParticleType(false);

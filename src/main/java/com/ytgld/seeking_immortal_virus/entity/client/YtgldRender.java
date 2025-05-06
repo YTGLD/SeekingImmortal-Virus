@@ -3,7 +3,7 @@ package com.ytgld.seeking_immortal_virus.entity.client;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.ytgld.seeking_immortal_virus.ConfigClient;
 import com.ytgld.seeking_immortal_virus.Handler;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.client.renderer.MRender;
 import com.ytgld.seeking_immortal_virus.client.renderer.MoonPost;
 import com.ytgld.seeking_immortal_virus.entity.nightmare.NEmissiveLay;
@@ -21,7 +21,7 @@ import net.minecraft.world.phys.Vec3;
 import java.util.List;
 
 public class YtgldRender  extends MobRenderer<ytgld, NModel<ytgld>> {
-    private static final ResourceLocation TEXTURE =  ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/entity/ytgld.png");
+    private static final ResourceLocation TEXTURE =  ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/entity/ytgld.png");
 
     public YtgldRender(EntityRendererProvider.Context p_234787_) {
         super(p_234787_, new NModel<>(p_234787_.bakeLayer(ModelLayers.WARDEN)), 0.9F);
@@ -36,7 +36,7 @@ public class YtgldRender  extends MobRenderer<ytgld, NModel<ytgld>> {
     public void render(ytgld nightmareGiant, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource buffer, int packedLight) {
         super.render(nightmareGiant, entityYaw, partialTicks, poseStack, buffer, packedLight);
         if (ConfigClient.Client.Shader.get()) {
-            MoonPost.renderEffectForNextTick(MoonStoneMod.POST);
+            MoonPost.renderEffectForNextTick(SeekingImmortalVirus.POST);
         }
         Vec3 playerPos = nightmareGiant.position();
         float range =16;

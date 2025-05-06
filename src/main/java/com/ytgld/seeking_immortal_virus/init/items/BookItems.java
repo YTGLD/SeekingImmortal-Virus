@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.init.items;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.AttReg;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.extend.BookItem;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -12,7 +12,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class BookItems {
-    public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(BuiltInRegistries.ITEM, MoonStoneMod.MODID);
+    public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(BuiltInRegistries.ITEM, SeekingImmortalVirus.MODID);
 
     public static final String blood_stasisTAG ="blood_stasisTAG";
     public static final String bone_structureTAG ="bone_structureTAG";

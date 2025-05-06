@@ -2,7 +2,7 @@ package com.ytgld.seeking_immortal_virus.mixin.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.client.MGuiGraphics;
 import com.ytgld.seeking_immortal_virus.client.renderer.MRender;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.extend.Perhaps;
@@ -60,7 +60,7 @@ public abstract class GuiGraphicsMixin {
                 if (s < 0) {
                     s = 0;
                 }
-                MGuiGraphics.blit(guiGraphics, ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID, "textures/necora.png"), x - 8, y - 8, 0, 0, 32, 32, 32, 32, 1, 0, 0, s);
+                MGuiGraphics.blit(guiGraphics, ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID, "textures/necora.png"), x - 8, y - 8, 0, 0, 32, 32, 32, 32, 1, 0, 0, s);
             }
         }
     }

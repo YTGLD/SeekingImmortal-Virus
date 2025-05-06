@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.init.items;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.extend.DNAS;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;
@@ -9,7 +9,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class DNAItems {
-    public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(BuiltInRegistries.ITEM, MoonStoneMod.MODID);
+    public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(BuiltInRegistries.ITEM, SeekingImmortalVirus.MODID);
     public static final DeferredHolder<Item,?> atp_height =REGISTRY.register("atp_height",()->{return new DNAS(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));});
     public static final DeferredHolder<Item,?> cell_big_boom =REGISTRY.register("cell_big_boom",()->{return new DNAS (new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));});
     public static final DeferredHolder<Item,?> speed_metabolism =REGISTRY.register("speed_metabolism",()->{return new DNAS (new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));});

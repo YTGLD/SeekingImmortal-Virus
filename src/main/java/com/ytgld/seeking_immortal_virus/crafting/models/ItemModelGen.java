@@ -15,6 +15,16 @@ public class ItemModelGen extends ItemModelProvider {
 
 
     public void run() {
+
+
+        this.basicItem(Items.dehydration_condensation.get());
+
+
+
+
+
+
+
         this.basicItem(Items.ectoplasmball.get());
         this.basicItem(Items.ectoplasmapple.get());
         this.basicItem(Items.ectoplasmcloub.get());

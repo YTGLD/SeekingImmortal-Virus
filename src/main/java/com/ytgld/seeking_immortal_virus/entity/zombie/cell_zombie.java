@@ -3,11 +3,12 @@ package com.ytgld.seeking_immortal_virus.entity.zombie;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
 import com.ytgld.seeking_immortal_virus.Handler;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.entity.extend.MoonTamableAnimal;
 import com.ytgld.seeking_immortal_virus.event.old.AllEvent;
 import com.ytgld.seeking_immortal_virus.init.items.Items;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.EntityTs;
+import com.ytgld.seeking_immortal_virus.item.decorated.dehydration_condensation;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -59,9 +60,20 @@ public class cell_zombie extends MoonTamableAnimal {
     @Override
     public void tick() {
         super.tick();
+
+        if (this.getOwner()!= null&& this.getOwner() instanceof Player player) {
+            dehydration_condensation.addBigZombie(this, Items.dehydration_condensation.get(), player);
+        }
+
+
+
+
+
+
+
         if (this.getTarget() != null) {
             ResourceLocation entity = BuiltInRegistries.ENTITY_TYPE.getKey(this.getTarget().getType());
-            if (entity.getNamespace().equals(MoonStoneMod.MODID)) {
+            if (entity.getNamespace().equals(SeekingImmortalVirus.MODID)) {
                 this.setTarget(null);
             }
         }
@@ -83,18 +95,18 @@ public class cell_zombie extends MoonTamableAnimal {
         }
         if (this.getOwner()!= null) {
             if (this.getOwner().getLastHurtByMob()!= null) {
-                if (!this.getOwner().getLastHurtByMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtByMob().getType()).getNamespace().equals(MoonStoneMod.MODID)) {
+                if (!this.getOwner().getLastHurtByMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtByMob().getType()).getNamespace().equals(SeekingImmortalVirus.MODID)) {
                     this.setTarget(this.getOwner().getLastHurtByMob());
                 }
             }
             if (this.getOwner().getLastAttacker()!= null) {
-                if (!this.getOwner().getLastAttacker().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastAttacker().getType()).getNamespace().equals(MoonStoneMod.MODID)) {
+                if (!this.getOwner().getLastAttacker().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastAttacker().getType()).getNamespace().equals(SeekingImmortalVirus.MODID)) {
                     this.setTarget(this.getOwner().getLastAttacker());
                 }
 
             }
             if (this.getOwner().getLastHurtMob()!= null) {
-                if (!this.getOwner().getLastHurtMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtMob().getType()).getNamespace().equals(MoonStoneMod.MODID)) {
+                if (!this.getOwner().getLastHurtMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtMob().getType()).getNamespace().equals(SeekingImmortalVirus.MODID)) {
                     this.setTarget(this.getOwner().getLastHurtMob());
                 }
 
@@ -137,7 +149,7 @@ public class cell_zombie extends MoonTamableAnimal {
                         }
                     }
                 }
-                if (!entity.getNamespace().equals(MoonStoneMod.MODID)) {
+                if (!entity.getNamespace().equals(SeekingImmortalVirus.MODID)) {
                     this.setTarget(mob);
                 }
             }

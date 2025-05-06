@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.event.old;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.init.items.BookItems;
 import com.ytgld.seeking_immortal_virus.init.items.Items;
 import mezz.jei.api.IModPlugin;
@@ -15,7 +15,7 @@ import org.jetbrains.annotations.NotNull;
 
 @JeiPlugin
 public class JeiText implements IModPlugin {
-    private static final ResourceLocation UID = ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID, "jei_plugin");
+    private static final ResourceLocation UID = ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID, "jei_plugin");
     @Override
     public @NotNull ResourceLocation getPluginUid() {
         return UID;

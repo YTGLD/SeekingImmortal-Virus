@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.entity.client.zombie;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.client.renderer.MRender;
 import com.ytgld.seeking_immortal_virus.entity.zombie.cell_giant;
 import net.minecraft.client.model.geom.ModelLayers;
@@ -10,10 +10,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 
 public class CellZombieG  extends MobRenderer<cell_giant, GModel<cell_giant>> {
-    private static final ResourceLocation TEXTURE =  ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/entity/cell_giant.png");
-    private static final ResourceLocation HEART_TEXTURE = ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/entity/hearth.png");
-    private static final ResourceLocation PULSATING_SPOTS_TEXTURE_1 = ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/entity/cell_giant_spots_1.png");
-    private static final ResourceLocation PULSATING_SPOTS_TEXTURE_2 = ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/entity/cell_giant_spots_2.png");
+    private static final ResourceLocation TEXTURE =  ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/entity/cell_giant.png");
+    private static final ResourceLocation HEART_TEXTURE = ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/entity/hearth.png");
+    private static final ResourceLocation PULSATING_SPOTS_TEXTURE_1 = ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/entity/cell_giant_spots_1.png");
+    private static final ResourceLocation PULSATING_SPOTS_TEXTURE_2 = ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/entity/cell_giant_spots_2.png");
 
     public CellZombieG(EntityRendererProvider.Context p_234787_) {
         super(p_234787_, new GModel<>(p_234787_.bakeLayer(ModelLayers.WARDEN)), 0.9F);

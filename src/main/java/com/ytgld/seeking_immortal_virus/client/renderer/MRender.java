@@ -1,11 +1,9 @@
 package com.ytgld.seeking_immortal_virus.client.renderer;
 
 import com.mojang.blaze3d.pipeline.RenderTarget;
-import com.mojang.blaze3d.platform.GlStateManager;
-import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.DefaultVertexFormat;
 import com.mojang.blaze3d.vertex.VertexFormat;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import net.minecraft.Util;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderStateShard;
@@ -33,7 +31,7 @@ public class MRender extends RenderType {
 
 
     protected static final OutputStateShard setOutputState = new OutputStateShard("set", () -> {
-        RenderTarget target = MoonPost.getRenderTargetFor(MoonStoneMod.POST);
+        RenderTarget target = MoonPost.getRenderTargetFor(SeekingImmortalVirus.POST);
         if (target != null) {
             target.copyDepthFrom(Minecraft.getInstance().getMainRenderTarget());
             target.bindWrite(false);
@@ -78,9 +76,9 @@ public class MRender extends RenderType {
                     .setOutputState(setOutputState)
                     .setTextureState(RenderStateShard.
                             MultiTextureStateShard.builder().
-                            add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/ging_entity.png"),
+                            add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/ging_entity.png"),
                                     false,
-                                    false).add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/ging_entity.png"),
+                                    false).add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/ging_entity.png"),
                                     false, false).build()).createCompositeState(false));
 
 
@@ -98,9 +96,9 @@ public class MRender extends RenderType {
                     .setOutputState(setOutputState)
                     .setTextureState(RenderStateShard.
                             MultiTextureStateShard.builder().
-                            add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/p_blood.png"),
+                            add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/p_blood.png"),
                                     false,
-                                    false).add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/p_blood.png"),
+                                    false).add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/p_blood.png"),
                                     false, false).build()).createCompositeState(false));
 
 
@@ -129,9 +127,9 @@ public class MRender extends RenderType {
                             .setShaderState(RENDER_STATE_SHARD_Shader_EYE)
                             .setTextureState(RenderStateShard.
                                     MultiTextureStateShard.builder().
-                                    add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/eye.png"),
+                                    add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/eye.png"),
                                             false,
-                                            false).add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/eye.png"),
+                                            false).add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/eye.png"),
                                             false, false).build()).createCompositeState(false));
     public static final RenderType man =
             create("man",
@@ -144,9 +142,9 @@ public class MRender extends RenderType {
                             .setShaderState(RENDER_STATE_SHARD_Shader_EYE)
                             .setTextureState(RenderStateShard.
                                     MultiTextureStateShard.builder().
-                                    add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/man.png"),
+                                    add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/man.png"),
                                             false,
-                                            false).add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/man.png"),
+                                            false).add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/man.png"),
                                             false, false).build()).createCompositeState(false));
 
     public static final RenderType GATEWAY =
@@ -160,9 +158,9 @@ public class MRender extends RenderType {
                             .setShaderState(RENDER_STATE_SHARD)
                             .setTextureState(RenderStateShard.
                                     MultiTextureStateShard.builder().
-                                    add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/necr_image.png"),
+                                    add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/necr_image.png"),
                                             false,
-                                            false).add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/necr_image.png"),
+                                            false).add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/necr_image.png"),
                                             false, false).build()).createCompositeState(false));
     private static final RenderType GING =
             create("ging",
@@ -175,9 +173,9 @@ public class MRender extends RenderType {
                             .setShaderState(RENDER_STATE_SHARD_ging)
                             .setTextureState(RenderStateShard.
                                     MultiTextureStateShard.builder().
-                                    add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/ging.png"),
+                                    add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/ging.png"),
                                             false,
-                                            false).add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/ging.png"),
+                                            false).add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/ging.png"),
                                             false, false).build()).createCompositeState(false));
 
     public static final RenderType MLS =
@@ -192,9 +190,9 @@ public class MRender extends RenderType {
                             .setCullState(NO_CULL)
                             .setTextureState(RenderStateShard.
                                     MultiTextureStateShard.builder().
-                                    add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/mls.png"),
+                                    add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/mls.png"),
                                             false,
-                                            false).add(ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID,"textures/mls.png"),
+                                            false).add(ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID,"textures/mls.png"),
                                             false, false).build()).createCompositeState(false));
 
     public static final BiFunction<ResourceLocation, Boolean, RenderType> ENTITY_TRANSLUCENT_EMISSIVE = Util.memoize(

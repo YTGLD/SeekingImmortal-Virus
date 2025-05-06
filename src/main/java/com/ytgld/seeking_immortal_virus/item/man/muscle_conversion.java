@@ -3,7 +3,7 @@ package com.ytgld.seeking_immortal_virus.item.man;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
 import com.ytgld.seeking_immortal_virus.Handler;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.contents.ManBundleContents;
 import com.ytgld.seeking_immortal_virus.entity.extend.MoonTamableAnimal;
 import com.ytgld.seeking_immortal_virus.init.items.Items;
@@ -66,7 +66,7 @@ public class muscle_conversion extends ManDNA implements Iplague {
     public Multimap<Holder<Attribute>, AttributeModifier> getAttributeModifiers(SlotContext slotContext, ResourceLocation id, ItemStack stack) {
         Multimap<Holder<Attribute>, AttributeModifier> modifierMultimap= HashMultimap.create();
         modifierMultimap.put(AttReg.alL_attack,
-                new AttributeModifier(ResourceLocation.withDefaultNamespace("muscle_conversion"+ MoonStoneMod.MODID),
+                new AttributeModifier(ResourceLocation.withDefaultNamespace("muscle_conversion"+ SeekingImmortalVirus.MODID),
                         -0.2f, AttributeModifier.Operation.ADD_MULTIPLIED_BASE));
         return modifierMultimap;
     }
@@ -75,7 +75,7 @@ public class muscle_conversion extends ManDNA implements Iplague {
         Multimap<Holder<Attribute>, AttributeModifier> modifierMultimap= HashMultimap.create();
         float damage = (float) (owner.getAttributeValue(Attributes.ATTACK_DAMAGE) * 0.5f);
         modifierMultimap.put(Attributes.ATTACK_DAMAGE,
-                new AttributeModifier(ResourceLocation.withDefaultNamespace("muscle_conversion"+ MoonStoneMod.MODID),
+                new AttributeModifier(ResourceLocation.withDefaultNamespace("muscle_conversion"+ SeekingImmortalVirus.MODID),
                         damage, AttributeModifier.Operation.ADD_VALUE));
         return modifierMultimap;
     }

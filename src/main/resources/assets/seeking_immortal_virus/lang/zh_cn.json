@@ -1818,7 +1818,6 @@
   "item.brain_enhance.tool.string": "战利品暴击率始终为10%",
 
 
-
   "item.seeking_immortal_virus.neuron_dna": "神经元强化基因",
   "item.neuron_dna.tool.string": "减少1级时运和抢夺",
   "item.neuron_dna.tool.string.1": "增加5%掠夺暴击率 ",
@@ -1900,7 +1899,6 @@
   "item.rage_orb.tool.string.2": "-80% 击退魔咒效果",
   "item.rage_orb.tool.string.3": "+1 时运",
   "item.rage_orb.tool.string.4": "+1 抢夺",
-  "item.seeking_immortal_virus.the_owner_blood_stone": "连锁血石",
 
   "item.seeking_immortal_virus.sword":"同时佩戴了七剑修炼的剑阵之章和万法后伤害提高20%",
 
@@ -1910,6 +1908,125 @@
   "item.rage_lock.tool.string.2": "+10%所有伤害",
   "item.rage_lock.tool.string.3": "+15%吸血",
   "item.rage_lock.tool.string.4": "+40%杀戮吸血",
+  "item.god.tool.string": "使用两个“类神”序列的相同物品合成",
+
+
+
+  "item.seeking_immortal_virus.dehydration_condensation":"磷酸脱水缩合",
+  "item.dehydration_condensation.tool.string.0": "召唤的细胞僵尸会相互融合",
+  "item.dehydration_condensation.tool.string.1": "融合后根据融合前僵尸属性来增加",
+  "item.dehydration_condensation.tool.string.2": "融合时额外获得10%最大生命值和体积",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "item.seeking_immortal_virus.skin_glucose_fermentation": "肌糖原酵解",
+  "item.skin_glucose_fermentation.tool.string": "召唤的僵尸被杀死时",
+  "item.skin_glucose_fermentation.tool.string.1": "攻击者会受到基于僵尸50%最大生命值和护甲总和的伤害",
+
+  "item.seeking_immortal_virus.white_blood_cells_are_abruptly_reduced": "白细胞骤减",
+  "item.white_blood_cells_are_abruptly_reduced.tool.string": "召唤的僵尸会将15%恢复的生命值附加的玩家身上",
+  "item.white_blood_cells_are_abruptly_reduced.tool.string.1": "召唤的僵尸不再会恢复生命值",
+  "item.seeking_immortal_virus.the_god_sword": "恶意立方体",
+  "item.god_sword.tool.string": "在你的后面将漂浮神者剑魂",
+  "item.god_sword.tool.string.1": "他会缓慢恢复能量护盾，最大存储12面护盾",
+  "item.god_sword.tool.string.2": "护盾遭受攻击时，消耗能量并对攻击者造成250%的当量伤害并造成大量负面效果",
+  "item.god_sword.tool.string.3": "玩家将获得大量增益效果",
+  "item.god_sword.tool.string.4": "每有一面护盾都将每秒恢复玩家1%的最大生命值",
+  "item.god_sword.tool.string.5": "剑魂会附近目标并每次造成10%玩家攻击属性的伤害",
+  "item.god_sword.tool.string.6": "伤害会逐渐增加，剑魂的激光造成伤害相当于玩家发起了攻击",
+
+  "item.seeking_immortal_virus.the_owner_blood_stone": "连锁血石",
+  "item.the_owner_blood_stone.tool.string": "杀死生物产生血球",
+  "item.the_owner_blood_stone.tool.string.1": "血球将造成125%被杀生物生命值的伤害",
+  "item.the_owner_blood_stone.tool.string.2": "并冲向附近的生物",
+  "item.the_owner_blood_stone.tool.string.3": "血球相当于你发起了一次攻击",
+
+  "item.seeking_immortal_virus.phosphate_bond": "高能磷酸键断裂",
+  "item.phosphate_bond.tool.string": "召唤的僵尸死亡后回复玩家10%最大生命值",
+  "item.phosphate_bond.tool.string.1": "召唤的僵尸最少能承受6次伤害",
+  "item.phosphate_bond.tool.string.2": "召唤的僵尸不会恢复生命值",
+
+
+  "item.seeking_immortal_virus.chemical_compound": "化合物合成",
+  "item.chemical_compound.tool.string": "每存在一只细胞僵尸，治疗增加25%",
+  "item.chemical_compound.tool.string.1": "每存在一只巨型细胞僵尸，伤害提高20%",
+  "item.chemical_compound.tool.string.2": "僵尸受伤有5%的概率使主人受到50%的当量伤害",
+  "item.chemical_compound.tool.string.3": "主人的攻击不会触发",
+
+  "item.ytgld_virus.tool.string.1": "你真的能主宰世界吗？",
+  "item.ytgld_virus.tool.string.2": "研究点数：",
+  "item.ytgld_virus.tool.string.3":"病毒点数：" ,
+  "item.ytgld_virus.tool.string.4":"这是一个极为危险的病毒" ,
+  "item.ytgld_virus.tool.string.5":"你必须在规定时间内将研究点数达到100%" ,
+  "item.ytgld_virus.tool.string.6": "来解锁终极湮灭基因",
+  "item.ytgld_virus.tool.string.7":"研究点数会影响你的正常生理状态",
+  "item.ytgld_virus.tool.string.8":"病毒也会在你的体内复制影响正常生命体征",
+  "item.ytgld_virus.tool.string.9":"所以你必须与时间赛跑",
+  "item.ytgld_virus.tool.string.10": "已获得研究点数的负面效果：",
+  "item.ytgld_virus.tool.string.11": "生命值:",
+  "item.ytgld_virus.tool.string.12": "护甲值:",
+  "item.ytgld_virus.tool.string.13": "近战伤害:",
+  "item.ytgld_virus.tool.string.14": "病毒带来的负面效果：",
+  "item.ytgld_virus.tool.string.15": "速度:",
+  "item.ytgld_virus.tool.string.16": "治疗:",
+  "item.ytgld_virus.tool.string.17": "抗性:",
+  "item.ytgld_virus.tool.string.18": "攻击速度:",
+  "item.ytgld_virus.tool.string.19":"主宰者啊，为世界带来永恒的终极黑暗吧！" ,
+  "item.ytgld_virus.tool.string.20":"你获得了：" ,
+  "item.ytgld_virus.tool.string.21":  "+300% 对高生命值生物的伤害" ,
+  "item.ytgld_virus.tool.string.22":  "+250% 对怪物的伤害" ,
+  "item.ytgld_virus.tool.string.23":  "+225% 对友好生物的伤害" ,
+  "item.ytgld_virus.tool.string.24":  "+200% 对玩家的伤害" ,
+  "item.ytgld_virus.tool.string.25":  "+150% 护甲" ,
+  "item.ytgld_virus.tool.string.26":  "+100% 击退抗性" ,
+  "item.ytgld_virus.tool.string.27":  "+100% 水下速度" ,
+  "item.ytgld_virus.tool.string.28":  "+80% 生命值" ,
+  "item.ytgld_virus.tool.string.29":  "+70% 攻速" ,
+  "item.ytgld_virus.tool.string.30":  "+65% 治疗" ,
+  "item.ytgld_virus.tool.string.31":  "+20% 速度" ,
+  "item.ytgld_virus.tool.string.32":  "+50% 触及距离" ,
+  "item.ytgld_virus.tool.string.33":  "+25% 攻击距离" ,
+  "item.ytgld_virus.tool.string.34":  "+20% 抗性" ,
+  "item.ytgld_virus.tool.string.35": "每次死亡都会减少1%研究进度",
+  "item.ytgld_virus.tool.string.36": "吃下灵质立方来抑制病毒的复制速度",
+  "item.ytgld_virus.tool.string.eat": "吃下灵质立方来激活病毒！",
+
+
+  "item.ytgld_virus.tool.string.37": "在第一个阶段玩家需要杀死生物来增加点数",
+  "item.ytgld_virus.tool.string.38":"可以食用金苹果来降低病毒的增值速度",
+  "item.ytgld_virus.tool.string.39": "病毒增值速度为100%",
+  "item.ytgld_virus.tool.string.40": "研究点数达到阈值，需要杀死凋零来进化！",
+
+  "item.ytgld_virus.tool.string.41": "在第二个阶段玩家只能杀死亡灵来获取点数",
+  "item.ytgld_virus.tool.string.42":"只可以食用灵质立方来降低病毒的增值速度",
+  "item.ytgld_virus.tool.string.43": "每次死亡都会减少1%的研究点数",
+  "item.ytgld_virus.tool.string.44": "病毒增值速度为150%",
+  "item.ytgld_virus.tool.string.45": "研究点数达到阈值，需要杀死末影龙来进化！",
+
+
+  "item.ytgld_virus.tool.string.46": "这个阶段玩家可以杀死任何生物来获得点数",
+  "item.ytgld_virus.tool.string.47":"玩家不再可以减少病毒增值速度",
+  "item.ytgld_virus.tool.string.48": "来自病毒的所有属性衰败增加50%",
+  "item.ytgld_virus.tool.string.49": "病毒增值速度为200%",
+
+
 
   "seeking_immortal_virus.use.dna": "提示：使用药物粉碎盒分解",
 
@@ -1919,9 +2036,13 @@
   "item.undead_blood_charm.tool.string.2": "标记对你有仇恨的生物，每次恢复生命都会对他造成50%恢复量的伤害",
   "item.undead_blood_charm.tool.string.3": "对亡灵造成额外50%的伤害",
   "item.undead_blood_charm.tool.string.4": "治疗增加50%",
-  "item.undead_blood_charm.tool.string.5": "受到伤害增加40%"
+  "item.undead_blood_charm.tool.string.5": "受到伤害增加40%",
 
 
+  "item.moonstone.muscle_conversion": "肌肉转化",
+  "item.muscle_conversion.tool.string": "玩家本体伤害降低20%",
+  "item.muscle_conversion.tool.string.1": "召唤的僵尸继承玩家50%的攻击力",
+  "item.muscle_conversion.tool.string.2": "召唤的僵尸伤害提高30%"
 }
 
 

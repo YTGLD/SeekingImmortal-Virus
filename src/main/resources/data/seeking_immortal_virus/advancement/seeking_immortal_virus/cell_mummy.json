@@ -1,5 +1,5 @@
 {
-  "parent": "seeking_immortal_virus:seeking_immortal_virus/cell",
+  "parent": "seeking_immortal_virus:seeking_immortal_virus/cell_calcification",
   "criteria": {
     "cell_mummy": {
       "conditions": {

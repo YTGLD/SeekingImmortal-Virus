@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.init.moonstoneitem;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.RangedAttribute;
@@ -8,7 +8,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class AttReg {
-    public static final DeferredRegister<Attribute> REGISTRY = DeferredRegister.create(BuiltInRegistries.ATTRIBUTE, MoonStoneMod.MODID);
+    public static final DeferredRegister<Attribute> REGISTRY = DeferredRegister.create(BuiltInRegistries.ATTRIBUTE, SeekingImmortalVirus.MODID);
     public static final DeferredHolder<Attribute,?> alL_attack = REGISTRY.register("allattack",()->{
         return new RangedAttribute("attribute.name.seeking_immortal_virus.allattack", 1, -1024, 1024).setSyncable(true);
     });

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "seeking_immortal_virus:phosphate_bond"
+    },
+    {
+      "item": "seeking_immortal_virus:god_ambush"
+    },
+    {
+      "item": "seeking_immortal_virus:ectoplasmprism"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "seeking_immortal_virus:dehydration_condensation"
+  }
+}

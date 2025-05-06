@@ -1,7 +1,7 @@
 package com.ytgld.seeking_immortal_virus.event.old;
 
 import com.ytgld.seeking_immortal_virus.Handler;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.GodDNA;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -34,7 +34,7 @@ public class EquippedEvt {
     @SubscribeEvent
     public  void CurioCanEquipEvent(CurioCanEquipEvent event) {
         Item item = event.getStack().getItem();
-        if (BuiltInRegistries.ITEM.getKey(item).getNamespace().equals(MoonStoneMod.MODID)) {
+        if (BuiltInRegistries.ITEM.getKey(item).getNamespace().equals(SeekingImmortalVirus.MODID)) {
             if (Handler.hascurio(event.getEntity(), item)) {
                 event.setEquipResult(TriState.FALSE);
             }

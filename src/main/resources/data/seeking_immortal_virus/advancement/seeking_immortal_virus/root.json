@@ -15,7 +15,7 @@
   },
   "display": {
     "announce_to_chat": true,
-    "background": "minecraft:textures/gui/air.png",
+    "background": "minecraft:textures/block/polished_deepslate.png",
     "description": {
       "text": "NecoraVirus"
     },

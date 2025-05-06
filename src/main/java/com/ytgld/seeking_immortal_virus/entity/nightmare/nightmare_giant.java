@@ -4,7 +4,7 @@ import com.google.common.annotations.VisibleForTesting;
 import com.mojang.logging.LogUtils;
 import com.mojang.serialization.Dynamic;
 import com.ytgld.seeking_immortal_virus.Handler;
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.entity.extend.MoonTamableAnimal;
 import com.ytgld.seeking_immortal_virus.entity.zombie.cell_zombie;
 import com.ytgld.seeking_immortal_virus.event.old.AllEvent;
@@ -262,7 +262,7 @@ public class nightmare_giant extends MoonTamableAnimal implements OwnableEntity,
         }
         if (this.getBrain().getMemory(MemoryModuleType.ATTACK_TARGET).isPresent()) {
             ResourceLocation entity = BuiltInRegistries.ENTITY_TYPE.getKey(this.getBrain().getMemory(MemoryModuleType.ATTACK_TARGET).get().getType());
-            if (entity.getNamespace().equals(MoonStoneMod.MODID)) {
+            if (entity.getNamespace().equals(SeekingImmortalVirus.MODID)) {
                 this.setAttackTarget(null);
             }
         }
@@ -293,7 +293,7 @@ public class nightmare_giant extends MoonTamableAnimal implements OwnableEntity,
         for (Mob mob : entities) {
             if (!this.getBrain().getMemory(MemoryModuleType.ATTACK_TARGET).isPresent()) {
                 ResourceLocation entity = BuiltInRegistries.ENTITY_TYPE.getKey(mob.getType());
-                if (!entity.getNamespace().equals(MoonStoneMod.MODID)) {
+                if (!entity.getNamespace().equals(SeekingImmortalVirus.MODID)) {
                     if (this.getBrain().getMemory(MemoryModuleType.ATTACK_TARGET).isEmpty()) {
                         if (sZombieTime<=0){
                             if (this.getOwner()!=null) {
@@ -328,18 +328,18 @@ public class nightmare_giant extends MoonTamableAnimal implements OwnableEntity,
         }
         if (this.getOwner()!= null) {
             if (this.getOwner().getLastHurtByMob()!= null) {
-                if (!this.getOwner().getLastHurtByMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtByMob().getType()).getNamespace().equals(MoonStoneMod.MODID)) {
+                if (!this.getOwner().getLastHurtByMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtByMob().getType()).getNamespace().equals(SeekingImmortalVirus.MODID)) {
                     this.setAttackTarget(this.getOwner().getLastHurtByMob());
                 }
             }
             if (this.getOwner().getLastAttacker()!= null) {
-                if (!this.getOwner().getLastAttacker().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastAttacker().getType()).getNamespace().equals(MoonStoneMod.MODID)) {
+                if (!this.getOwner().getLastAttacker().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastAttacker().getType()).getNamespace().equals(SeekingImmortalVirus.MODID)) {
                     this.setAttackTarget(this.getOwner().getLastAttacker());
                 }
 
             }
             if (this.getOwner().getLastHurtMob()!= null) {
-                if (!this.getOwner().getLastHurtMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtMob().getType()).getNamespace().equals(MoonStoneMod.MODID)) {
+                if (!this.getOwner().getLastHurtMob().is(this)&&!BuiltInRegistries.ENTITY_TYPE.getKey(this.getOwner().getLastHurtMob().getType()).getNamespace().equals(SeekingImmortalVirus.MODID)) {
                     this.setAttackTarget(this.getOwner().getLastHurtMob());
                 }
 

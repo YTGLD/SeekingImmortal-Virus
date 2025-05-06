@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.entity.zombie;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.EntityTs;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -58,7 +58,7 @@ public class blood_zombie_fly extends ThrowableItemProjectile {
         super.onHitEntity(hitResult);
         Entity entity = hitResult.getEntity();
         ResourceLocation name = BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType());
-        if (!name.getNamespace().equals(MoonStoneMod.MODID)&& !(entity instanceof Player)) {
+        if (!name.getNamespace().equals(SeekingImmortalVirus.MODID)&& !(entity instanceof Player)) {
             if (this.age > 20) {
                 entity.invulnerableTime = 0;
                 entity.hurt(this.damageSources().thrown(this, this.getOwner()), 2.5f);
@@ -80,7 +80,7 @@ public class blood_zombie_fly extends ThrowableItemProjectile {
 
         for (LivingEntity entity : entities) {
             ResourceLocation name = BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType());
-            if (!name.getNamespace().equals(MoonStoneMod.MODID)&& !(entity instanceof Player)) {
+            if (!name.getNamespace().equals(SeekingImmortalVirus.MODID)&& !(entity instanceof Player)) {
                 double distance = this.distanceToSqr(entity);
                 if (distance < closestDistance) {
                     closestDistance = distance;

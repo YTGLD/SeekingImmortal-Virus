@@ -1,7 +1,7 @@
 package com.ytgld.seeking_immortal_virus.init;
 
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.init.items.BookItems;
 import com.ytgld.seeking_immortal_virus.init.items.DNAItems;
 import com.ytgld.seeking_immortal_virus.init.items.Drugs;
@@ -16,7 +16,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class Tab {
 
-    public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MoonStoneMod.MODID);
+    public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SeekingImmortalVirus.MODID);
     public static final DeferredHolder<CreativeModeTab,?> DNA = TABS.register("seeking_immortal_virus_item_dna",()->CreativeModeTab.builder()
             .icon(()->new ItemStack(Items.necora.get()))
             .title(Component.translatable("itemGroup.tabseeking_immortal_virus"))
@@ -26,10 +26,9 @@ public class Tab {
                 b.accept(new ItemStack(Items.ectoplasmapple.get()));
                 b.accept(new ItemStack(Items.ectoplasmcloub.get()));
                 b.accept(new ItemStack(Items.ectoplasmcube.get()));
-                b.accept(new ItemStack(Items.ectoplasmhorseshoe.get()));
                 b.accept(new ItemStack(Items.ectoplasmprism.get()));
-                b.accept(new ItemStack(Items.ectoplasmbattery.get()));
-                b.accept(new ItemStack(Items.ectoplasmshild.get()));
+
+                b.accept(new ItemStack(Items.dehydration_condensation.get()));
 
                 b.accept(new ItemStack(Items.bloodvirus.get()));
                 b.accept(new ItemStack(Items.necora.get()));

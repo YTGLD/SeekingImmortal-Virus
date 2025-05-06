@@ -12,7 +12,8 @@
     "PlayerMixin"
   ],
   "client": [
-    "client.ATabMixin",
+    "client.SeekingImmortalVirusAdvancementWidgetMixin",
+    "client.SeekingImmortalVirusATabMixin",
     "client.CameraMixin",
     "client.GameRendererMixin",
     "client.GuiGraphicsMixin",

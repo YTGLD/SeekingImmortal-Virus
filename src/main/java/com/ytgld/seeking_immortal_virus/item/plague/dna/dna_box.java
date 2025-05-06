@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.item.plague.dna;
 
-import com.ytgld.seeking_immortal_virus.MoonStoneMod;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.event.old.NewEvent;
 import com.ytgld.seeking_immortal_virus.init.items.DNAItems;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.DataReg;
@@ -127,7 +127,7 @@ public class dna_box extends TheNecoraIC {
             while (stack.get(DataReg.tag).getAllKeys().iterator().hasNext()) {
 
                 String itemId = stack.get(DataReg.tag).getAllKeys().iterator().next();
-                ResourceLocation resourceLocation = ResourceLocation.fromNamespaceAndPath(MoonStoneMod.MODID, itemId);
+                ResourceLocation resourceLocation = ResourceLocation.fromNamespaceAndPath(SeekingImmortalVirus.MODID, itemId);
 
 
                 if (BuiltInRegistries.ITEM.containsKey(resourceLocation)) {
