@@ -5,6 +5,8 @@ import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.ytgld.seeking_immortal_virus.entity.nightmare_giant_to;
 import com.ytgld.seeking_immortal_virus.entity.zombie.cell_giant;
 import com.ytgld.seeking_immortal_virus.init.items.Items;
+import com.ytgld.seeking_immortal_virus.init.moonstoneitem.i.GodDNA;
+import com.ytgld.seeking_immortal_virus.item.plague.TheNecora.god.GodAmbush;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.BlockPos;
@@ -15,11 +17,14 @@ import net.minecraft.util.SpawnUtil;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
+import net.neoforged.neoforge.items.IItemHandlerModifiable;
 import top.theillusivec4.curios.api.CuriosApi;
 import top.theillusivec4.curios.api.CuriosCapability;
 import top.theillusivec4.curios.api.SlotResult;
+import top.theillusivec4.curios.api.type.capability.ICuriosItemHandler;
 
 import java.util.List;
 
@@ -133,20 +138,24 @@ public class Handler {
 //                    return false;
 //                }
 //            }
+
     public static boolean hascurio(LivingEntity entity, Item curio) {
         if (entity instanceof LivingEntity player) {
             if (player.getCapability(CuriosCapability.INVENTORY) != null) {
 
-
-
-
-
-                if (CuriosApi.getCuriosInventory(entity).isPresent()
-                        && CuriosApi.getCuriosInventory(entity).get().isEquipped(Items.god_ambush.get())) {
-                    if (curio == Items.ambush.get()) {
-                        return true;
-                    }
-                }
+//                if (CuriosApi.getCuriosInventory(entity).isPresent()) {
+//                    ICuriosItemHandler curiosHandler = CuriosApi.getCuriosInventory(entity).get();
+//                    IItemHandlerModifiable curios = curiosHandler.getEquippedCurios();
+//                    for (int i = 0; i < curios.getSlots(); i++) {
+//                        ItemStack stack = curios.getStackInSlot(i);
+//                        if (stack.getItem() instanceof GodDNA dna) {
+//                            if (curio == dna.getNotEquippedItem()) {
+//                                return true;
+//                            }
+//                        }
+//                    }
+//                }
+//
                 if (CuriosApi.getCuriosInventory(entity).isPresent()
                         && CuriosApi.getCuriosInventory(entity).get().isEquipped(Items.god_putrefactive.get())) {
                     if (curio == Items.putrefactive.get()) {
