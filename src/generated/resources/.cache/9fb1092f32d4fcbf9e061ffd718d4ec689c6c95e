@@ -1,0 +1,9 @@
+// 1.21.1	2025-05-05T10:31:49.049735	Recipes
+d248c5232893b08a0d5830d0f2f575fd11fe9f3a data/minecraft/advancement/recipes/root.json
+3056eda5f9e87161a36e831286fc32e5ad6c4f2c data/minecraft/recipe/dna.json
+4a1215e64455b9fa18a3d51297b6f55bfb1b472a data/minecraft/recipe/god_ambush.json
+eef8da9c579874a911359d9036fe5e151899b409 data/minecraft/recipe/god_atpoverdose.json
+a10c48be6eeadce6d98ecf3261ec13d5bd5c2fab data/minecraft/recipe/god_autolytic.json
+c888ed5f87293e7ad1f6c741552702f72f235de4 data/minecraft/recipe/god_fermentation.json
+cbcd5f3065b755af7c7baa5b92f91f6069a0c313 data/minecraft/recipe/god_putrefactive.json
+dc5295dd928c0f024cd17734341eda974aa61e6a data/minecraft/recipe/god_regenerative.json

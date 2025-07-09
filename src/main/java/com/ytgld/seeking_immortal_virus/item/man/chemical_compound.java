@@ -13,6 +13,7 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.Mth;
 import net.minecraft.util.RandomSource;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -49,16 +50,18 @@ public class chemical_compound extends ManDNA implements Iplague {
     }
     public static void zombieDie(LivingIncomingDamageEvent event , int lv){
         if (Mth.nextInt(RandomSource.create(),0,100) < lv) {
-            if (event.getEntity() instanceof MoonTamableAnimal moonTamableAnimal) {
-                if (moonTamableAnimal.getOwner() instanceof Player player) {
-                    if (event.getSource().getEntity() instanceof Player player1){
-                        if (player1 == player){
-                            return;
+            if (event.getSource().getEntity() instanceof LivingEntity) {
+                if (event.getEntity() instanceof MoonTamableAnimal moonTamableAnimal) {
+                    if (moonTamableAnimal.getOwner() instanceof Player player) {
+                        if (event.getSource().getEntity() instanceof Player player1) {
+                            if (player1 == player) {
+                                return;
+                            }
                         }
-                    }
 
-                    if (Handler.hascurio(player, Items.chemical_compound.get())) {
-                        player.hurt(player.damageSources().dryOut(),event.getAmount()/5f);
+                        if (Handler.hascurio(player, Items.chemical_compound.get())) {
+                            player.hurt(player.damageSources().dryOut(), event.getAmount() / 5f);
+                        }
                     }
                 }
             }

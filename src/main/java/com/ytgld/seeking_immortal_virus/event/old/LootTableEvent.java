@@ -1,6 +1,7 @@
 package com.ytgld.seeking_immortal_virus.event.old;
 
 import com.ytgld.seeking_immortal_virus.Config;
+import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.init.items.Items;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
@@ -21,7 +22,7 @@ public class LootTableEvent {
         if (event.getName().toString().contains("chests/")){
 
             if (event.getName().toString().contains("ancien")){
-                table.addPool(LootPool.lootPool().name("ancien_moon")
+                table.addPool(LootPool.lootPool().name(SeekingImmortalVirus.MODID+"ancien_moon")
 
 
                         .add(LootItem.lootTableItem(Items.ectoplasmball.get()).setWeight((int) (bc*30* Config.SERVER.common.get())))
@@ -36,7 +37,7 @@ public class LootTableEvent {
             }
 
             if (event.getName().toString().contains("treasure")){
-                table.addPool(LootPool.lootPool().name("treasures")
+                table.addPool(LootPool.lootPool().name(SeekingImmortalVirus.MODID+"treasures")
                         .add(LootItem.lootTableItem(Items.ectoplasmball.get()).setWeight((int) (bc*20* Config.SERVER.common.get())))
                         .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0F)))
 
@@ -54,14 +55,14 @@ public class LootTableEvent {
 
                         .build());
 
-                table.addPool(LootPool.lootPool().name("treasures_moons")
+                table.addPool(LootPool.lootPool().name(SeekingImmortalVirus.MODID+"treasures_moons")
                         .add(LootItem.lootTableItem(Items.ectoplasmball.get()).setWeight((int) (bc*40* Config.SERVER.common.get())))
                         .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0F)))
                         .build());
             }
 
             if (event.getName().toString().contains("dungeon") ||event.getName().toString().contains("mineshaft")){
-                table.addPool(LootPool.lootPool().name("dungeon_or_mineshaft")
+                table.addPool(LootPool.lootPool().name(SeekingImmortalVirus.MODID+"dungeon_or_mineshaft")
                         .add(LootItem.lootTableItem(Items.ectoplasmball.get()).setWeight((int) (bc*40* Config.SERVER.common.get())))
                         .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1.0F)))
 

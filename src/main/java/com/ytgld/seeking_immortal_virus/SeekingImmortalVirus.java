@@ -39,9 +39,11 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import net.neoforged.neoforge.client.event.RegisterShadersEvent;
+import net.neoforged.neoforge.client.event.RenderLevelStageEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 import org.slf4j.Logger;
+import org.slf4j.MDC;
 
 import java.io.IOException;
 import java.util.concurrent.CompletableFuture;
@@ -99,9 +101,6 @@ public class SeekingImmortalVirus {
 
     @EventBusSubscriber(modid = SeekingImmortalVirus.MODID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
     public static class Client {
-
-
-
 
         @SubscribeEvent
         public static void registerFactories(RegisterParticleProvidersEvent event) {

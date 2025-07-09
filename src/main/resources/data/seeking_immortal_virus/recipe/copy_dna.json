@@ -6,28 +6,11 @@
       "item": "seeking_immortal_virus:health_dna"
     },
     {
-      "item": "seeking_immortal_virus:greedamout"
-    },
-    {
-      "item": "seeking_immortal_virus:ectoplasmprism"
-    },
-    {
-      "tag": "c:foods/raw_meat"
-    },
-    {
-      "tag": "c:foods/raw_meat"
-    },
-    {
-      "tag": "c:foods/raw_meat"
-    },
-    {
-      "tag": "c:foods/raw_meat"
-    },
-    {
-      "tag": "c:foods/raw_meat"
-    },
-    {
-      "tag": "c:foods/raw_meat"
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    }, {
+      "item": "seeking_immortal_virus:ectoplasmcube"
+    }, {
+      "item": "seeking_immortal_virus:ectoplasmcube"
     }
   ],
   "result": {

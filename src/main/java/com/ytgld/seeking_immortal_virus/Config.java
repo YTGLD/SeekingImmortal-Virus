@@ -32,14 +32,17 @@ public class Config {
         {
             BUILDER.push("一般物品");
             ytgld_curse = BUILDER
-                    .comment("终极湮灭病毒的增值速度，单位：刻，值越大速度越慢")
+                    .comment("远古病毒的增值速度，单位：刻，值越大速度越慢")
                     .defineInRange("ytgld_curse", 15, 1, 999999);
             ytgld_research = BUILDER
-                    .comment("终极湮灭病毒的研究速度，10点是0.1%")
+                    .comment("远古病毒的研究速度，10点是0.1%")
                     .defineInRange("ytgld_research", 10, 1, 999999);
             off_or_on_ytgld = BUILDER
-                    .comment("启用终极湮灭病毒")
+                    .comment("启用远古病毒")
                     .define("off_or_on_ytgld", true);
+            give_ytgld = BUILDER
+                    .comment("死亡给予远古病毒")
+                    .define("give_ytgld", false);
 
             quadriceps_speed = BUILDER
                     .comment("四头肌强化的速度")
@@ -99,6 +102,7 @@ public class Config {
     public   ModConfigSpec.IntValue ytgld_curse ;
     public   ModConfigSpec.BooleanValue off_or_on_ytgld ;
 
+    public   ModConfigSpec.BooleanValue give_ytgld ;
 
 
 
