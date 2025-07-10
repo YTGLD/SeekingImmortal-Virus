@@ -62,12 +62,12 @@ public class bloodgene extends BloodViru {
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         if (Screen.hasShiftDown()) {
-            pTooltipComponents.add(Component.translatable("item.bloodgene.tool.string").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.bloodgene.tool.string.1").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodgene.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodgene.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.bloodgene.tool.string.2").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodgene.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.bloodgene.tool.string.3").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodgene.seeking_immortal_virus.tool.string.3").withStyle(ChatFormatting.RED));
 
         } else {
             pTooltipComponents.add(Component.translatable("按下SHIFT查看").withStyle(ChatFormatting.DARK_RED));

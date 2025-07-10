@@ -30,9 +30,9 @@ public class virus extends medIC implements ICurioItem {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
 
         if (Screen.hasShiftDown()) {
-            pTooltipComponents.add(Component.translatable("item.virus.tool.string").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.virus.tool.string.1").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.virus.tool.string.2").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.virus.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.virus.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.virus.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.RED));
         } else {
             pTooltipComponents.add(Component.translatable("Shift").withStyle(ChatFormatting.DARK_RED));
         }

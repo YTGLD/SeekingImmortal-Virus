@@ -30,10 +30,10 @@ public class ectoplasmshild extends ectoplasm{
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.ectoplasmshild.tool.string").withStyle(ChatFormatting.GOLD));
-        pTooltipComponents.add(Component.translatable("item.ectoplasmshild.tool.string.2").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.ectoplasmshild.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.ectoplasmshild.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.GOLD));
         pTooltipComponents.add(Component.translatable(""));
-        pTooltipComponents.add(Component.translatable("item.ectoplasmshild.tool.string.3").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.ectoplasmshild.seeking_immortal_virus.tool.string.3").withStyle(ChatFormatting.GOLD));
 
 
     }

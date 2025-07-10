@@ -12,7 +12,7 @@ public class disgusting_cells extends TheNecoraIC {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.disgusting_cells.tool.string").withStyle(ChatFormatting.DARK_RED));
+        pTooltipComponents.add(Component.translatable("item.disgusting_cells.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.DARK_RED));
 
     }
 }

@@ -20,7 +20,7 @@ public class cell_immortal extends BloodViru {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext pContext, List<Component> tooltip, TooltipFlag flags) {
         super.appendHoverText(stack, pContext, tooltip, flags);
-        tooltip.add(Component.translatable("item.cell_immortal.tool.string").withStyle(ChatFormatting.RED));
+        tooltip.add(Component.translatable("item.cell_immortal.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
     }
 
 

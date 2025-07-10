@@ -125,6 +125,11 @@ public class NewEvent {
     public void Fin(LivingEntityUseItemEvent.Finish event){
         ytgld_virus.Finish(event);
     }
+
+    @SubscribeEvent
+    public void LivingIncomingDamageEvent(LivingExperienceDropEvent event){
+        deceased_contract.LivingExperienceDropEvent(event);
+    }
     @SubscribeEvent
     public void LivingHurtEvent(LivingIncomingDamageEvent event){
         bat_cell.Bat(event);

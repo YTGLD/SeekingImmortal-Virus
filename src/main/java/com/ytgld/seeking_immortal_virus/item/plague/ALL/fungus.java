@@ -70,18 +70,18 @@ public class fungus extends medIC implements ICurioItem {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
 
         if (Screen.hasShiftDown()) {
-            pTooltipComponents.add(Component.translatable("item.fungus.tool.string").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.fungus.tool.string.1").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.fungus.tool.string.2").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.fungus.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.fungus.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.fungus.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.fungus.tool.string.3").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.fungus.tool.string.4").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.fungus.seeking_immortal_virus.tool.string.3").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.fungus.seeking_immortal_virus.tool.string.4").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.fungus.tool.string.5").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.fungus.seeking_immortal_virus.tool.string.5").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.fungus.tool.string.6").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.fungus.seeking_immortal_virus.tool.string.6").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.fungus.tool.string.7").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.fungus.seeking_immortal_virus.tool.string.7").withStyle(ChatFormatting.RED));
              } else {
             pTooltipComponents.add(Component.translatable("Shift").withStyle(ChatFormatting.DARK_RED));
         }

@@ -89,13 +89,13 @@ public class medicinebox extends TheNecoraIC {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
 
         if (Screen.hasShiftDown()) {
-            pTooltipComponents.add(Component.translatable("item.medicinebox.tool.string").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.ITALIC));
-            pTooltipComponents.add(Component.translatable("item.medicinebox.tool.string.1").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.ITALIC));
+            pTooltipComponents.add(Component.translatable("item.medicinebox.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.ITALIC));
+            pTooltipComponents.add(Component.translatable("item.medicinebox.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.ITALIC));
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.medicinebox.tool.string.2").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.ITALIC));
-            pTooltipComponents.add(Component.translatable("item.medicinebox.tool.string.3").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.ITALIC));
+            pTooltipComponents.add(Component.translatable("item.medicinebox.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.ITALIC));
+            pTooltipComponents.add(Component.translatable("item.medicinebox.seeking_immortal_virus.tool.string.3").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.ITALIC));
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.medicinebox.tool.string.4").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.BOLD));
+            pTooltipComponents.add(Component.translatable("item.medicinebox.seeking_immortal_virus.tool.string.4").withStyle(ChatFormatting.GOLD).withStyle(ChatFormatting.BOLD));
             pTooltipComponents.add(Component.translatable(""));
             CompoundTag tag = pStack.get(DataReg.tag);
             if (tag != null) {
@@ -104,8 +104,8 @@ public class medicinebox extends TheNecoraIC {
                         tag.getBoolean(AllEvent.blood_jump) &&
                         tag.getBoolean(AllEvent.blood_spawn) &&
                         tag.getBoolean(AllEvent.blood_enchant)) {
-                    pTooltipComponents.add(Component.translatable("item.medicinebox.tool.string.5").withStyle(ChatFormatting.DARK_PURPLE).withStyle(ChatFormatting.ITALIC));
-                    pTooltipComponents.add(Component.translatable("item.medicinebox.tool.string.6").withStyle(ChatFormatting.DARK_PURPLE).withStyle(ChatFormatting.ITALIC));
+                    pTooltipComponents.add(Component.translatable("item.medicinebox.seeking_immortal_virus.tool.string.5").withStyle(ChatFormatting.DARK_PURPLE).withStyle(ChatFormatting.ITALIC));
+                    pTooltipComponents.add(Component.translatable("item.medicinebox.seeking_immortal_virus.tool.string.6").withStyle(ChatFormatting.DARK_PURPLE).withStyle(ChatFormatting.ITALIC));
 
 
                 }

@@ -390,44 +390,44 @@ public class ytgld_virus extends TheNecoraIC {
         if (compoundTag!=null){
             if (getLvl(stack)!=0) {
                 if (compoundTag.getInt(research) < researchMaxSize) {
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.1").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC).withStyle(ChatFormatting.BOLD));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC).withStyle(ChatFormatting.BOLD));
                     tooltipComponents.add(Component.literal(""));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.2").append(compoundTag.getInt(research) / 100 + "%").withStyle(Style.EMPTY.withColor(TextColor.fromRgb(0XFFDC143C))));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.3").append(compoundTag.getInt(curse) / 100 + "%").withStyle(Style.EMPTY.withColor(TextColor.fromRgb(0XFFDC143C))));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.2").append(compoundTag.getInt(research) / 100 + "%").withStyle(Style.EMPTY.withColor(TextColor.fromRgb(0XFFDC143C))));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.3").append(compoundTag.getInt(curse) / 100 + "%").withStyle(Style.EMPTY.withColor(TextColor.fromRgb(0XFFDC143C))));
                     tooltipComponents.add(Component.literal(""));
 
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.4").withStyle(ChatFormatting.RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.5").withStyle(ChatFormatting.RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.6").withStyle(ChatFormatting.RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.4").withStyle(ChatFormatting.RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.5").withStyle(ChatFormatting.RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.6").withStyle(ChatFormatting.RED));
                     tooltipComponents.add(Component.literal(""));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.7").withStyle(ChatFormatting.RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.8").withStyle(ChatFormatting.RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.9").withStyle(ChatFormatting.RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.7").withStyle(ChatFormatting.RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.8").withStyle(ChatFormatting.RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.9").withStyle(ChatFormatting.RED));
                     tooltipComponents.add(Component.literal(""));
 
                     if (getLvl(stack) == 1) {
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.37").withStyle(ChatFormatting.RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.38").withStyle(ChatFormatting.RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.39").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.37").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.38").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.39").withStyle(ChatFormatting.RED));
                         if (compoundTag.getInt(research) >= researchMaxSize / 3) {
-                            tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.40").withStyle(ChatFormatting.LIGHT_PURPLE));
+                            tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.40").withStyle(ChatFormatting.LIGHT_PURPLE));
                         }
                     }
 
                     if (getLvl(stack) == 2) {
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.41").withStyle(ChatFormatting.RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.42").withStyle(ChatFormatting.RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.43").withStyle(ChatFormatting.RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.44").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.41").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.42").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.43").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.44").withStyle(ChatFormatting.RED));
                         if (compoundTag.getInt(research) >= (researchMaxSize / 3) * 2) {
-                            tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.45").withStyle(ChatFormatting.LIGHT_PURPLE));
+                            tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.45").withStyle(ChatFormatting.LIGHT_PURPLE));
                         }
                     }
                     if (getLvl(stack) == 3) {
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.46").withStyle(ChatFormatting.RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.47").withStyle(ChatFormatting.RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.48").withStyle(ChatFormatting.RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.49").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.46").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.47").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.48").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.49").withStyle(ChatFormatting.RED));
 
                     }
 
@@ -436,53 +436,53 @@ public class ytgld_virus extends TheNecoraIC {
                     float cur = -compoundTag.getInt(curse) / 10000f * 100;
 
                     if (Screen.hasShiftDown()) {
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.10").withStyle(ChatFormatting.RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.11").append(res * 0.5f + "%").withStyle(ChatFormatting.DARK_RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.12").append(res + "%").withStyle(ChatFormatting.DARK_RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.13").append(res * 0.5f + "%").withStyle(ChatFormatting.DARK_RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.10").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.11").append(res * 0.5f + "%").withStyle(ChatFormatting.DARK_RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.12").append(res + "%").withStyle(ChatFormatting.DARK_RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.13").append(res * 0.5f + "%").withStyle(ChatFormatting.DARK_RED));
                         tooltipComponents.add(Component.translatable(""));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.14").withStyle(ChatFormatting.RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.15").append(cur * 0.4f + "%").withStyle(ChatFormatting.DARK_RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.16").append(cur * 0.6f + "%").withStyle(ChatFormatting.DARK_RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.17").append(cur * 0.3f + "%").withStyle(ChatFormatting.DARK_RED));
-                        tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.18").append(cur * 0.5f + "%").withStyle(ChatFormatting.DARK_RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.14").withStyle(ChatFormatting.RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.15").append(cur * 0.4f + "%").withStyle(ChatFormatting.DARK_RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.16").append(cur * 0.6f + "%").withStyle(ChatFormatting.DARK_RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.17").append(cur * 0.3f + "%").withStyle(ChatFormatting.DARK_RED));
+                        tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.18").append(cur * 0.5f + "%").withStyle(ChatFormatting.DARK_RED));
                     } else {
                         tooltipComponents.add(Component.translatable("key.keyboard.left.shift").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC).withStyle(ChatFormatting.BOLD));
                     }
 
                 } else {
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.19").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC).withStyle(ChatFormatting.BOLD));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.19").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC).withStyle(ChatFormatting.BOLD));
                     tooltipComponents.add(Component.literal(""));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.20").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC).withStyle(ChatFormatting.BOLD));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.21").withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.22").withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.23").withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.24").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.20").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC).withStyle(ChatFormatting.BOLD));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.21").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.22").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.23").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.24").withStyle(ChatFormatting.DARK_RED));
 
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.25").withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.26").withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.27").withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.28").withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.29").withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.30").withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.32").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.25").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.26").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.27").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.28").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.29").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.30").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.32").withStyle(ChatFormatting.DARK_RED));
                     tooltipComponents.add(Component.literal("+40% ").append(Component.translatable("attribute.name.generic.luck")).withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.33").withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.34").withStyle(ChatFormatting.DARK_RED));
-                    tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.31").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.33").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.34").withStyle(ChatFormatting.DARK_RED));
+                    tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.31").withStyle(ChatFormatting.DARK_RED));
                 }
             } else {
-                tooltipComponents.add(Component.translatable( "item.ytgld_virus.tool.string.eat").withStyle(ChatFormatting.RED));
+                tooltipComponents.add(Component.translatable( "item.ytgld_virus.seeking_immortal_virus.tool.string.eat").withStyle(ChatFormatting.RED));
             }
 
         }else {
-                tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.4").withStyle(ChatFormatting.RED));
-                tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.5").withStyle(ChatFormatting.RED));
-                tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.6").withStyle(ChatFormatting.RED));
+                tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.4").withStyle(ChatFormatting.RED));
+                tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.5").withStyle(ChatFormatting.RED));
+                tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.6").withStyle(ChatFormatting.RED));
                 tooltipComponents.add(Component.literal(""));
-                tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.7").withStyle(ChatFormatting.RED));
-                tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.8").withStyle(ChatFormatting.RED));
-                tooltipComponents.add(Component.translatable("item.ytgld_virus.tool.string.9").withStyle(ChatFormatting.RED));
+                tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.7").withStyle(ChatFormatting.RED));
+                tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.8").withStyle(ChatFormatting.RED));
+                tooltipComponents.add(Component.translatable("item.ytgld_virus.seeking_immortal_virus.tool.string.9").withStyle(ChatFormatting.RED));
         }
     }
 }

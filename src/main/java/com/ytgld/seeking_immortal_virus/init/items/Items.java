@@ -4,7 +4,7 @@ import com.ytgld.seeking_immortal_virus.SeekingImmortalVirus;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.extend.apple;
 import com.ytgld.seeking_immortal_virus.init.moonstoneitem.extend.medicinebox;
 import com.ytgld.seeking_immortal_virus.item.bloodvirus;
-import com.ytgld.seeking_immortal_virus.item.decorated.dehydration_condensation;
+import com.ytgld.seeking_immortal_virus.item.decorated.*;
 import com.ytgld.seeking_immortal_virus.item.ectoplasm.*;
 import com.ytgld.seeking_immortal_virus.item.man.*;
 import com.ytgld.seeking_immortal_virus.item.necora;
@@ -140,11 +140,11 @@ public class Items {
     public static final DeferredHolder<Item,?> eye_lava_dna =REGISTRY.register("eye_lava_dna", eye_lava_dna::new );
     public static final DeferredHolder<Item,?> skin_dna =REGISTRY.register("skin_dna", skin_dna::new );
     public static final DeferredHolder<Item,?> bone_dna =REGISTRY.register("bone_dna", bone_dna::new );
-    public static final DeferredHolder<Item,?> muscle_conversion =REGISTRY.register("muscle_conversion", muscle_conversion::new );
-    public static final DeferredHolder<Item,?> phosphate_bond =REGISTRY.register("phosphate_bond", phosphate_bond::new );
-    public static final DeferredHolder<Item,?> chemical_compound =REGISTRY.register("chemical_compound", chemical_compound::new );
+    public static final DeferredHolder<Item,?> muscle_conversion =REGISTRY.register("muscle_conversion", com.ytgld.seeking_immortal_virus.item.decorated.muscle_conversion::new );
+    public static final DeferredHolder<Item,?> phosphate_bond =REGISTRY.register("phosphate_bond", com.ytgld.seeking_immortal_virus.item.decorated.phosphate_bond::new );
+    public static final DeferredHolder<Item,?> chemical_compound =REGISTRY.register("chemical_compound", com.ytgld.seeking_immortal_virus.item.decorated.chemical_compound::new );
     public static final DeferredHolder<Item,?> white_blood_cells_are_abruptly_reduced =REGISTRY.register("white_blood_cells_are_abruptly_reduced", white_blood_cells_are_abruptly_reduced::new );
-    public static final DeferredHolder<Item,?> skin_glucose_fermentation =REGISTRY.register("skin_glucose_fermentation", skin_glucose_fermentation::new );
+    public static final DeferredHolder<Item,?> skin_glucose_fermentation =REGISTRY.register("skin_glucose_fermentation", com.ytgld.seeking_immortal_virus.item.decorated.skin_glucose_fermentation::new );
 
     public static final DeferredHolder<Item,?>  ytgld_virus =REGISTRY.register("ytgld_virus", ytgld_virus::new );
     public static final DeferredHolder<Item,?>  dehydration_condensation =REGISTRY.register("dehydration_condensation", dehydration_condensation::new );

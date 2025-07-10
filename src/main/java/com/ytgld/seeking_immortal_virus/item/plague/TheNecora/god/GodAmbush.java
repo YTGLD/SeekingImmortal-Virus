@@ -28,9 +28,9 @@ public class GodAmbush extends GodDNA {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         if (Screen.hasShiftDown()) {
             pTooltipComponents.add(Component.literal(""));
-            pTooltipComponents.add(Component.translatable("item.ambush.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.ambush.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.literal(""));
-            pTooltipComponents.add(Component.translatable("item.god_ambush.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.god_ambush.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
         }else {
             pTooltipComponents.add(Component.translatable("key.keyboard.left.shift").withStyle(ChatFormatting.DARK_RED));
         }

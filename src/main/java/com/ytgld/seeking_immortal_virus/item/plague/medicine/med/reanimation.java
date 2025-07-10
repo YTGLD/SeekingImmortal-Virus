@@ -15,16 +15,16 @@ public class reanimation extends medIC {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         if (Screen.hasShiftDown()) {
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.reanimation.tool.string").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.reanimation.tool.string.1").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.reanimation.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.reanimation.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.reanimation.tool.string.2").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.reanimation.tool.string.3").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.reanimation.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.reanimation.seeking_immortal_virus.tool.string.3").withStyle(ChatFormatting.RED));
         } else {
             pTooltipComponents.add(Component.literal("SHIFT").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.BOLD));
         }
 
-        pTooltipComponents.add(Component.translatable("item.reanimation.tool.string.4").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.BOLD));
+        pTooltipComponents.add(Component.translatable("item.reanimation.seeking_immortal_virus.tool.string.4").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.BOLD));
         pTooltipComponents.add(Component.literal(""));
     }
 

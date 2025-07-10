@@ -92,9 +92,9 @@ public class dehydration_condensation extends TheNecoraIC {
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
         if (Screen.hasShiftDown()) {
-            tooltipComponents.add(Component.translatable("item.dehydration_condensation.tool.string.0").withStyle(ChatFormatting.DARK_RED));
-            tooltipComponents.add(Component.translatable("item.dehydration_condensation.tool.string.1").withStyle(ChatFormatting.DARK_RED));
-            tooltipComponents.add(Component.translatable("item.dehydration_condensation.tool.string.2").withStyle(ChatFormatting.DARK_RED));
+            tooltipComponents.add(Component.translatable("item.dehydration_condensation.seeking_immortal_virus.tool.string.0").withStyle(ChatFormatting.DARK_RED));
+            tooltipComponents.add(Component.translatable("item.dehydration_condensation.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.DARK_RED));
+            tooltipComponents.add(Component.translatable("item.dehydration_condensation.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.DARK_RED));
             tooltipComponents.add(Component.literal(""));
         }else {
             tooltipComponents.add(Component.translatable("key.keyboard.left.shift").withStyle(ChatFormatting.RED));

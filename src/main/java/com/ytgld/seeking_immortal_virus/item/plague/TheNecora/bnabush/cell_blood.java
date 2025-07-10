@@ -13,7 +13,7 @@ public class cell_blood extends TheNecoraIC {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.cell_blood.tool.string").withStyle(ChatFormatting.DARK_RED));
+        pTooltipComponents.add(Component.translatable("item.cell_blood.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.DARK_RED));
     }
 }
 

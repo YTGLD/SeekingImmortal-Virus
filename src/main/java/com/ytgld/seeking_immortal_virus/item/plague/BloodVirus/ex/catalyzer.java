@@ -12,6 +12,6 @@ public class catalyzer extends BloodViru {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.catalyzer.tool.string").withStyle(ChatFormatting.DARK_PURPLE));
+        pTooltipComponents.add(Component.translatable("item.catalyzer.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.DARK_PURPLE));
     }
 }

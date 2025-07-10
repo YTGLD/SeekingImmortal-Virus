@@ -116,8 +116,8 @@ public abstract class GuiGraphicsMixin {
             }
             if (tooltipStack.getItem()instanceof ManDNA){
                 this.pose.pushPose();
-                seeking_v_1_21_1$renderTooltipBackground((GuiGraphics) (Object) this, l, i1, i2, j2,400);
-                moonstone$renderTooltipBackground_man((GuiGraphics)(Object)this, l, i1, i2, j2, 400, 0x00ffffff,0x00ffffff,0x4dFF8C00,0x4dFF8C00);
+                seeking_v_1_21_1$renderTooltipBackground((GuiGraphics) (Object) this, l, i1, i2, j2, 400);
+                moonstone$renderTooltipBackground_eye((GuiGraphics) (Object) this, l, i1, i2, j2, 400, 0x00ffffff, 0x00ffffff, 0x4dFF8C00, 0x4dFF8C00);
                 this.pose.popPose();
             }
         });

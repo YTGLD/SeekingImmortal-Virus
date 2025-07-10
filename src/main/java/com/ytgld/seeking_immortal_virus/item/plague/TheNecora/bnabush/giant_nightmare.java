@@ -13,8 +13,8 @@ public class giant_nightmare extends TheNecoraIC {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.giant_nightmare.tool.string").withStyle(ChatFormatting.DARK_RED));
-        pTooltipComponents.add(Component.translatable("item.giant_nightmare.tool.string.1").withStyle(ChatFormatting.DARK_RED));
+        pTooltipComponents.add(Component.translatable("item.giant_nightmare.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.DARK_RED));
+        pTooltipComponents.add(Component.translatable("item.giant_nightmare.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.DARK_RED));
     }
 }
 

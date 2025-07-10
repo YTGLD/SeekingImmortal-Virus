@@ -13,9 +13,9 @@ public class polyphagia extends medIC {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.polyphagia.tool.string").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.BOLD));
+        pTooltipComponents.add(Component.translatable("item.polyphagia.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.BOLD));
         if (Screen.hasShiftDown()) {
-            pTooltipComponents.add(Component.translatable("item.polyphagia.tool.string.1").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.polyphagia.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
         } else {
             pTooltipComponents.add(Component.translatable(""));
             pTooltipComponents.add(Component.literal("SHIFT").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.BOLD));

@@ -24,7 +24,7 @@ public class heathgene extends BloodViru {
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         if (Screen.hasShiftDown()) {
-            pTooltipComponents.add(Component.translatable("item.heathgene.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.heathgene.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
         } else {
             pTooltipComponents.add(Component.translatable("Shift").withStyle(ChatFormatting.DARK_RED));
         }

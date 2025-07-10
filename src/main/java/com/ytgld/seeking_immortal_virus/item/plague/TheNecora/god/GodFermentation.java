@@ -39,9 +39,9 @@ public class GodFermentation  extends GodDNA {
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         pTooltipComponents.add(Component.literal(""));
-        pTooltipComponents.add(Component.translatable("item.fermentation.tool.string").withStyle(ChatFormatting.RED));
-        pTooltipComponents.add(Component.translatable("item.fermentation.tool.string.1").withStyle(ChatFormatting.RED));
-        pTooltipComponents.add(Component.translatable("item.fermentation.tool.string.2").withStyle(ChatFormatting.RED));
+        pTooltipComponents.add(Component.translatable("item.fermentation.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
+        pTooltipComponents.add(Component.translatable("item.fermentation.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
+        pTooltipComponents.add(Component.translatable("item.fermentation.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.RED));
         pTooltipComponents.add(Component.literal(""));
     }
 }

@@ -28,7 +28,7 @@ public class GodAutolytic extends GodDNA {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.autolytic.tool.string").withStyle(ChatFormatting.RED));
+        pTooltipComponents.add(Component.translatable("item.autolytic.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
     }
     @Override
     public Item getNotEquippedItem() {

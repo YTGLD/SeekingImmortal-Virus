@@ -12,8 +12,8 @@ public class adrenaline extends TheNecoraIC {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.adrenaline.tool.string").withStyle(ChatFormatting.DARK_RED));
-        pTooltipComponents.add(Component.translatable("item.adrenaline.tool.string.1").withStyle(ChatFormatting.DARK_RED));
+        pTooltipComponents.add(Component.translatable("item.adrenaline.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.DARK_RED));
+        pTooltipComponents.add(Component.translatable("item.adrenaline.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.DARK_RED));
 
     }
 }

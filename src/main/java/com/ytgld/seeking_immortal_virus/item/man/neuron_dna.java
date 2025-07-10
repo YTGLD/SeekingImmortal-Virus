@@ -187,9 +187,9 @@ public class neuron_dna  extends ManDNA {
 
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
-        pTooltipComponents.add(Component.translatable("item.neuron_dna.tool.string").withStyle(ChatFormatting.GOLD));
-        pTooltipComponents.add(Component.translatable("item.neuron_dna.tool.string.1").withStyle(ChatFormatting.GOLD));
-        pTooltipComponents.add(Component.translatable("item.neuron_dna.tool.string.2").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.neuron_dna.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.neuron_dna.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.neuron_dna.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.GOLD));
         pTooltipComponents.add(Component.literal(""));
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
     }

@@ -150,11 +150,11 @@ public class greed_dna extends neuron_dna {
     }
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
-        pTooltipComponents.add(Component.translatable("item.greed_dna.tool.string").withStyle(ChatFormatting.GOLD));
-        pTooltipComponents.add(Component.translatable("item.greed_dna.tool.string.1").withStyle(ChatFormatting.GOLD));
-        pTooltipComponents.add(Component.translatable("item.greed_dna.tool.string.2").withStyle(ChatFormatting.GOLD));
-        pTooltipComponents.add(Component.translatable("item.greed_dna.tool.string.3").withStyle(ChatFormatting.GOLD));
-        pTooltipComponents.add(Component.translatable("item.greed_dna.tool.string.4").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.greed_dna.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.greed_dna.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.greed_dna.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.greed_dna.seeking_immortal_virus.tool.string.3").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.greed_dna.seeking_immortal_virus.tool.string.4").withStyle(ChatFormatting.GOLD));
 
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
     }

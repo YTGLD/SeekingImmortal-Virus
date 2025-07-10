@@ -13,7 +13,7 @@ public class ectoplasmapple extends ectoplasm {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.ectoplasmapple.tool.string").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.ectoplasmapple.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.GOLD));
     }
 
 }

@@ -12,7 +12,7 @@ public class cell_fear  extends BloodViru {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext pContext, List<Component> tooltip, TooltipFlag flags) {
         super.appendHoverText(stack, pContext, tooltip, flags);
-        tooltip.add(Component.translatable("item.cell_fear.tool.string").withStyle(ChatFormatting.RED));
+        tooltip.add(Component.translatable("item.cell_fear.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
     }
 }
 

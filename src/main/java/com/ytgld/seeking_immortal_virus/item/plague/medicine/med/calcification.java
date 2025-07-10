@@ -16,7 +16,7 @@ public class calcification extends medIC {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         if (Screen.hasShiftDown()) {
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.calcification.tool.string.1").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.calcification.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
         } else {
             pTooltipComponents.add(Component.translatable(""));
             pTooltipComponents.add(Component.literal("SHIFT").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.BOLD));
@@ -24,7 +24,7 @@ public class calcification extends medIC {
 
         pTooltipComponents.add(Component.translatable(""));
         pTooltipComponents.add(Component.translatable(String.valueOf(medicinebox.do_hurt)).withStyle(ChatFormatting.RED));
-        pTooltipComponents.add(Component.translatable("item.calcification.tool.string.2").withStyle(ChatFormatting.RED));
+        pTooltipComponents.add(Component.translatable("item.calcification.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.RED));
 
     }
 

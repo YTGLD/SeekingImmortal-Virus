@@ -12,7 +12,7 @@ public class cell_harvest extends BloodViru {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext pContext, List<Component> tooltip, TooltipFlag flags) {
         super.appendHoverText(stack, pContext, tooltip, flags);
-        tooltip.add(Component.translatable("item.cell_harvest.tool.string").withStyle(ChatFormatting.RED));
+        tooltip.add(Component.translatable("item.cell_harvest.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
     }
 }
 

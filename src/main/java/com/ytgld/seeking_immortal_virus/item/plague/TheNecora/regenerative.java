@@ -27,11 +27,11 @@ public class regenerative extends TheNecoraIC  implements CanNot{
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         if (Screen.hasShiftDown()) {
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.regenerative.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.regenerative.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
         }else {
             pTooltipComponents.add(Component.translatable(""));
             pTooltipComponents.add(Component.translatable("-[SHIFT]").withStyle(ChatFormatting.DARK_RED));
-            pTooltipComponents.add(Component.translatable("item.regenerative.tool.string.1").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.regenerative.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
         }
     }
 }

@@ -17,7 +17,7 @@ public abstract class GodDNA  extends TheNecoraIC {
   public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
     if (Screen.hasControlDown()) {
-      pTooltipComponents.add(Component.translatable("item.god.tool.string").withStyle(ChatFormatting.RED));
+      pTooltipComponents.add(Component.translatable("item.god.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
     }else {
       pTooltipComponents.add(Component.translatable("key.keyboard.left.control").withStyle(ChatFormatting.DARK_RED));
     }

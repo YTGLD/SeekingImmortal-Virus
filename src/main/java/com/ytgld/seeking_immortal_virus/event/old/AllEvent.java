@@ -1279,11 +1279,10 @@ public class AllEvent {
         }
 
         if (stack.getItem() instanceof ManDNA) {
-            tooltipEvent.setBorderStart(0xFFafeeee);
-            tooltipEvent.setBorderEnd(0xFFafeeee);
-
-            tooltipEvent.setBackgroundStart(0x59000000);
-            tooltipEvent.setBackgroundEnd(0x59000000);
+            tooltipEvent.setBorderStart(0xFF800000);
+            tooltipEvent.setBorderEnd(0x0ff800000);
+            tooltipEvent.setBackgroundStart(0x00000000);
+            tooltipEvent.setBackgroundEnd(0x00000000);
         }
 
         if (stack.getItem() instanceof Iplague) {

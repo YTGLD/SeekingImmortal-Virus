@@ -60,8 +60,8 @@ public class GodPutrefactive  extends GodDNA {
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         pTooltipComponents.add(Component.literal(""));
-        pTooltipComponents.add(Component.translatable("item.god_putrefactive.tool.string").withStyle(ChatFormatting.RED));
-        pTooltipComponents.add(Component.translatable("item.god_putrefactive.tool.string.1").withStyle(ChatFormatting.RED));
+        pTooltipComponents.add(Component.translatable("item.god_putrefactive.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
+        pTooltipComponents.add(Component.translatable("item.god_putrefactive.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
         pTooltipComponents.add(Component.literal(""));
     }
 }

@@ -12,7 +12,7 @@ public class parasitic_cell extends TheNecoraIC {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.parasitic_cell.tool.string").withStyle(ChatFormatting.DARK_RED));
+        pTooltipComponents.add(Component.translatable("item.parasitic_cell.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.DARK_RED));
 
     }
 }

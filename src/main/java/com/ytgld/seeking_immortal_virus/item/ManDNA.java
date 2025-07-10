@@ -98,7 +98,7 @@ public abstract class ManDNA extends Item  implements ICurioItem {
             tooltipComponents.add(Component.translatable("key.keyboard.left.shift").withStyle(ChatFormatting.GOLD));
         }
         tooltipComponents.add(Component.literal(""));
-        tooltipComponents.add(Component.translatable("item.man.tool.string").withStyle(ChatFormatting.GOLD));
+        tooltipComponents.add(Component.translatable("item.man.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.GOLD));
         tooltipComponents.add(Component.literal(""));
         if (getDrug()!=null) {
             for (Item item : getDrug()) {

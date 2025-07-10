@@ -34,10 +34,10 @@ public class botton extends BloodViru {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
 
         if (Screen.hasShiftDown()) {
-            pTooltipComponents.add(Component.translatable("item.botton.tool.string").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.botton.tool.string.1").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.botton.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.botton.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
              pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.botton.tool.string.2").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.botton.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.RED));
         } else {
             pTooltipComponents.add(Component.translatable("按下SHIFT查看").withStyle(ChatFormatting.DARK_RED));
         }

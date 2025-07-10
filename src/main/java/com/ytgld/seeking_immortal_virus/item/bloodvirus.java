@@ -158,26 +158,26 @@ public class bloodvirus extends BloodViru {
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         if (Screen.hasShiftDown()) {
-            pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string.1").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string.2").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string.3").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string.4").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string.5").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string.3").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string.4").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string.5").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string.6").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string.7").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string.8").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string.9").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string.6").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string.7").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string.8").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string.9").withStyle(ChatFormatting.RED));
         } else {
             pTooltipComponents.add(Component.translatable("按下SHIFT查看").withStyle(ChatFormatting.DARK_RED));
         }
         pTooltipComponents.add(Component.translatable(""));
-        pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string.11").withStyle(ChatFormatting.DARK_PURPLE).withStyle(ChatFormatting.ITALIC));
+        pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string.11").withStyle(ChatFormatting.DARK_PURPLE).withStyle(ChatFormatting.ITALIC));
         CompoundTag tag = pStack.get(DataReg.tag);
         if (tag != null){
             if (tag.getBoolean(batskill.batskill)) {
-                pTooltipComponents.add(Component.translatable("item.bloodvirus.tool.string.12").withStyle(ChatFormatting.LIGHT_PURPLE));
+                pTooltipComponents.add(Component.translatable("item.bloodvirus.seeking_immortal_virus.tool.string.12").withStyle(ChatFormatting.LIGHT_PURPLE));
             }
         }
     }

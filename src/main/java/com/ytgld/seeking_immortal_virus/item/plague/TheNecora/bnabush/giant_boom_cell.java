@@ -26,7 +26,7 @@ public class giant_boom_cell extends TheNecoraIC {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.giant_boom_cell.tool.string").withStyle(ChatFormatting.DARK_RED));
+        pTooltipComponents.add(Component.translatable("item.giant_boom_cell.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.DARK_RED));
 
     }
 }

@@ -14,8 +14,8 @@ public class flygene extends BloodViru {
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         if (Screen.hasShiftDown()) {
-            pTooltipComponents.add(Component.translatable("item.flygene.tool.string").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.flygene.tool.string.1").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.flygene.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.flygene.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable(""));
         } else {
             pTooltipComponents.add(Component.translatable("Shift").withStyle(ChatFormatting.DARK_RED));

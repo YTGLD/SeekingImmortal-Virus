@@ -126,8 +126,8 @@ public class bat_cell extends BloodViru {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext pContext,  List<Component> tooltip, TooltipFlag flags) {
         super.appendHoverText(stack, pContext, tooltip, flags);
-        tooltip.add(Component.translatable("item.bat_cell.tool.string").withStyle(ChatFormatting.DARK_RED));
-        tooltip.add(Component.translatable("item.bat_cell.tool.string.1").withStyle(ChatFormatting.DARK_RED));
-        tooltip.add(Component.translatable("item.bat_cell.tool.string.2").withStyle(ChatFormatting.DARK_RED));
+        tooltip.add(Component.translatable("item.bat_cell.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.DARK_RED));
+        tooltip.add(Component.translatable("item.bat_cell.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.DARK_RED));
+        tooltip.add(Component.translatable("item.bat_cell.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.DARK_RED));
     }
 }

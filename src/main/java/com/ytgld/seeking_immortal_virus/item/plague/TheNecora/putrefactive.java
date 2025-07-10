@@ -15,7 +15,7 @@ public class putrefactive extends TheNecoraIC implements CanNot {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         if (Screen.hasShiftDown()) {
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.putrefactive.tool.string").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.putrefactive.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
         }else {
             pTooltipComponents.add(Component.translatable(""));
             pTooltipComponents.add(Component.translatable("-[SHIFT]").withStyle(ChatFormatting.DARK_RED));

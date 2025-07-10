@@ -1,4 +1,4 @@
-package com.ytgld.seeking_immortal_virus.item.man;
+package com.ytgld.seeking_immortal_virus.item.decorated;
 
 import com.ytgld.seeking_immortal_virus.Handler;
 import com.ytgld.seeking_immortal_virus.contents.ManBundleContents;
@@ -133,10 +133,10 @@ public class chemical_compound extends ManDNA implements Iplague {
 
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        tooltipComponents.add(Component.translatable("item.chemical_compound.tool.string").withStyle(ChatFormatting.GOLD));
-        tooltipComponents.add(Component.translatable("item.chemical_compound.tool.string.1").withStyle(ChatFormatting.GOLD));
-        tooltipComponents.add(Component.translatable("item.chemical_compound.tool.string.2").withStyle(ChatFormatting.GOLD));
-        tooltipComponents.add(Component.translatable("item.chemical_compound.tool.string.3").withStyle(ChatFormatting.GOLD));
+        tooltipComponents.add(Component.translatable("item.chemical_compound.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.GOLD));
+        tooltipComponents.add(Component.translatable("item.chemical_compound.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.GOLD));
+        tooltipComponents.add(Component.translatable("item.chemical_compound.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.GOLD));
+        tooltipComponents.add(Component.translatable("item.chemical_compound.seeking_immortal_virus.tool.string.3").withStyle(ChatFormatting.GOLD));
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
 
     }

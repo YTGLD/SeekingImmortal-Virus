@@ -1,6 +1,6 @@
 package com.ytgld.seeking_immortal_virus.event;
 
-import com.ytgld.seeking_immortal_virus.item.man.*;
+import com.ytgld.seeking_immortal_virus.item.decorated.*;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.living.LivingDeathEvent;
 import net.neoforged.neoforge.event.entity.living.LivingHealEvent;

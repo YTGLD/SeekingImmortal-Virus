@@ -34,7 +34,7 @@ public class GodRegenerative extends GodDNA {
     public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         pTooltipComponents.add(Component.translatable(""));
-        pTooltipComponents.add(Component.translatable("item.god_regenerative.tool.string").withStyle(ChatFormatting.RED));
+        pTooltipComponents.add(Component.translatable("item.god_regenerative.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
     }
     @Override
     public Multimap<Holder<Attribute>, AttributeModifier> getAttributeModifiers(SlotContext slotContext, ResourceLocation id, ItemStack stack) {

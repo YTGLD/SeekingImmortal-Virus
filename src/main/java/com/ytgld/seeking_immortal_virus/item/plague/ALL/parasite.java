@@ -107,15 +107,15 @@ public class parasite extends medIC implements ICurioItem {
         CompoundTag tag = pStack.get(DataReg.tag);
         if (tag != null){
             if (Screen.hasShiftDown()) {
-                pTooltipComponents.add(Component.translatable("item.parasite.tool.string").withStyle(ChatFormatting.RED));
-                pTooltipComponents.add(Component.translatable("item.parasite.tool.string.1").withStyle(ChatFormatting.RED));
+                pTooltipComponents.add(Component.translatable("item.parasite.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
+                pTooltipComponents.add(Component.translatable("item.parasite.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
                 pTooltipComponents.add(Component.translatable(""));
-                pTooltipComponents.add(Component.translatable("item.parasite.tool.string.2").withStyle(ChatFormatting.RED));
-                pTooltipComponents.add(Component.translatable("item.parasite.tool.string.3").withStyle(ChatFormatting.RED));
+                pTooltipComponents.add(Component.translatable("item.parasite.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.RED));
+                pTooltipComponents.add(Component.translatable("item.parasite.seeking_immortal_virus.tool.string.3").withStyle(ChatFormatting.RED));
                 pTooltipComponents.add(Component.translatable(""));
-                pTooltipComponents.add(Component.translatable("item.parasite.tool.string.4").withStyle(ChatFormatting.RED));
+                pTooltipComponents.add(Component.translatable("item.parasite.seeking_immortal_virus.tool.string.4").withStyle(ChatFormatting.RED));
                 pTooltipComponents.add(Component.translatable(""));
-                pTooltipComponents.add(Component.translatable("item.parasite.tool.string.5").withStyle(ChatFormatting.RED));
+                pTooltipComponents.add(Component.translatable("item.parasite.seeking_immortal_virus.tool.string.5").withStyle(ChatFormatting.RED));
 
 
                 if (tag.getInt(lvl_parasite) == 0) {//在0级时的寄生虫

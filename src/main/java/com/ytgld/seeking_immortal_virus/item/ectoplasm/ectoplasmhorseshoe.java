@@ -28,7 +28,7 @@ public class ectoplasmhorseshoe extends ectoplasm {
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-        pTooltipComponents.add(Component.translatable("item.ectoplasmhorseshoe.tool.string").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.ectoplasmhorseshoe.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.GOLD));
     }
 }
 

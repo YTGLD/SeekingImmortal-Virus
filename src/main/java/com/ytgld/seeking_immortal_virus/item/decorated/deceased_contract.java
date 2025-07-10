@@ -34,6 +34,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.neoforged.neoforge.event.entity.living.LivingDeathEvent;
+import net.neoforged.neoforge.event.entity.living.LivingExperienceDropEvent;
 import net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent;
 import top.theillusivec4.curios.api.CuriosApi;
 import top.theillusivec4.curios.api.SlotContext;
@@ -54,10 +55,19 @@ public class deceased_contract extends TheNecoraIC {
             }
         }
     }
+    public static void LivingExperienceDropEvent(LivingExperienceDropEvent event) {
+        if (event.getAttackingPlayer() instanceof Player player) {
+            if (Handler.hascurio(player, Items.deceased_contract.get())) {
+                if (Mth.nextInt(RandomSource.create(), 1, 100) <= 35) {
+                    event.setDroppedExperience(event.getDroppedExperience()*2);
+                    player.heal(player.getMaxHealth()*0.2f);
+                }
+            }
+        }
+    }
     public static void Did(LivingDeathEvent event) {
         if (event.getSource().getEntity() instanceof Player player) {
             if (Handler.hascurio(player, Items.deceased_contract.get())) {
-
                 if (Mth.nextInt(RandomSource.create(), 1, 100) <= 30) {
                     cell_zombie z = new cell_zombie(EntityTs.cell_zombie.get(), player.level());
                     z.teleportTo(event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ());
@@ -247,26 +257,26 @@ public class deceased_contract extends TheNecoraIC {
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
         if (Screen.hasShiftDown()) {
-            tooltipComponents.add(Component.translatable("item.deceased_contract.tool.string.0").withStyle(ChatFormatting.DARK_RED));
-            tooltipComponents.add(Component.translatable("item.deceased_contract.tool.string.1").withStyle(ChatFormatting.DARK_RED));
+            tooltipComponents.add(Component.translatable("item.deceased_contract.seeking_immortal_virus.tool.string.0").withStyle(ChatFormatting.DARK_RED));
+            tooltipComponents.add(Component.translatable("item.deceased_contract.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.DARK_RED));
             tooltipComponents.add(Component.literal(""));
-            tooltipComponents.add(Component.translatable("item.deceased_contract.tool.string.2").withStyle(ChatFormatting.DARK_RED));
+            tooltipComponents.add(Component.translatable("item.deceased_contract.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.DARK_RED));
             tooltipComponents.add(Component.literal(""));
-            tooltipComponents.add(Component.translatable("item.deceased_contract.tool.string.3").withStyle(ChatFormatting.DARK_RED));
-            tooltipComponents.add(Component.translatable("item.deceased_contract.tool.string.4").withStyle(ChatFormatting.DARK_RED));
-            tooltipComponents.add(Component.translatable("item.deceased_contract.tool.string.5").withStyle(ChatFormatting.DARK_RED));
+            tooltipComponents.add(Component.translatable("item.deceased_contract.seeking_immortal_virus.tool.string.3").withStyle(ChatFormatting.DARK_RED));
+            tooltipComponents.add(Component.translatable("item.deceased_contract.seeking_immortal_virus.tool.string.4").withStyle(ChatFormatting.DARK_RED));
+            tooltipComponents.add(Component.translatable("item.deceased_contract.seeking_immortal_virus.tool.string.5").withStyle(ChatFormatting.DARK_RED));
             tooltipComponents.add(Component.literal(""));
-            tooltipComponents.add(Component.translatable("item.deceased_contract.tool.string.6").withStyle(ChatFormatting.DARK_RED));
+            tooltipComponents.add(Component.translatable("item.deceased_contract.seeking_immortal_virus.tool.string.6").withStyle(ChatFormatting.DARK_RED));
         }else {
             tooltipComponents.add(Component.translatable("key.keyboard.left.shift").withStyle(ChatFormatting.RED));
             CompoundTag compoundTag = stack.get(DataReg.tag);
             if (compoundTag!=null&&compoundTag.getInt(this.time)>0) {
-                tooltipComponents.add(Component.translatable("item.deceased_contract.tool.string.7")
+                tooltipComponents.add(Component.translatable("item.deceased_contract.seeking_immortal_virus.tool.string.7")
                         .append(String.valueOf(compoundTag.getInt(this.time)))
-                        .append(Component.translatable("item.deceased_contract.tool.string.8"))
+                        .append(Component.translatable("item.deceased_contract.seeking_immortal_virus.tool.string.8"))
                         .withStyle(ChatFormatting.DARK_RED));
             }else {
-                tooltipComponents.add(Component.translatable("item.deceased_contract.tool.string.9").withStyle(ChatFormatting.GOLD));
+                tooltipComponents.add(Component.translatable("item.deceased_contract.seeking_immortal_virus.tool.string.9").withStyle(ChatFormatting.GOLD));
             }
         }
     }

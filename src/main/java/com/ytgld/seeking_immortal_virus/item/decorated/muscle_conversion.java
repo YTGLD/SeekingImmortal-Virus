@@ -1,4 +1,4 @@
-package com.ytgld.seeking_immortal_virus.item.man;
+package com.ytgld.seeking_immortal_virus.item.decorated;
 
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Multimap;
@@ -82,9 +82,9 @@ public class muscle_conversion extends ManDNA implements Iplague {
 
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        tooltipComponents.add(Component.translatable("item.muscle_conversion.tool.string").withStyle(ChatFormatting.GOLD));
-        tooltipComponents.add(Component.translatable("item.muscle_conversion.tool.string.1").withStyle(ChatFormatting.GOLD));
-        tooltipComponents.add(Component.translatable("item.muscle_conversion.tool.string.2").withStyle(ChatFormatting.GOLD));
+        tooltipComponents.add(Component.translatable("item.muscle_conversion.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.GOLD));
+        tooltipComponents.add(Component.translatable("item.muscle_conversion.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.GOLD));
+        tooltipComponents.add(Component.translatable("item.muscle_conversion.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.GOLD));
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
 
     }

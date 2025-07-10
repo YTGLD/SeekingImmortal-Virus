@@ -18,6 +18,6 @@ public class DNAS extends Item implements Iplague {
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
-        tooltipComponents.add(Component.translatable("item.dnas.tool.string").withStyle(ChatFormatting.RED));
+        tooltipComponents.add(Component.translatable("item.dnas.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.RED));
     }
 }

@@ -23,7 +23,7 @@ public class eye_lava_dna extends eye_dna {
     }
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
-        pTooltipComponents.add(Component.translatable("item.eye_lava_dna.tool.string").withStyle(ChatFormatting.GOLD));
+        pTooltipComponents.add(Component.translatable("item.eye_lava_dna.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.GOLD));
 
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
     }

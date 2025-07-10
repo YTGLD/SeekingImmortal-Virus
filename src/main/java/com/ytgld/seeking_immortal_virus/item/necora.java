@@ -145,27 +145,27 @@ public class necora extends TheNecoraIC {
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
         if (Screen.hasShiftDown()) {
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.1").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.2").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.3").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.4").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.5").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.2").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.3").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.4").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.5").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable(""));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.6").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.7").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.8").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.9").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.10").withStyle(ChatFormatting.RED));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.11").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.6").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.7").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.8").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.9").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.10").withStyle(ChatFormatting.RED));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.11").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable(""));
         }else {
             pTooltipComponents.add(Component.translatable(""));
             pTooltipComponents.add(Component.translatable("-[SHIFT]").withStyle(ChatFormatting.RED).withStyle(ChatFormatting.BOLD));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.12").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.13").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.14").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
-            pTooltipComponents.add(Component.translatable("item.necora.tool.string.15").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.12").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.13").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.14").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
+            pTooltipComponents.add(Component.translatable("item.necora.seeking_immortal_virus.tool.string.15").withStyle(ChatFormatting.DARK_RED).withStyle(ChatFormatting.ITALIC));
             pTooltipComponents.add(Component.translatable(""));
         }
     }

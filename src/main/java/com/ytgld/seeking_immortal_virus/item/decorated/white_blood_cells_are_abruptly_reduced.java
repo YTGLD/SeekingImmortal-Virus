@@ -1,4 +1,4 @@
-package com.ytgld.seeking_immortal_virus.item.man;
+package com.ytgld.seeking_immortal_virus.item.decorated;
 
 import com.ytgld.seeking_immortal_virus.Handler;
 import com.ytgld.seeking_immortal_virus.contents.ManBundleContents;
@@ -56,8 +56,8 @@ public class white_blood_cells_are_abruptly_reduced extends ManDNA implements Ip
 
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-        tooltipComponents.add(Component.translatable("item.white_blood_cells_are_abruptly_reduced.tool.string").withStyle(ChatFormatting.GOLD));
-        tooltipComponents.add(Component.translatable("item.white_blood_cells_are_abruptly_reduced.tool.string.1").withStyle(ChatFormatting.GOLD));
+        tooltipComponents.add(Component.translatable("item.white_blood_cells_are_abruptly_reduced.seeking_immortal_virus.tool.string").withStyle(ChatFormatting.GOLD));
+        tooltipComponents.add(Component.translatable("item.white_blood_cells_are_abruptly_reduced.seeking_immortal_virus.tool.string.1").withStyle(ChatFormatting.GOLD));
 
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
     }
